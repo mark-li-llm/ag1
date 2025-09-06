@@ -1,9 +1,9 @@
 {
-  "total_chunks": 0,
-  "median_token_length": 0,
-  "len_within_range_pct": 0.0,
-  "mean_overlap_tokens": 0.0,
+  "total_chunks": 216,
+  "median_token_length": 790,
+  "len_within_range_pct": 0.662,
+  "mean_overlap_tokens": 0.01,
   "sec_boundary_crossings": 0,
-  "chunks_with_local_heads_pct": 1.0,
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_chunk_quality/20250906_161842.log"
+  "chunks_with_local_heads_pct": 0.0,
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_chunk_quality/20250906_171714.log"
 }

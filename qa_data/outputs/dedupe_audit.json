@@ -1,43 +1,43 @@
 {
-  "total_chunks": 0,
-  "duplicate_chunks_marked": 0,
+  "total_chunks": 276,
+  "duplicate_chunks_marked": 60,
   "boilerplate_attributed_duplicates": 0,
   "boilerplate_attributed_pct": 0.0,
   "grid_results": [
     {
       "k": 5,
       "threshold": 0.85,
-      "duplicate_ratio": 0.0
+      "duplicate_ratio": 0.2174
     },
     {
       "k": 5,
       "threshold": 0.9,
-      "duplicate_ratio": 0.0
+      "duplicate_ratio": 0.1993
     },
     {
       "k": 5,
       "threshold": 0.95,
-      "duplicate_ratio": 0.0
+      "duplicate_ratio": 0.1739
     },
     {
       "k": 7,
       "threshold": 0.85,
-      "duplicate_ratio": 0.0
+      "duplicate_ratio": 0.2174
     },
     {
       "k": 7,
       "threshold": 0.9,
-      "duplicate_ratio": 0.0
+      "duplicate_ratio": 0.1993
     },
     {
       "k": 7,
       "threshold": 0.95,
-      "duplicate_ratio": 0.0
+      "duplicate_ratio": 0.1739
     }
   ],
   "recommended": {
     "threshold": 0.9,
     "k": 5
   },
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_dedupe_audit/20250906_161843.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_dedupe_audit/20250906_171715.log"
 }

@@ -1,9 +1,21 @@
 {
-  "total_eval_pairs": 0,
-  "valid_pairs": 0,
-  "valid_pct": 0.0,
+  "total_eval_pairs": 40,
+  "valid_pairs": 40,
+  "valid_pct": 1.0,
   "failures": [],
-  "persona_dist": {},
-  "source_type_dist": {},
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_eval_seed_validate/20250906_161845.log"
+  "persona_dist": {
+    "vp_sales_ops": 27,
+    "cio": 13
+  },
+  "source_type_dist": {
+    "press": 27,
+    "product": 2,
+    "dev_docs": 4,
+    "8-K": 2,
+    "wiki": 2,
+    "10-K": 1,
+    "help_docs": 1,
+    "10-Q": 1
+  },
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_eval_seed_validate/20250906_171724.log"
 }

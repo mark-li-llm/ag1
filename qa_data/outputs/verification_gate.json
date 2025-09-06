@@ -22,18 +22,13 @@
       "blocking": true
     },
     {
-      "id": "chunk_median",
-      "summary": "Median chunk tokens 0 out of range 650-950",
-      "blocking": false
-    },
-    {
       "id": "chunk_len_spread",
       "summary": "Too many chunks outside length range",
       "blocking": true
     },
     {
       "id": "chunk_overlap",
-      "summary": "Mean overlap 0.0 out of range 80-160",
+      "summary": "Mean overlap 0.01 out of range 80-160",
       "blocking": false
     },
     {
@@ -45,7 +40,22 @@
       "id": "coverage_pr",
       "summary": "PR docs in last 12 months < 8",
       "blocking": true
+    },
+    {
+      "id": "persona_general",
+      "summary": "Persona general precision 0.0 < 0.80",
+      "blocking": false
+    },
+    {
+      "id": "sec_sections",
+      "summary": "Not all SEC docs passed section validation",
+      "blocking": true
+    },
+    {
+      "id": "eval_integrity",
+      "summary": "Eval seed pairs invalid or missing keyphrases",
+      "blocking": true
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_verification_gate/20250906_161843.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_verification_gate/20250906_171715.log"
 }

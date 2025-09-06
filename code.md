@@ -1,5 +1,5 @@
 # Repository Code Context
-_Generated: 2025-09-06T20:19:04.078554Z_
+_Generated: 2025-09-06T21:17:43.553468Z_
 
 ## Directory Tree (depth ≤ 3)
 
@@ -14,16 +14,66 @@ data/
   ├─ final/
     ├─ dictionaries/
     ├─ inventory/
+      ├─ salesforce_inventory.csv
     ├─ reports/
       ├─ day1_execution_report.json
+      ├─ day1_verification.json
       ├─ link_health.json
       ├─ link_health_report.json
       ├─ link_health_summary.csv
     ├─ rules/
   ├─ interim/
     ├─ chunks/
+      ├─ filtered/
+      ├─ crm::10-K::2015-08-31::fy25-form-10-k::4c26cea2.chunks.jsonl
+      ├─ crm::10-Q::2020-02-12::fy26-q1-10-q::e16f2866.chunks.jsonl
+      ├─ crm::8-K::2025-01-31::8-k-fy25-results::d14102e8.chunks.jsonl
+      ├─ crm::8-K::2025-04-30::8-k-q1-fy26-results::35792ff4.chunks.jsonl
+      ├─ crm::8-K::2025-06-05::proxy-meeting-results-2025-06-05::47c09586.chunks.jsonl
+      ├─ crm::dev_docs::2024-01-01::agentforce-agents-agentforce-developer-guide::5ac08bad.chunks.jsonl
+      ├─ crm::dev_docs::2024-01-01::chat-with-agents-using-agent-api-agentforce-agents::6f4b900c.chunks.jsonl
+      ├─ crm::dev_docs::2024-01-01::examples-agentforce-agents-agentforce-developer-gu::62fd6b36.chunks.jsonl
+      ├─ crm::dev_docs::2024-01-01::get-started-agentforce-agents-agentforce-developer::202f14da.chunks.jsonl
+      ├─ crm::help_docs::2024-09-05::salesforce-help::b0daabdf.chunks.jsonl
+      ├─ crm::help_docs::2024-09-06::salesforce-help::b0daabdf.chunks.jsonl
+      ├─ crm::press::2024-01-01::annual-reports::3814b366.chunks.jsonl
+      ├─ crm::press::2024-01-01::board-of-directors::7ee63d65.chunks.jsonl
+      ├─ crm::press::2024-01-01::events-and-presentations::0371587e.chunks.jsonl
+      ├─ crm::press::2024-01-01::executive-management::2495a457.chunks.jsonl
+      ├─ crm::press::2024-01-01::investor-contacts::54999c16.chunks.jsonl
+      ├─ crm::press::2024-01-01::investor-email-alerts::626b16ec.chunks.jsonl
+      ├─ crm::press::2024-01-01::investor-faqs::087af470.chunks.jsonl
+      ├─ crm::press::2024-01-01::quarterly-results::11c603d4.chunks.jsonl
+      ├─ crm::press::2024-01-01::sec-filings::7ec42ed9.chunks.jsonl
+      ├─ crm::press::2024-01-01::stock-information::8ebb1472.chunks.jsonl
+      ├─ crm::press::2024-02-28::salesforce-data-cloud::4ca56502.chunks.jsonl
+      ├─ crm::press::2024-02-28::salesforce-legal::c00cb576.chunks.jsonl
+      ├─ crm::press::2024-03-15::salesforce-integration::f0468619.chunks.jsonl
+      ├─ crm::press::2024-04-18::salesforce-privacy::c517fb3f.chunks.jsonl
+      ├─ crm::press::2024-04-25::salesforce-analytics::afc4c82e.chunks.jsonl
+      ├─ crm::press::2024-05-25::salesforce-equality::874ae8c4.chunks.jsonl
+      ├─ crm::press::2024-05-30::commerce-cloud::79bc8c33.chunks.jsonl
+      ├─ crm::press::2024-06-20::sales-cloud::df3fdedd.chunks.jsonl
+      ├─ crm::press::2024-06-30::salesforce-sustainability::d42ed8dd.chunks.jsonl
+      ├─ crm::press::2024-07-15::service-cloud::a246d582.chunks.jsonl
+      ├─ crm::press::2024-07-20::salesforce-leadership::5fe0d7a5.chunks.jsonl
+      ├─ crm::press::2024-08-10::marketing-cloud::7ce342b2.chunks.jsonl
+      ├─ crm::press::2024-08-15::salesforce-careers::4964b777.chunks.jsonl
+      ├─ crm::press::2024-09-05::salesforce-platform::a8686c16.chunks.jsonl
+      ├─ crm::press::2024-09-12::about-salesforce-company::3ae394fc.chunks.jsonl
+      ├─ crm::press::2025-02-23::environmental-social-and-governance-esg::d4f786ad.chunks.jsonl
+      ├─ crm::press::2025-02-25::corporate-governance::0ec4193a.chunks.jsonl
+      ├─ crm::press::2025-08-26::newsroom::39cb1c1e.chunks.jsonl
+      ├─ crm::press::None::news::6335e2de.chunks.jsonl
+      ├─ crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a.chunks.jsonl
+      ├─ crm::product::2024-01-01::salesforce-data-cloud::04dae357.chunks.jsonl
+      ├─ crm::product::2024-01-01::what-is-salesforce::17018047.chunks.jsonl
+      ├─ crm::wiki::2025-09-05::salesforce::6b727edd.chunks.jsonl
+      ├─ crm::wiki::2025-09-06::salesforce::6b727edd.chunks.jsonl
     ├─ dedup/
+      ├─ dedup_map.json
     ├─ eval/
+      ├─ salesforce_eval_seed.jsonl
     ├─ normalized/
       ├─ crm::10-K::2015-08-31::fy25-form-10-k::4c26cea2.json
       ├─ crm::10-Q::2020-02-12::fy26-q1-10-q::e16f2866.json
@@ -196,12 +246,40 @@ diagnostics/
       ├─ py_qa_verification_gate/
       ├─ py_verify_day1_milestones/
       ├─ summary.json
+    ├─ run_20250906_211705/
+      ├─ py__qa_common/
+      ├─ py_build_eval_seed/
+      ├─ py_link_health_check/
+      ├─ py_qa_boilerplate_mine/
+      ├─ py_qa_chunk_quality/
+      ├─ py_qa_coverage_report/
+      ├─ py_qa_dedupe_audit/
+      ├─ py_qa_eval_seed_validate/
+      ├─ py_qa_ground_truth_builder/
+      ├─ py_qa_link_health_retest/
+      ├─ py_qa_manual_samples/
+      ├─ py_qa_metadata_validate/
+      ├─ py_qa_persona_tag_precision/
+      ├─ py_qa_regression_pack/
+      ├─ py_qa_schema_validate/
+      ├─ py_qa_sec_section_validate/
+      ├─ py_qa_text_quality/
+      ├─ py_qa_verification_gate/
+      ├─ py_verify_day1_milestones/
+      ├─ summary.json
     ├─ summary.latest.json
+  ├─ diagnostic_bundle.json
 gpt/
   ├─ ChatGPT-Branch · pro-ag1-data eval.md
 logs/
+  ├─ chunk/
+    ├─ 20250906_171703.log
+  ├─ dedupe/
+    ├─ 20250906_171703.log
   ├─ eval/
     ├─ 20250906_161845.log
+    ├─ 20250906_171705.log
+    ├─ 20250906_171725.log
   ├─ normalize/
     ├─ 20250906_135744.log
     ├─ 20250906_135752.log
@@ -217,17 +295,23 @@ logs/
     ├─ 20250906_142728.log
     ├─ 20250906_142755.log
     ├─ 20250906_161845.log
+    ├─ 20250906_171725.log
   ├─ qa/
     ├─ qa_boilerplate_mine/
       ├─ 20250906_161835.log
+      ├─ 20250906_171707.log
     ├─ qa_chunk_quality/
       ├─ 20250906_161842.log
+      ├─ 20250906_171714.log
     ├─ qa_coverage_report/
       ├─ 20250906_161842.log
+      ├─ 20250906_171714.log
     ├─ qa_dedupe_audit/
       ├─ 20250906_161843.log
+      ├─ 20250906_171715.log
     ├─ qa_eval_seed_validate/
       ├─ 20250906_161845.log
+      ├─ 20250906_171724.log
     ├─ qa_ground_truth_builder/
       ├─ 20250906_131020.log
       ├─ 20250906_131155.log
@@ -237,10 +321,13 @@ logs/
       ├─ 20250906_140405.log
       ├─ 20250906_142654.log
       ├─ 20250906_161844.log
+      ├─ 20250906_171724.log
     ├─ qa_link_health_retest/
       ├─ 20250906_161835.log
+      ├─ 20250906_171708.log
     ├─ qa_manual_samples/
       ├─ 20250906_161843.log
+      ├─ 20250906_171715.log
     ├─ qa_metadata_validate/
       ├─ 20250906_131156.log
       ├─ 20250906_131325.log
@@ -254,10 +341,13 @@ logs/
       ├─ 20250906_142655.log
       ├─ 20250906_142807.log
       ├─ 20250906_161845.log
+      ├─ 20250906_171724.log
     ├─ qa_persona_tag_precision/
       ├─ 20250906_161844.log
+      ├─ 20250906_171723.log
     ├─ qa_regression_pack/
       ├─ 20250906_161842.log
+      ├─ 20250906_171714.log
     ├─ qa_schema_validate/
       ├─ 20250906_131156.log
       ├─ 20250906_131325.log
@@ -269,13 +359,17 @@ logs/
       ├─ 20250906_142655.log
       ├─ 20250906_142807.log
       ├─ 20250906_161835.log
+      ├─ 20250906_171707.log
     ├─ qa_sec_section_validate/
       ├─ 20250906_161844.log
+      ├─ 20250906_171723.log
     ├─ qa_text_quality/
       ├─ 20250906_161834.log
+      ├─ 20250906_171706.log
     ├─ qa_verification_gate/
       ├─ 20250906_142655.log
       ├─ 20250906_161843.log
+      ├─ 20250906_171715.log
 qa_configs/
   ├─ qa.boilerplate.allowlist.txt
   ├─ qa.sec.sections.yaml
@@ -342,6 +436,7 @@ scripts/
   ├─ parse_sec_structures.py
   ├─ verify_day1_milestones.py
 .gitignore
+code.md
 PIPELINE_EXPLAINER.md
 README_DAY1.md
 requirements.txt
@@ -610,8 +705,8 @@ requirements.txt
 
 ## Data & Reports Present
 
-- data/final/inventory/salesforce_inventory.csv: MISSING
-- data/final/reports/day1_verification.json: MISSING
+- data/final/inventory/salesforce_inventory.csv: FOUND
+- data/final/reports/day1_verification.json: FOUND
 - data/final/reports/link_health.json: FOUND
-- data/interim/dedup/dedup_map.json: MISSING
-- data/interim/eval/salesforce_eval_seed.jsonl: MISSING
+- data/interim/dedup/dedup_map.json: FOUND
+- data/interim/eval/salesforce_eval_seed.jsonl: FOUND
