@@ -1,5 +1,5 @@
 {
-  "total_docs": 45,
+  "total_docs": 65,
   "docs_quality_ok": 0,
   "docs_quality_ok_pct": 0.0,
   "replacement_char_free_docs_pct": 1.0,
@@ -66,13 +66,6 @@
       "replacement_chars": 0,
       "stopword_ratio": 0.3536711478800414,
       "bigram_entropy": 8.00629972813044
-    },
-    {
-      "doc_id": "crm::help_docs::2024-09-05::salesforce-help::b0daabdf",
-      "printable_ratio": 1.0,
-      "replacement_chars": 0,
-      "stopword_ratio": 0.1111111111111111,
-      "bigram_entropy": 5.73629671354289
     },
     {
       "doc_id": "crm::help_docs::2024-09-06::salesforce-help::b0daabdf",
@@ -257,11 +250,60 @@
       "bigram_entropy": 7.80850194355284
     },
     {
+      "doc_id": "crm::press::2024-12-04::salesforce-data-reveals-new-cyber-week-all-time-high-314-9b-::22fc03d0",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2670598146588037,
+      "bigram_entropy": 8.280442046555784
+    },
+    {
+      "doc_id": "crm::press::2024-12-17::introducing-agentforce-2-0-the-digital-labor-platform-for-bu::b6767e51",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3029871977240398,
+      "bigram_entropy": 8.064886769190597
+    },
+    {
+      "doc_id": "crm::press::2025-01-06::holiday-shoppers-spend-a-record-1-2t-online-salesforce-data-::927f1bad",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.27928692699490665,
+      "bigram_entropy": 8.236471391122787
+    },
+    {
+      "doc_id": "crm::press::2025-01-10::salesforce-unveils-agentforce-for-retail-to-boost-productivi::002044b2",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.26753048780487804,
+      "bigram_entropy": 8.16965735335782
+    },
+    {
+      "doc_id": "crm::press::2025-02-05::salesforce-appoints-robin-washington-as-president-and-chief-::27845ea6",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.308659217877095,
+      "bigram_entropy": 8.148866256007766
+    },
+    {
+      "doc_id": "crm::press::2025-02-10::salesforce-announces-500m-investment-in-saudi-arabia-to-driv::6917743a",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3045325779036827,
+      "bigram_entropy": 8.16018288032771
+    },
+    {
       "doc_id": "crm::press::2025-02-23::environmental-social-and-governance-esg::d4f786ad",
       "printable_ratio": 1.0,
       "replacement_chars": 0,
       "stopword_ratio": 0.3717948717948718,
       "bigram_entropy": 7.961069629673486
+    },
+    {
+      "doc_id": "crm::press::2025-02-24::salesforce-and-google-bring-gemini-to-agentforce-enable-more::980fbb98",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.30214991284137127,
+      "bigram_entropy": 8.092146431254577
     },
     {
       "doc_id": "crm::press::2025-02-25::corporate-governance::0ec4193a",
@@ -271,54 +313,47 @@
       "bigram_entropy": 7.64933538030003
     },
     {
-      "doc_id": "crm::press::2025-08-26::newsroom::39cb1c1e",
+      "doc_id": "crm::press::2025-02-26::salesforce-announces-fourth-quarter-and-fiscal-year-2025-res::eec1d5f8",
       "printable_ratio": 1.0,
       "replacement_chars": 0,
-      "stopword_ratio": 0.19607843137254902,
-      "bigram_entropy": 8.059224048142779
+      "stopword_ratio": 0.2296774193548387,
+      "bigram_entropy": 8.349099257682907
     },
     {
-      "doc_id": "crm::press::None::news::6335e2de",
+      "doc_id": "crm::press::2025-03-04::salesforce-launches-agentexchange-the-trusted-marketplace-fo::79c83fa9",
       "printable_ratio": 1.0,
       "replacement_chars": 0,
-      "stopword_ratio": 0.19047619047619047,
-      "bigram_entropy": 6.459962314427412
+      "stopword_ratio": 0.2765006385696041,
+      "bigram_entropy": 8.162143290119818
     },
     {
-      "doc_id": "crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a",
+      "doc_id": "crm::press::2025-03-05::salesforce-launches-agentforce-2dx-new-capabilities-embed-pr::af1bdf2e",
       "printable_ratio": 1.0,
       "replacement_chars": 0,
-      "stopword_ratio": 0.2965085982282439,
-      "bigram_entropy": 7.874995433014244
+      "stopword_ratio": 0.28910667169242366,
+      "bigram_entropy": 8.018037597401591
     },
     {
-      "doc_id": "crm::product::2024-01-01::salesforce-data-cloud::04dae357",
+      "doc_id": "crm::press::2025-03-12::salesforce-to-invest-usd-1b-in-singapore-over-5-years::588517d1",
       "printable_ratio": 1.0,
       "replacement_chars": 0,
-      "stopword_ratio": 0.260797342192691,
-      "bigram_entropy": 7.775091714971253
+      "stopword_ratio": 0.3169491525423729,
+      "bigram_entropy": 8.082689837643183
     },
     {
-      "doc_id": "crm::product::2024-01-01::what-is-salesforce::17018047",
+      "doc_id": "crm::press::2025-05-08::salesforce-unveils-life-sciences-partner-network-to-accelera::86839d22",
       "printable_ratio": 1.0,
       "replacement_chars": 0,
-      "stopword_ratio": 0.3175591531755915,
-      "bigram_entropy": 7.675833483631478
+      "stopword_ratio": 0.2779532533164877,
+      "bigram_entropy": 8.190978439780798
     },
     {
-      "doc_id": "crm::wiki::2025-09-05::salesforce::6b727edd",
+      "doc_id": "crm::press::2025-05-15::salesforce-introduces-new-flexible-agentforce-pricing-to-acc::3d0f8a61",
       "printable_ratio": 1.0,
       "replacement_chars": 0,
-      "stopword_ratio": 0.2440733869305298,
-      "bigram_entropy": 8.475104438356178
-    },
-    {
-      "doc_id": "crm::wiki::2025-09-06::salesforce::6b727edd",
-      "printable_ratio": 1.0,
-      "replacement_chars": 0,
-      "stopword_ratio": 0.2440691596300764,
-      "bigram_entropy": 8.475104438356178
+      "stopword_ratio": 0.26556016597510373,
+      "bigram_entropy": 8.16906846406592
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_text_quality/20250906_172826.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_text_quality/20250906_173607.log"
 }

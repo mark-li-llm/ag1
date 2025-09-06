@@ -1,21 +1,23 @@
 {
-  "total_docs": 45,
-  "date_total": 6,
+  "total_docs": 65,
+  "date_total": 28,
   "date_match_rate": 1.0,
-  "title_total": 45,
+  "title_total": 65,
   "title_match_rate": 1.0,
-  "domain_total": 45,
+  "domain_total": 65,
   "final_url_domain_ok_rate": 1.0,
-  "baseline_coverage_rate_overall": 0.1333,
+  "baseline_coverage_rate_overall": 0.4308,
   "publish_date_provenance_distribution": {
     "sec_filed": 5,
     "missing": 35,
-    "http_last_modified": 4,
+    "http_last_modified": 2,
+    "rss_pubdate": 20,
+    "visible_dateline": 2,
     "meta_published_time": 1
   },
   "fallback_today_rate_overall": 0.0,
-  "fallback_any_rate_overall": 0.0889,
-  "top_publish_date_share": 0.0444,
+  "fallback_any_rate_overall": 0.0308,
+  "top_publish_date_share": 0.0308,
   "examples": [
     {
       "doc_id": "crm::dev_docs::2024-01-01::agentforce-agents-agentforce-developer-guide::5ac08bad",
@@ -51,15 +53,6 @@
       "title": "Get Started | Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
       "baseline_title": "Get Started | Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
       "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-get-started.html",
-      "domain_ok": true
-    },
-    {
-      "doc_id": "crm::help_docs::2024-09-05::salesforce-help::b0daabdf",
-      "publish_date": "2024-09-06",
-      "baseline_date": "",
-      "title": "Salesforce Help",
-      "baseline_title": "Salesforce Help",
-      "final_url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
       "domain_ok": true
     },
     {
@@ -351,15 +344,6 @@
       "domain_ok": true
     },
     {
-      "doc_id": "crm::wiki::2025-09-05::salesforce::6b727edd",
-      "publish_date": "2025-09-06",
-      "baseline_date": "",
-      "title": "Salesforce - Wikipedia",
-      "baseline_title": "Salesforce - Wikipedia",
-      "final_url": "https://en.wikipedia.org/wiki/Salesforce",
-      "domain_ok": true
-    },
-    {
       "doc_id": "crm::wiki::2025-09-06::salesforce::6b727edd",
       "publish_date": "2025-09-06",
       "baseline_date": "",
@@ -369,5 +353,5 @@
       "domain_ok": true
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_metadata_validate/20250906_172842.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_metadata_validate/20250906_173626.log"
 }

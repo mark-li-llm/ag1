@@ -1,7 +1,7 @@
 {
-  "total_docs": 45,
-  "docs_valid": 10,
-  "valid_pct": 0.2222,
+  "total_docs": 65,
+  "docs_valid": 30,
+  "valid_pct": 0.4615,
   "missing_fields_breakdown": {
     "publish_date": 35
   },
@@ -189,5 +189,5 @@
       "type_violations": []
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_schema_validate/20250906_172827.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_schema_validate/20250906_173608.log"
 }

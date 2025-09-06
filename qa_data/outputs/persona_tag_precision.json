@@ -7,20 +7,20 @@
   },
   "counts": {
     "vp_customer_experience": {
-      "tp": 7,
-      "total": 7
+      "tp": 12,
+      "total": 12
     },
     "cio": {
-      "tp": 28,
-      "total": 28
+      "tp": 49,
+      "total": 49
     },
     "vp_sales_ops": {
-      "tp": 19,
-      "total": 19
+      "tp": 34,
+      "total": 34
     },
     "general": {
       "tp": 0,
-      "total": 17
+      "total": 16
     }
   },
   "examples": [
@@ -95,11 +95,6 @@
       "missing_keywords": []
     },
     {
-      "doc_id": "crm::help_docs::2024-09-05::salesforce-help::b0daabdf",
-      "persona": "general",
-      "missing_keywords": []
-    },
-    {
       "doc_id": "crm::press::2024-05-25::salesforce-equality::874ae8c4",
       "persona": "general",
       "missing_keywords": []
@@ -110,5 +105,5 @@
       "missing_keywords": []
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_persona_tag_precision/20250906_172841.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_persona_tag_precision/20250906_173625.log"
 }

@@ -1,7 +1,7 @@
 {
-  "tested": 16,
-  "ok": 4,
-  "ok_pct": 0.25,
+  "tested": 15,
+  "ok": 3,
+  "ok_pct": 0.2,
   "results": [
     {
       "url": "https://investor.salesforce.com/financials/annual-reports/default.aspx",
@@ -76,29 +76,23 @@
       "domain_ok": true
     },
     {
-      "url": "https://www.salesforce.com/company/equality/?bc=DB",
+      "url": "https://www.salesforce.com/news/press-releases/2025/01/10/agentforce-retail-cloud-pos-announcement/?bc=DB",
       "status": 200,
-      "final_url": "https://www.salesforce.com/company/equality/?bc=DB",
+      "final_url": "https://www.salesforce.com/news/press-releases/2025/01/10/agentforce-retail-cloud-pos-announcement/?bc=DB",
       "domain_ok": true
     },
     {
-      "url": "https://www.salesforce.com/company/sustainability/?bc=DB",
+      "url": "https://www.salesforce.com/news/press-releases/2025/06/23/agentforce-3-announcement/?bc=DB",
       "status": 200,
-      "final_url": "https://www.salesforce.com/company/sustainability/?bc=DB",
+      "final_url": "https://www.salesforce.com/news/press-releases/2025/06/23/agentforce-3-announcement/?bc=DB",
       "domain_ok": true
     },
     {
-      "url": "https://www.salesforce.com/products/what-is-salesforce/?bc=DB",
+      "url": "https://www.salesforce.com/news/press-releases/2025/05/28/ferrari-agentforce-crm-elevates-client-experience/?bc=DB",
       "status": 200,
-      "final_url": "https://www.salesforce.com/products/what-is-salesforce/?bc=DB",
-      "domain_ok": true
-    },
-    {
-      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm",
-      "status": 200,
-      "final_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm",
+      "final_url": "https://www.salesforce.com/news/press-releases/2025/05/28/ferrari-agentforce-crm-elevates-client-experience/?bc=DB",
       "domain_ok": true
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_link_health_retest/20250906_172827.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_link_health_retest/20250906_173608.log"
 }

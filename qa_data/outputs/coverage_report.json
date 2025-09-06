@@ -1,36 +1,41 @@
 {
-  "total_docs": 45,
+  "total_docs": 65,
   "by_doctype": {
-    "press": 29,
+    "press": 51,
     "product": 3,
     "10-K": 1,
     "dev_docs": 4,
     "10-Q": 1,
-    "wiki": 2,
+    "wiki": 1,
     "8-K": 3,
-    "help_docs": 2
+    "help_docs": 1
   },
   "by_source_domain": {
-    "salesforce.com": 38,
+    "salesforce.com": 59,
     "sec.gov": 5,
-    "wikipedia.org": 2
+    "wikipedia.org": 1
   },
   "month_histogram": {
     "unknown": 35,
+    "2025-01": 3,
+    "2025-06": 4,
+    "2025-05": 5,
+    "2025-09": 3,
+    "2024-12": 2,
     "2015-08": 1,
+    "2025-03": 3,
     "2020-02": 1,
-    "2025-09": 2,
+    "2025-02": 4,
     "2025-08": 1,
     "2025-04": 1,
-    "2024-09": 2,
-    "2025-06": 1,
-    "2025-01": 1
+    "2024-09": 1,
+    "2025-07": 1
   },
-  "press_docs_last_12mo": 1,
+  "press_docs_last_12mo": 23,
   "sec_presence": {
     "10-K": 1,
     "10-Q": 1,
     "8-K": 3
   },
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_coverage_report/20250906_172832.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_coverage_report/20250906_173612.log"
 }

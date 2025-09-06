@@ -177,10 +177,36 @@ def main():
         # Token recount if needed
         if not doc.get('token_count'):
             doc['token_count'] = token_count(doc.get('text', ''))
+        # Compute canonical doc_id using resolved doctype/date while preserving slug/hash
+        try:
+            parts = (doc.get('doc_id') or '').split('::')
+            slug = parts[3] if len(parts) >= 5 else parts[-2]
+            hash8 = parts[4] if len(parts) >= 5 else parts[-1]
+        except Exception:
+            slug = (doc.get('title') or 'document').lower().replace(' ', '-')[:60]
+            hash8 = (doc.get('hash_sha256') or '')[:8]
+        final_doctype = (doc.get('doctype') or '').strip() or 'press'
+        final_date = doc.get('publish_date') or ''
+        new_doc_id = doc.get('doc_id')
+        if final_date and isinstance(final_date, str) and re.match(r'^\d{4}-\d{2}-\d{2}$', final_date):
+            new_doc_id = f"crm::{final_doctype}::{final_date}::{slug}::{hash8}"
+            doc['doc_id'] = new_doc_id
+
         if args.dry_run:
             logger.info(f"[dry-run] Would update {p}")
         else:
-            write_json(p, doc)
+            # If path needs to change to new doc_id, write to new file and remove old
+            current_doc_id = parts[0] + '::' + '::'.join(parts[1:]) if parts else ''
+            current_matches = os.path.basename(p).startswith(doc.get('doc_id') or '')
+            if new_doc_id and not current_matches:
+                new_path = os.path.join(norm_dir, f"{new_doc_id}.json")
+                write_json(new_path, doc)
+                try:
+                    os.remove(p)
+                except Exception:
+                    pass
+            else:
+                write_json(p, doc)
             updated += 1
     logger.info(f"Updated metadata for {updated} docs. Log: {log_path}")
 

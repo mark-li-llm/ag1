@@ -1,6 +1,117 @@
 {
-  "signatures": [],
-  "total_candidates": 0,
-  "clusters": 0,
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_boilerplate_mine/20250906_172827.log"
+  "signatures": [
+    {
+      "signature": "and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
+      "variants": [
+        "and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
+        "africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english",
+        "africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
+        "españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia",
+        "españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english",
+        "east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other"
+      ],
+      "doc_freq": 23
+    },
+    {
+      "signature": "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
+      "variants": [
+        "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
+        "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific",
+        "deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia",
+        "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
+        "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia",
+        "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india",
+        "deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific"
+      ],
+      "doc_freq": 23
+    },
+    {
+      "signature": "italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english 日本",
+      "variants": [
+        "italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english 日本",
+        "français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english"
+      ],
+      "doc_freq": 23
+    },
+    {
+      "signature": "canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands",
+      "variants": [
+        "canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands",
+        "states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united",
+        "english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland",
+        "français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige",
+        "united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska"
+      ],
+      "doc_freq": 23
+    },
+    {
+      "signature": "brasil português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français",
+      "variants": [
+        "brasil português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français",
+        "português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia"
+      ],
+      "doc_freq": 23
+    },
+    {
+      "signature": "english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom",
+      "variants": [
+        "english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom",
+        "europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english",
+        "middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all"
+      ],
+      "doc_freq": 23
+    },
+    {
+      "signature": "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia",
+      "variants": [
+        "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia"
+      ],
+      "doc_freq": 23
+    },
+    {
+      "signature": "other countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce",
+      "variants": [
+        "other countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce",
+        "countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce tower"
+      ],
+      "doc_freq": 23
+    },
+    {
+      "signature": "subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east and",
+      "variants": [
+        "subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east and",
+        "news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east"
+      ],
+      "doc_freq": 21
+    },
+    {
+      "signature": "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe",
+      "variants": [
+        "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe",
+        "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle",
+        "latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe",
+        "latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english"
+      ],
+      "doc_freq": 21
+    },
+    {
+      "signature": "get the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states",
+      "variants": [
+        "get the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states",
+        "the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english"
+      ],
+      "doc_freq": 21
+    },
+    {
+      "signature": "size reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications",
+      "variants": [
+        "size reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications",
+        "reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications data"
+      ],
+      "doc_freq": 20
+    }
+  ],
+  "total_candidates": 38,
+  "clusters": 12,
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_boilerplate_mine/20250906_173607.log"
 }

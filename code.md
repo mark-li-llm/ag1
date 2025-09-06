@@ -1,5 +1,5 @@
 # Repository Code Context
-_Generated: 2025-09-06T21:28:55.972687Z_
+_Generated: 2025-09-06T21:36:47.841508Z_
 
 ## Directory Tree (depth ≤ 3)
 
@@ -61,9 +61,31 @@ data/
       ├─ crm::press::2024-08-15::salesforce-careers::4964b777.chunks.jsonl
       ├─ crm::press::2024-09-05::salesforce-platform::a8686c16.chunks.jsonl
       ├─ crm::press::2024-09-12::about-salesforce-company::3ae394fc.chunks.jsonl
+      ├─ crm::press::2024-12-04::salesforce-data-reveals-new-cyber-week-all-time-high-314-9b-::22fc03d0.chunks.jsonl
+      ├─ crm::press::2024-12-17::introducing-agentforce-2-0-the-digital-labor-platform-for-bu::b6767e51.chunks.jsonl
+      ├─ crm::press::2025-01-06::holiday-shoppers-spend-a-record-1-2t-online-salesforce-data-::927f1bad.chunks.jsonl
+      ├─ crm::press::2025-01-10::salesforce-unveils-agentforce-for-retail-to-boost-productivi::002044b2.chunks.jsonl
+      ├─ crm::press::2025-02-05::salesforce-appoints-robin-washington-as-president-and-chief-::27845ea6.chunks.jsonl
+      ├─ crm::press::2025-02-10::salesforce-announces-500m-investment-in-saudi-arabia-to-driv::6917743a.chunks.jsonl
       ├─ crm::press::2025-02-23::environmental-social-and-governance-esg::d4f786ad.chunks.jsonl
+      ├─ crm::press::2025-02-24::salesforce-and-google-bring-gemini-to-agentforce-enable-more::980fbb98.chunks.jsonl
       ├─ crm::press::2025-02-25::corporate-governance::0ec4193a.chunks.jsonl
+      ├─ crm::press::2025-02-26::salesforce-announces-fourth-quarter-and-fiscal-year-2025-res::eec1d5f8.chunks.jsonl
+      ├─ crm::press::2025-03-04::salesforce-launches-agentexchange-the-trusted-marketplace-fo::79c83fa9.chunks.jsonl
+      ├─ crm::press::2025-03-05::salesforce-launches-agentforce-2dx-new-capabilities-embed-pr::af1bdf2e.chunks.jsonl
+      ├─ crm::press::2025-03-12::salesforce-to-invest-usd-1b-in-singapore-over-5-years::588517d1.chunks.jsonl
+      ├─ crm::press::2025-05-08::salesforce-unveils-life-sciences-partner-network-to-accelera::86839d22.chunks.jsonl
+      ├─ crm::press::2025-05-15::salesforce-introduces-new-flexible-agentforce-pricing-to-acc::3d0f8a61.chunks.jsonl
+      ├─ crm::press::2025-05-27::salesforce-signs-definitive-agreement-to-acquire-informatica::54832fce.chunks.jsonl
+      ├─ crm::press::2025-05-28::salesforce-reports-record-first-quarter-fiscal-2026-results-::be4649b4.chunks.jsonl
+      ├─ crm::press::2025-05-29::salesforce-partners-with-ferrari-to-elevate-the-client-8217-::a722a5a3.chunks.jsonl
+      ├─ crm::press::2025-06-03::press-releases-archive::7fb39c35.chunks.jsonl
+      ├─ crm::press::2025-06-03::salesforce-and-liv-golf-announce-strategic-partnership-to-po::2a69d849.chunks.jsonl
+      ├─ crm::press::2025-06-23::salesforce-launches-agentforce-3-to-solve-the-biggest-blocke::0d47e9a6.chunks.jsonl
+      ├─ crm::press::2025-07-09::salesforce-appoints-amy-chang-and-david-b-kirk-to-its-board-::c224c273.chunks.jsonl
       ├─ crm::press::2025-08-26::newsroom::39cb1c1e.chunks.jsonl
+      ├─ crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::99c172d2.chunks.jsonl
+      ├─ crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::fa951792.chunks.jsonl
       ├─ crm::press::None::news::6335e2de.chunks.jsonl
       ├─ crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a.chunks.jsonl
       ├─ crm::product::2024-01-01::salesforce-data-cloud::04dae357.chunks.jsonl
@@ -84,7 +106,6 @@ data/
       ├─ crm::dev_docs::2024-01-01::chat-with-agents-using-agent-api-agentforce-agents::6f4b900c.json
       ├─ crm::dev_docs::2024-01-01::examples-agentforce-agents-agentforce-developer-gu::62fd6b36.json
       ├─ crm::dev_docs::2024-01-01::get-started-agentforce-agents-agentforce-developer::202f14da.json
-      ├─ crm::help_docs::2024-09-05::salesforce-help::b0daabdf.json
       ├─ crm::help_docs::2024-09-06::salesforce-help::b0daabdf.json
       ├─ crm::press::2024-01-01::annual-reports::3814b366.json
       ├─ crm::press::2024-01-01::board-of-directors::7ee63d65.json
@@ -111,14 +132,35 @@ data/
       ├─ crm::press::2024-08-15::salesforce-careers::4964b777.json
       ├─ crm::press::2024-09-05::salesforce-platform::a8686c16.json
       ├─ crm::press::2024-09-12::about-salesforce-company::3ae394fc.json
+      ├─ crm::press::2024-12-04::salesforce-data-reveals-new-cyber-week-all-time-high-314-9b-::22fc03d0.json
+      ├─ crm::press::2024-12-17::introducing-agentforce-2-0-the-digital-labor-platform-for-bu::b6767e51.json
+      ├─ crm::press::2025-01-06::holiday-shoppers-spend-a-record-1-2t-online-salesforce-data-::927f1bad.json
+      ├─ crm::press::2025-01-10::salesforce-unveils-agentforce-for-retail-to-boost-productivi::002044b2.json
+      ├─ crm::press::2025-02-05::salesforce-appoints-robin-washington-as-president-and-chief-::27845ea6.json
+      ├─ crm::press::2025-02-10::salesforce-announces-500m-investment-in-saudi-arabia-to-driv::6917743a.json
       ├─ crm::press::2025-02-23::environmental-social-and-governance-esg::d4f786ad.json
+      ├─ crm::press::2025-02-24::salesforce-and-google-bring-gemini-to-agentforce-enable-more::980fbb98.json
       ├─ crm::press::2025-02-25::corporate-governance::0ec4193a.json
+      ├─ crm::press::2025-02-26::salesforce-announces-fourth-quarter-and-fiscal-year-2025-res::eec1d5f8.json
+      ├─ crm::press::2025-03-04::salesforce-launches-agentexchange-the-trusted-marketplace-fo::79c83fa9.json
+      ├─ crm::press::2025-03-05::salesforce-launches-agentforce-2dx-new-capabilities-embed-pr::af1bdf2e.json
+      ├─ crm::press::2025-03-12::salesforce-to-invest-usd-1b-in-singapore-over-5-years::588517d1.json
+      ├─ crm::press::2025-05-08::salesforce-unveils-life-sciences-partner-network-to-accelera::86839d22.json
+      ├─ crm::press::2025-05-15::salesforce-introduces-new-flexible-agentforce-pricing-to-acc::3d0f8a61.json
+      ├─ crm::press::2025-05-27::salesforce-signs-definitive-agreement-to-acquire-informatica::54832fce.json
+      ├─ crm::press::2025-05-28::salesforce-reports-record-first-quarter-fiscal-2026-results-::be4649b4.json
+      ├─ crm::press::2025-05-29::salesforce-partners-with-ferrari-to-elevate-the-client-8217-::a722a5a3.json
+      ├─ crm::press::2025-06-03::press-releases-archive::7fb39c35.json
+      ├─ crm::press::2025-06-03::salesforce-and-liv-golf-announce-strategic-partnership-to-po::2a69d849.json
+      ├─ crm::press::2025-06-23::salesforce-launches-agentforce-3-to-solve-the-biggest-blocke::0d47e9a6.json
+      ├─ crm::press::2025-07-09::salesforce-appoints-amy-chang-and-david-b-kirk-to-its-board-::c224c273.json
       ├─ crm::press::2025-08-26::newsroom::39cb1c1e.json
+      ├─ crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::99c172d2.json
+      ├─ crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::fa951792.json
       ├─ crm::press::None::news::6335e2de.json
       ├─ crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a.json
       ├─ crm::product::2024-01-01::salesforce-data-cloud::04dae357.json
       ├─ crm::product::2024-01-01::what-is-salesforce::17018047.json
-      ├─ crm::wiki::2025-09-05::salesforce::6b727edd.json
       ├─ crm::wiki::2025-09-06::salesforce::6b727edd.json
   ├─ raw/
     ├─ dev_docs/
@@ -195,6 +237,50 @@ data/
       ├─ crm::press::2024-09-05::salesforce-platform::a8686c16.raw.html
       ├─ crm::press::2024-09-12::about-salesforce-company::3ae394fc.meta.json
       ├─ crm::press::2024-09-12::about-salesforce-company::3ae394fc.raw.html
+      ├─ crm::press::2024-12-04::salesforce-data-reveals-new-cyber-week-all-time-high-314-9b-::22fc03d0.meta.json
+      ├─ crm::press::2024-12-04::salesforce-data-reveals-new-cyber-week-all-time-high-314-9b-::22fc03d0.raw.html
+      ├─ crm::press::2024-12-17::introducing-agentforce-2-0-the-digital-labor-platform-for-bu::b6767e51.meta.json
+      ├─ crm::press::2024-12-17::introducing-agentforce-2-0-the-digital-labor-platform-for-bu::b6767e51.raw.html
+      ├─ crm::press::2025-01-06::holiday-shoppers-spend-a-record-1-2t-online-salesforce-data-::927f1bad.meta.json
+      ├─ crm::press::2025-01-06::holiday-shoppers-spend-a-record-1-2t-online-salesforce-data-::927f1bad.raw.html
+      ├─ crm::press::2025-01-10::salesforce-unveils-agentforce-for-retail-to-boost-productivi::002044b2.meta.json
+      ├─ crm::press::2025-01-10::salesforce-unveils-agentforce-for-retail-to-boost-productivi::002044b2.raw.html
+      ├─ crm::press::2025-02-05::salesforce-appoints-robin-washington-as-president-and-chief-::27845ea6.meta.json
+      ├─ crm::press::2025-02-05::salesforce-appoints-robin-washington-as-president-and-chief-::27845ea6.raw.html
+      ├─ crm::press::2025-02-10::salesforce-announces-500m-investment-in-saudi-arabia-to-driv::6917743a.meta.json
+      ├─ crm::press::2025-02-10::salesforce-announces-500m-investment-in-saudi-arabia-to-driv::6917743a.raw.html
+      ├─ crm::press::2025-02-24::salesforce-and-google-bring-gemini-to-agentforce-enable-more::980fbb98.meta.json
+      ├─ crm::press::2025-02-24::salesforce-and-google-bring-gemini-to-agentforce-enable-more::980fbb98.raw.html
+      ├─ crm::press::2025-02-26::salesforce-announces-fourth-quarter-and-fiscal-year-2025-res::eec1d5f8.meta.json
+      ├─ crm::press::2025-02-26::salesforce-announces-fourth-quarter-and-fiscal-year-2025-res::eec1d5f8.raw.html
+      ├─ crm::press::2025-03-04::salesforce-launches-agentexchange-the-trusted-marketplace-fo::79c83fa9.meta.json
+      ├─ crm::press::2025-03-04::salesforce-launches-agentexchange-the-trusted-marketplace-fo::79c83fa9.raw.html
+      ├─ crm::press::2025-03-05::salesforce-launches-agentforce-2dx-new-capabilities-embed-pr::af1bdf2e.meta.json
+      ├─ crm::press::2025-03-05::salesforce-launches-agentforce-2dx-new-capabilities-embed-pr::af1bdf2e.raw.html
+      ├─ crm::press::2025-03-12::salesforce-to-invest-usd-1b-in-singapore-over-5-years::588517d1.meta.json
+      ├─ crm::press::2025-03-12::salesforce-to-invest-usd-1b-in-singapore-over-5-years::588517d1.raw.html
+      ├─ crm::press::2025-05-08::salesforce-unveils-life-sciences-partner-network-to-accelera::86839d22.meta.json
+      ├─ crm::press::2025-05-08::salesforce-unveils-life-sciences-partner-network-to-accelera::86839d22.raw.html
+      ├─ crm::press::2025-05-15::salesforce-introduces-new-flexible-agentforce-pricing-to-acc::3d0f8a61.meta.json
+      ├─ crm::press::2025-05-15::salesforce-introduces-new-flexible-agentforce-pricing-to-acc::3d0f8a61.raw.html
+      ├─ crm::press::2025-05-27::salesforce-signs-definitive-agreement-to-acquire-informatica::54832fce.meta.json
+      ├─ crm::press::2025-05-27::salesforce-signs-definitive-agreement-to-acquire-informatica::54832fce.raw.html
+      ├─ crm::press::2025-05-28::salesforce-reports-record-first-quarter-fiscal-2026-results-::be4649b4.meta.json
+      ├─ crm::press::2025-05-28::salesforce-reports-record-first-quarter-fiscal-2026-results-::be4649b4.raw.html
+      ├─ crm::press::2025-05-29::salesforce-partners-with-ferrari-to-elevate-the-client-8217-::a722a5a3.meta.json
+      ├─ crm::press::2025-05-29::salesforce-partners-with-ferrari-to-elevate-the-client-8217-::a722a5a3.raw.html
+      ├─ crm::press::2025-06-03::press-releases-archive::7fb39c35.meta.json
+      ├─ crm::press::2025-06-03::press-releases-archive::7fb39c35.raw.html
+      ├─ crm::press::2025-06-03::salesforce-and-liv-golf-announce-strategic-partnership-to-po::2a69d849.meta.json
+      ├─ crm::press::2025-06-03::salesforce-and-liv-golf-announce-strategic-partnership-to-po::2a69d849.raw.html
+      ├─ crm::press::2025-06-23::salesforce-launches-agentforce-3-to-solve-the-biggest-blocke::0d47e9a6.meta.json
+      ├─ crm::press::2025-06-23::salesforce-launches-agentforce-3-to-solve-the-biggest-blocke::0d47e9a6.raw.html
+      ├─ crm::press::2025-07-09::salesforce-appoints-amy-chang-and-david-b-kirk-to-its-board-::c224c273.meta.json
+      ├─ crm::press::2025-07-09::salesforce-appoints-amy-chang-and-david-b-kirk-to-its-board-::c224c273.raw.html
+      ├─ crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::99c172d2.meta.json
+      ├─ crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::99c172d2.raw.html
+      ├─ crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::fa951792.meta.json
+      ├─ crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::fa951792.raw.html
     ├─ product/
       ├─ crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a.meta.json
       ├─ crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a.raw.html
@@ -309,6 +395,27 @@ diagnostics/
       ├─ py_qa_verification_gate/
       ├─ py_verify_day1_milestones/
       ├─ summary.json
+    ├─ run_20250906_213606/
+      ├─ py__qa_common/
+      ├─ py_build_eval_seed/
+      ├─ py_link_health_check/
+      ├─ py_qa_boilerplate_mine/
+      ├─ py_qa_chunk_quality/
+      ├─ py_qa_coverage_report/
+      ├─ py_qa_dedupe_audit/
+      ├─ py_qa_eval_seed_validate/
+      ├─ py_qa_ground_truth_builder/
+      ├─ py_qa_link_health_retest/
+      ├─ py_qa_manual_samples/
+      ├─ py_qa_metadata_validate/
+      ├─ py_qa_persona_tag_precision/
+      ├─ py_qa_regression_pack/
+      ├─ py_qa_schema_validate/
+      ├─ py_qa_sec_section_validate/
+      ├─ py_qa_text_quality/
+      ├─ py_qa_verification_gate/
+      ├─ py_verify_day1_milestones/
+      ├─ summary.json
     ├─ summary.latest.json
   ├─ diagnostic_bundle.json
 gpt/
@@ -317,9 +424,11 @@ logs/
   ├─ chunk/
     ├─ 20250906_171703.log
     ├─ 20250906_172143.log
+    ├─ 20250906_173603.log
   ├─ dedupe/
     ├─ 20250906_171703.log
     ├─ 20250906_172144.log
+    ├─ 20250906_173603.log
   ├─ eval/
     ├─ 20250906_161845.log
     ├─ 20250906_171705.log
@@ -328,6 +437,11 @@ logs/
     ├─ 20250906_172202.log
     ├─ 20250906_172826.log
     ├─ 20250906_172842.log
+    ├─ 20250906_173606.log
+    ├─ 20250906_173627.log
+  ├─ fetch/
+    ├─ 20250906_173526.log
+    ├─ 20250906_173533.log
   ├─ normalize/
     ├─ 20250906_135744.log
     ├─ 20250906_135752.log
@@ -347,32 +461,41 @@ logs/
     ├─ 20250906_172132.log
     ├─ 20250906_172202.log
     ├─ 20250906_172842.log
+    ├─ 20250906_173535.log
+    ├─ 20250906_173541.log
+    ├─ 20250906_173551.log
+    ├─ 20250906_173627.log
   ├─ qa/
     ├─ qa_boilerplate_mine/
       ├─ 20250906_161835.log
       ├─ 20250906_171707.log
       ├─ 20250906_172147.log
       ├─ 20250906_172827.log
+      ├─ 20250906_173607.log
     ├─ qa_chunk_quality/
       ├─ 20250906_161842.log
       ├─ 20250906_171714.log
       ├─ 20250906_172152.log
       ├─ 20250906_172832.log
+      ├─ 20250906_173612.log
     ├─ qa_coverage_report/
       ├─ 20250906_161842.log
       ├─ 20250906_171714.log
       ├─ 20250906_172152.log
       ├─ 20250906_172832.log
+      ├─ 20250906_173612.log
     ├─ qa_dedupe_audit/
       ├─ 20250906_161843.log
       ├─ 20250906_171715.log
       ├─ 20250906_172153.log
       ├─ 20250906_172833.log
+      ├─ 20250906_173613.log
     ├─ qa_eval_seed_validate/
       ├─ 20250906_161845.log
       ├─ 20250906_171724.log
       ├─ 20250906_172202.log
       ├─ 20250906_172841.log
+      ├─ 20250906_173626.log
     ├─ qa_ground_truth_builder/
       ├─ 20250906_131020.log
       ├─ 20250906_131155.log
@@ -385,16 +508,19 @@ logs/
       ├─ 20250906_171724.log
       ├─ 20250906_172201.log
       ├─ 20250906_172841.log
+      ├─ 20250906_173626.log
     ├─ qa_link_health_retest/
       ├─ 20250906_161835.log
       ├─ 20250906_171708.log
       ├─ 20250906_172148.log
       ├─ 20250906_172827.log
+      ├─ 20250906_173608.log
     ├─ qa_manual_samples/
       ├─ 20250906_161843.log
       ├─ 20250906_171715.log
       ├─ 20250906_172153.log
       ├─ 20250906_172833.log
+      ├─ 20250906_173613.log
     ├─ qa_metadata_validate/
       ├─ 20250906_131156.log
       ├─ 20250906_131325.log
@@ -411,16 +537,19 @@ logs/
       ├─ 20250906_171724.log
       ├─ 20250906_172202.log
       ├─ 20250906_172842.log
+      ├─ 20250906_173626.log
     ├─ qa_persona_tag_precision/
       ├─ 20250906_161844.log
       ├─ 20250906_171723.log
       ├─ 20250906_172201.log
       ├─ 20250906_172841.log
+      ├─ 20250906_173625.log
     ├─ qa_regression_pack/
       ├─ 20250906_161842.log
       ├─ 20250906_171714.log
       ├─ 20250906_172152.log
       ├─ 20250906_172832.log
+      ├─ 20250906_173612.log
     ├─ qa_schema_validate/
       ├─ 20250906_131156.log
       ├─ 20250906_131325.log
@@ -435,22 +564,26 @@ logs/
       ├─ 20250906_171707.log
       ├─ 20250906_172147.log
       ├─ 20250906_172827.log
+      ├─ 20250906_173608.log
     ├─ qa_sec_section_validate/
       ├─ 20250906_161844.log
       ├─ 20250906_171723.log
       ├─ 20250906_172201.log
       ├─ 20250906_172841.log
+      ├─ 20250906_173625.log
     ├─ qa_text_quality/
       ├─ 20250906_161834.log
       ├─ 20250906_171706.log
       ├─ 20250906_172146.log
       ├─ 20250906_172826.log
+      ├─ 20250906_173607.log
     ├─ qa_verification_gate/
       ├─ 20250906_142655.log
       ├─ 20250906_161843.log
       ├─ 20250906_171715.log
       ├─ 20250906_172153.log
       ├─ 20250906_172833.log
+      ├─ 20250906_173613.log
 qa_configs/
   ├─ qa.boilerplate.allowlist.txt
   ├─ qa.sec.sections.yaml
