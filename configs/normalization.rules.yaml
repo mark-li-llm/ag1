@@ -1,0 +1,55 @@
+version: 1
+global:
+  drop_selectors:
+    - nav
+    - footer
+    - '[aria-label*="cookie"]'
+    - .share
+    - .social
+    - .newsletter
+    - .breadcrumb
+    - .sidebar
+    - script
+    - style
+  preserve_containers:
+    - article
+    - main
+    - .content
+    - .entry-content
+  normalize:
+    - replace_br_p_with_newline: true
+    - collapse_whitespace: true
+    - decode_entities: true
+    - strip_inline_svg: true
+    - keep_headings: [h1, h2, h3]
+  language:
+    expected: en
+    drop_non_english: true
+sec:
+  keep_toc_titles: true
+  drop_repeated_nav_lists: true
+  item_headers:
+    - 'Item\s+1\.'
+    - 'Item\s+1A\.'
+    - 'Item\s+7\.'
+    - 'Item\s+7A\.'
+    - 'Item\s+8\.'
+  publish_date_source_order:
+    - filed_header
+    - edgar_index
+investor_news:
+  publish_date_source_order:
+    - meta_article_published_time
+    - visible_dateline
+    - http_last_modified
+newsroom:
+  publish_date_source_order:
+    - rss_pubdate
+    - meta_article_published_time
+product_dev_help:
+  publish_date_source_order:
+    - visible_updated
+    - http_last_modified
+wikipedia:
+  keep_lead_and_first_three_headings: true
+  convert_infobox_to_text: true

@@ -1,0 +1,78 @@
+version: 1
+owner: data_engineering
+fields:
+  doc_id:
+    type: string
+    required: true
+    regex: '^crm::[A-Za-z0-9\-]+::\d{4}-\d{2}-\d{2}::[a-z0-9\-]+::[0-9a-f]{8}$'
+    owner_script: all
+  company:
+    type: string
+    required: true
+    allowed: [Salesforce]
+  doctype:
+    type: enum
+    required: true
+    allowed: ["10-K", "10-Q", "8-K", press, blog, product, dev_docs, help_docs, wiki, ars_pdf]
+  title:
+    type: string
+    required: true
+  publish_date:
+    type: date
+    required: true
+    regex: '^\d{4}-\d{2}-\d{2}$'
+    fill_rule_precedence:
+      - sec.filed_header
+      - rss.pubDate
+      - meta.article:published_time
+      - visible.dateline
+      - http.last_modified
+  url:
+    type: string
+    required: true
+  final_url:
+    type: string
+    required: false
+  source_domain:
+    type: enum
+    required: true
+    allowed: [sec.gov, investor.salesforce.com, salesforce.com, developer.salesforce.com, help.salesforce.com, wikipedia.org]
+  section:
+    type: string
+    required: true
+    default: body
+  topic:
+    type: string
+    required: true
+    description: pipe-separated tags
+  persona_tags:
+    type: array[string]
+    required: true
+    description: tags derived from persona mapping
+  language:
+    type: enum
+    required: true
+    allowed: [en]
+  text:
+    type: string
+    required: true
+  word_count:
+    type: integer
+    required: true
+  token_count:
+    type: integer
+    required: true
+  ingestion_ts:
+    type: datetime
+    required: true
+  hash_sha256:
+    type: string
+    required: true
+    regex: '^[0-9a-f]{64}$'
+optional_fields:
+  html_title: string
+  meta_published_time: string
+  last_modified_http: string
+  byline: string
+  press_location: string
+  ticker_mentions: array[string]

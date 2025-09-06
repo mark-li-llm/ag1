@@ -1,0 +1,8 @@
+{
+  "tokenizer": "cl100k_base",
+  "target_tokens": 800,
+  "overlap_tokens": 120,
+  "short_doc_single_chunk_threshold": 350,
+  "title_boost_chunk0": true,
+  "section_reset_sec_items": true
+}

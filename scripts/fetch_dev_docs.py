@@ -1,0 +1,61 @@
+#!/usr/bin/env python3
+import os
+import argparse
+from datetime import date
+
+from _common import (
+    setup_logger, RateLimiter, load_yaml, http_fetch, clean_url_params,
+    source_domain, slugify, doc_id, write_json, ensure_parent,
+    guess_title_from_html
+)
+
+
+def main():
+    ap = argparse.ArgumentParser(description='Fetch Salesforce developer docs (Agent API).')
+    ap.add_argument('--dry-run', action='store_true')
+    ap.add_argument('--limit', type=int, default=4)
+    ap.add_argument('--since', type=str, default=None)
+    ap.add_argument('--until', type=str, default=None)
+    ap.add_argument('--concurrency', type=int, default=4)
+    args = ap.parse_args()
+
+    logger, log_path = setup_logger('fetch')
+    cfg = load_yaml(os.path.join('configs', 'sources.salesforce.yaml'))
+    urls = cfg['sources']['dev_docs']['urls'][: args.limit]
+    rate = RateLimiter(6.0)
+
+    saved = 0
+    for url in urls:
+        url = clean_url_params(url)
+        rate.acquire()
+        s, b, inf = http_fetch(url, logger, timeout=10)
+        if s != 200:
+            logger.warning(f"Skip non-200 {url}: {s}")
+            continue
+        html = b.decode('utf-8', errors='ignore')
+        title = guess_title_from_html(html)
+        slug = slugify(title or os.path.basename(url).strip('/'))
+        date_iso = date.today().isoformat()
+        did = doc_id('dev_docs', date_iso, slug, b)
+        raw_dir = os.path.join('data', 'raw', 'dev_docs')
+        ensure_parent(raw_dir + '/.keep')
+        raw_path = os.path.join(raw_dir, f'{did}.raw.html')
+        meta_path = os.path.join(raw_dir, f'{did}.meta.json')
+        meta = {
+            'url': inf.get('final_url', url),
+            'source_domain': source_domain(url),
+            'title_hint': title,
+        }
+        if args.dry_run:
+            logger.info(f"[dry-run] Would save {raw_path}")
+        else:
+            with open(raw_path, 'wb') as f:
+                f.write(b)
+            write_json(meta_path, meta)
+            saved += 1
+    logger.info(f"Saved {saved} dev docs pages. Log: {log_path}")
+
+
+if __name__ == '__main__':
+    main()
+

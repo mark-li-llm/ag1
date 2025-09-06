@@ -1,0 +1,14 @@
+version: 1
+personas:
+  vp_customer_experience:
+    keywords: ["NPS", "CSAT", "contact center", "omnichannel", "agent productivity", "self-service", "first contact resolution"]
+  cio:
+    keywords: ["data integration", "governance", "security", "TCO", "platform", "APIs", "real-time"]
+  vp_sales_ops:
+    keywords: ["pipeline", "forecast accuracy", "win rate", "productivity", "automation"]
+topic_lexicon:
+  Agentforce: ["Agentforce", "agent", "copilot", "digital labor"]
+  Data Cloud: ["Data Cloud", "CDP", "data graph", "harmonize"]
+  Earnings: ["revenue", "EPS", "RPO", "guidance", "margin"]
+  Partnership: ["partner", "alliance", "collaborat", "co-develop", "integration"]
+  Product: ["launch", "GA", "feature", "capability"]

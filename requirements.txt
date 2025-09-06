@@ -1,0 +1,11 @@
+requests
+beautifulsoup4
+lxml
+python-dateutil
+feedparser
+langdetect
+chardet
+pdfminer.six
+tiktoken
+datasketch
+PyYAML

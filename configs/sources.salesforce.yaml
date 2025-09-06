@@ -1,0 +1,52 @@
+version: 1
+company: Salesforce
+cap_pages: 120
+sources:
+  sec:
+    description: SEC filings (Salesforce CIK 0001108524)
+    urls:
+      - https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm
+      - https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm
+      - https://www.sec.gov/ix?doc=/Archives/edgar/data/1108524/000110852425000002/crm-20250226.htm
+      - https://www.sec.gov/Archives/edgar/data/1108524/000110852425000027/crm-20250528.htm
+      - https://www.sec.gov/Archives/edgar/data/1108524/000110852425000019/salesforce_fy25annualreport.pdf
+      - https://www.sec.gov/Archives/edgar/data/1108524/000110852425000033/crm-20250605.htm
+    doctype_hints:
+      crm-20250131.htm: 10-K
+      crm-20250430.htm: 10-Q
+      crm-20250226.htm: 8-K
+      crm-20250528.htm: 8-K
+      salesforce_fy25annualreport.pdf: ars_pdf
+      crm-20250605.htm: 8-K
+  investor_news:
+    start_url: https://investor.salesforce.com/news/default.aspx?languageid=1
+    target_count: 20
+    window:
+      since: 2024-01-01
+  newsroom_rss:
+    feeds:
+      - https://www.salesforce.com/news/content-types/press-releases-corporate/feed/
+      - https://www.salesforce.com/news/content-types/press-releases-product/feed/
+    target_count_total: 60
+    window:
+      since: 2024-01-01
+  product:
+    urls:
+      - https://www.salesforce.com/agentforce/
+      - https://www.salesforce.com/data/
+      - https://www.salesforce.com/products/what-is-salesforce/
+    target_count: 3
+  dev_docs:
+    urls:
+      - https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-get-started.html
+      - https://developer.salesforce.com/docs/einstein/genai/guide/agent-api.html
+      - https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-examples.html
+      - https://developer.salesforce.com/docs/einstein/genai/guide/get-started-agents.html
+    target_count: 4
+  help_docs:
+    urls:
+      - https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5
+    target_count: 1
+  wikipedia:
+    url: https://en.wikipedia.org/wiki/Salesforce
+    target_count: 1
