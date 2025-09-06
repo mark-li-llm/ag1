@@ -1,0 +1,30 @@
+version: 1
+schema_valid_pct_min: 0.98
+date_match_rate_min: 0.97
+title_match_rate_min: 0.98
+link_health_required: 1.0
+dup_rate_post_boilerplate_max: 0.15
+exact_doc_dup_rate_max: 0.05
+printable_ratio_min: 0.995
+replacement_char_free_docs_pct_min: 0.99
+language_prob_en_min: 0.9
+stopword_ratio_range: [0.25, 0.65]
+char_bigram_entropy_range: [2.5, 5.0]
+chunk_len_within_pct_min: 0.90
+chunk_len_range_tokens: [500, 1100]
+chunk_median_range_tokens: [650, 950]
+overlap_mean_range_tokens: [80, 160]
+sec_section_pass_required: 1.0
+persona_precision_min: 0.80
+eval_seed_integrity_required: 1.0
+eval_distribution_min:
+  per_persona: 10
+  sec: 10
+  press: 10
+  prod_docs_help: 8
+  wiki: 2
+baseline_coverage_rate_overall_min: 0.80
+baseline_coverage_rate_press_sec_min: 0.95
+fallback_today_rate_overall_max: 0.0
+fallback_any_rate_overall_max: 0.02
+top_publish_date_share_max: 0.20

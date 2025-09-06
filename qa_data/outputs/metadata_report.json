@@ -1,0 +1,373 @@
+{
+  "total_docs": 45,
+  "date_total": 6,
+  "date_match_rate": 1.0,
+  "title_total": 45,
+  "title_match_rate": 1.0,
+  "domain_total": 45,
+  "final_url_domain_ok_rate": 1.0,
+  "baseline_coverage_rate_overall": 0.1333,
+  "publish_date_provenance_distribution": {
+    "sec_filed": 5,
+    "missing": 35,
+    "http_last_modified": 4,
+    "meta_published_time": 1
+  },
+  "fallback_today_rate_overall": 0.0,
+  "fallback_any_rate_overall": 0.0889,
+  "top_publish_date_share": 0.0444,
+  "examples": [
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::agentforce-agents-agentforce-developer-guide::5ac08bad",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
+      "baseline_title": "Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
+      "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/get-started-agents.html",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::chat-with-agents-using-agent-api-agentforce-agents::6f4b900c",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Chat with Agents Using Agent API | Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
+      "baseline_title": "Chat with Agents Using Agent API | Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
+      "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api.html",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::examples-agentforce-agents-agentforce-developer-gu::62fd6b36",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Examples | Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
+      "baseline_title": "Examples | Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
+      "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-examples.html",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::get-started-agentforce-agents-agentforce-developer::202f14da",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Get Started | Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
+      "baseline_title": "Get Started | Agentforce Agents | Agentforce Developer Guide | Salesforce Developers",
+      "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-get-started.html",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::help_docs::2024-09-05::salesforce-help::b0daabdf",
+      "publish_date": "2024-09-06",
+      "baseline_date": "",
+      "title": "Salesforce Help",
+      "baseline_title": "Salesforce Help",
+      "final_url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::help_docs::2024-09-06::salesforce-help::b0daabdf",
+      "publish_date": "2024-09-06",
+      "baseline_date": "",
+      "title": "Salesforce Help",
+      "baseline_title": "Salesforce Help",
+      "final_url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::annual-reports::3814b366",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Financials - Annual Reports",
+      "baseline_title": "Salesforce.com, Inc. - Financials - Annual Reports",
+      "final_url": "https://investor.salesforce.com/financials/annual-reports/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::board-of-directors::7ee63d65",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Governance - Board of Directors",
+      "baseline_title": "Salesforce.com, Inc. - Governance - Board of Directors",
+      "final_url": "https://investor.salesforce.com/governance/board-of-directors/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::events-and-presentations::0371587e",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Investor Events",
+      "baseline_title": "Salesforce.com, Inc. - Investor Events",
+      "final_url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::executive-management::2495a457",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Governance - Executive Management",
+      "baseline_title": "Salesforce.com, Inc. - Governance - Executive Management",
+      "final_url": "https://investor.salesforce.com/governance/executive-management/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-contacts::54999c16",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Resources - Investor Contacts",
+      "baseline_title": "Salesforce.com, Inc. - Resources - Investor Contacts",
+      "final_url": "https://investor.salesforce.com/resources/investor-contacts/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-email-alerts::626b16ec",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Resources - Investor Email Alerts",
+      "baseline_title": "Salesforce.com, Inc. - Resources - Investor Email Alerts",
+      "final_url": "https://investor.salesforce.com/resources/investor-email-alerts/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-faqs::087af470",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Resources - Investor FAQs",
+      "baseline_title": "Salesforce.com, Inc. - Resources - Investor FAQs",
+      "final_url": "https://investor.salesforce.com/resources/investor-faqs/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::quarterly-results::11c603d4",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Financials - Quarterly Results",
+      "baseline_title": "Salesforce.com, Inc. - Financials - Quarterly Results",
+      "final_url": "https://investor.salesforce.com/financials/quarterly-results/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::sec-filings::7ec42ed9",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Financials - SEC Filings",
+      "baseline_title": "Salesforce.com, Inc. - Financials - SEC Filings",
+      "final_url": "https://investor.salesforce.com/financials/sec-filings/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::stock-information::8ebb1472",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Salesforce (CRM) Stock Information",
+      "baseline_title": "Salesforce.com, Inc. - Salesforce (CRM) Stock Information",
+      "final_url": "https://investor.salesforce.com/stock-info/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-02-28::salesforce-data-cloud::4ca56502",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce Data Cloud",
+      "baseline_title": "Salesforce Data Cloud",
+      "final_url": "https://www.salesforce.com/data/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-02-28::salesforce-legal::c00cb576",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Legal",
+      "baseline_title": "Legal",
+      "final_url": "https://www.salesforce.com/company/legal/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-03-15::salesforce-integration::f0468619",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Integration, Automation, and API Management Solutions by Salesforce",
+      "baseline_title": "Integration, Automation, and API Management Solutions by Salesforce",
+      "final_url": "https://www.salesforce.com/mulesoft/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-04-18::salesforce-privacy::c517fb3f",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Privacy Page",
+      "baseline_title": "Privacy Page",
+      "final_url": "https://www.salesforce.com/company/legal/privacy/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-04-25::salesforce-analytics::afc4c82e",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Tableau: Visual Analytics from Salesforce",
+      "baseline_title": "Tableau: Visual Analytics from Salesforce",
+      "final_url": "https://www.salesforce.com/analytics/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-05-25::salesforce-equality::874ae8c4",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Equality at Salesforce",
+      "baseline_title": "Equality at Salesforce",
+      "final_url": "https://www.salesforce.com/company/equality/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-05-30::commerce-cloud::79bc8c33",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Commerce Cloud is the growth engine for customer companies.",
+      "baseline_title": "Commerce Cloud is the growth engine for customer companies.",
+      "final_url": "https://www.salesforce.com/commerce/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-06-20::sales-cloud::df3fdedd",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce Automation Software by Sales Cloud",
+      "baseline_title": "Salesforce Automation Software by Sales Cloud",
+      "final_url": "https://www.salesforce.com/sales/cloud/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-06-30::salesforce-sustainability::d42ed8dd",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Sustainability",
+      "baseline_title": "Sustainability",
+      "final_url": "https://www.salesforce.com/company/sustainability/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-07-15::service-cloud::a246d582",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Service Cloud: : AI-powered Customer Service Agent Console",
+      "baseline_title": "Service Cloud: : AI-powered Customer Service Agent Console",
+      "final_url": "https://www.salesforce.com/service/cloud/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-07-20::salesforce-leadership::5fe0d7a5",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Leadership",
+      "baseline_title": "Leadership",
+      "final_url": "https://www.salesforce.com/company/leadership/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-08-10::marketing-cloud::7ce342b2",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Build better relationships that drive growth with Marketing Cloud",
+      "baseline_title": "Build better relationships that drive growth with Marketing Cloud",
+      "final_url": "https://www.salesforce.com/marketing/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-08-15::salesforce-careers::4964b777",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Careers at Salesforce | Be Part of What’s Next",
+      "baseline_title": "Careers at Salesforce | Be Part of What’s Next",
+      "final_url": "https://www.salesforce.com/company/careers/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-09-05::salesforce-platform::a8686c16",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce Platform for Application Development",
+      "baseline_title": "Salesforce Platform for Application Development",
+      "final_url": "https://www.salesforce.com/platform/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2024-09-12::about-salesforce-company::3ae394fc",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce develops the technology, the partnerships, and the communities that help companies connect with customers.",
+      "baseline_title": "Salesforce develops the technology, the partnerships, and the communities that help companies connect with customers.",
+      "final_url": "https://www.salesforce.com/company/our-story/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2025-02-23::environmental-social-and-governance-esg::d4f786ad",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Environmental, Social, and Governance (ESG)",
+      "baseline_title": "Salesforce.com, Inc. - Environmental, Social, and Governance (ESG)",
+      "final_url": "https://investor.salesforce.com/esg/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::2025-02-25::corporate-governance::0ec4193a",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Governance - Corporate Governance",
+      "baseline_title": "Salesforce.com, Inc. - Governance - Corporate Governance",
+      "final_url": "https://investor.salesforce.com/governance/governance-documents/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::press::None::news::6335e2de",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce.com, Inc. - Investor News",
+      "baseline_title": "Salesforce.com, Inc. - Investor News",
+      "final_url": "https://investor.salesforce.com/news/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Agentforce: The AI Agent Platform",
+      "baseline_title": "Agentforce: The AI Agent Platform",
+      "final_url": "https://www.salesforce.com/agentforce/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::product::2024-01-01::salesforce-data-cloud::04dae357",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "Salesforce Data Cloud",
+      "baseline_title": "Salesforce Data Cloud",
+      "final_url": "https://www.salesforce.com/data/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::product::2024-01-01::what-is-salesforce::17018047",
+      "publish_date": "",
+      "baseline_date": "",
+      "title": "What is Salesforce?",
+      "baseline_title": "What is Salesforce?",
+      "final_url": "https://www.salesforce.com/products/what-is-salesforce/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::wiki::2025-09-05::salesforce::6b727edd",
+      "publish_date": "2025-09-06",
+      "baseline_date": "",
+      "title": "Salesforce - Wikipedia",
+      "baseline_title": "Salesforce - Wikipedia",
+      "final_url": "https://en.wikipedia.org/wiki/Salesforce",
+      "domain_ok": true
+    },
+    {
+      "doc_id": "crm::wiki::2025-09-06::salesforce::6b727edd",
+      "publish_date": "2025-09-06",
+      "baseline_date": "",
+      "title": "Salesforce - Wikipedia",
+      "baseline_title": "Salesforce - Wikipedia",
+      "final_url": "https://en.wikipedia.org/wiki/Salesforce",
+      "domain_ok": true
+    }
+  ],
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_metadata_validate/20250906_142807.log"
+}

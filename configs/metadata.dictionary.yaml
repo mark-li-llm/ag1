@@ -76,3 +76,7 @@ optional_fields:
   byline: string
   press_location: string
   ticker_mentions: array[string]
+  publish_date_provenance: string
+  publish_date_confidence: number
+  was_fallback_today: boolean
+  full_domain: string

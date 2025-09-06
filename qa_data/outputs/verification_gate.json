@@ -1,0 +1,26 @@
+{
+  "status": "FAIL",
+  "failed_checks": [
+    {
+      "id": "schema",
+      "summary": "Schema valid 0.2222 < 0.98",
+      "blocking": true
+    },
+    {
+      "id": "metadata_date",
+      "summary": "Date match 0.8333 < 0.97",
+      "blocking": true
+    },
+    {
+      "id": "meta_baseline_coverage",
+      "summary": "Baseline coverage < overall minimum",
+      "blocking": true
+    },
+    {
+      "id": "meta_fallback_any",
+      "summary": "Fallback date rate too high",
+      "blocking": true
+    }
+  ],
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_verification_gate/20250906_142655.log"
+}

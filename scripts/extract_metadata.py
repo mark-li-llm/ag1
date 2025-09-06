@@ -7,8 +7,9 @@ from datetime import date, datetime, timedelta
 
 from _common import (
     setup_logger, read_json, write_json, load_yaml, parse_iso_date, date_to_iso,
-    token_count, detect_language, source_domain
+    token_count, detect_language, source_domain, guess_title_from_html, http_fetch, parse_meta_published_time
 )
+from urllib.parse import urlparse
 
 
 def load_topic_lexicon(cfg: dict) -> dict:
@@ -37,25 +38,27 @@ def apply_personas(text: str, prompts: dict) -> list[str]:
     return sorted(set(personas))
 
 
-def backfill_publish_date(doc: dict, raw_meta: dict) -> str | None:
-    # Precedence per blueprint
-    doctype = doc.get('doctype')
-    if doc.get('source_domain') == 'sec.gov':
-        if raw_meta.get('filing_date'):
-            return raw_meta.get('filing_date')
-    # IR/newsroom
-    for key in ('rss_pubdate', 'visible_date', 'meta_published_time'):
+def backfill_publish_date(doc: dict, raw_meta: dict) -> tuple[str | None, str]:
+    # Returns (date_iso, provenance)
+    if doc.get('source_domain') == 'sec.gov' and raw_meta.get('filing_date'):
+        d = parse_iso_date(raw_meta.get('filing_date'))
+        if d:
+            return date_to_iso(d), 'sec_filed'
+    for key, prov in (
+        ('rss_pubdate', 'rss_pubdate'),
+        ('visible_date', 'visible_dateline'),
+        ('meta_published_time', 'meta_published_time'),
+    ):
         if raw_meta.get(key):
             d = parse_iso_date(raw_meta.get(key))
             if d:
-                return date_to_iso(d)
-    # HTTP Last-Modified
+                return date_to_iso(d), prov
     lm = (raw_meta.get('headers') or {}).get('last-modified') or raw_meta.get('last_modified_http')
     if lm:
         d = parse_iso_date(lm)
         if d:
-            return date_to_iso(d)
-    return None
+            return date_to_iso(d), 'http_last_modified'
+    return None, 'missing'
 
 
 def main():
@@ -83,19 +86,91 @@ def main():
             if os.path.exists(meta_path):
                 raw_meta = read_json(meta_path)
                 break
+        # Title precedence: doc.title -> raw_meta.headline/title_hint -> raw HTML <title> -> slug from doc_id
         title = doc.get('title') or raw_meta.get('headline') or raw_meta.get('title_hint') or ''
+        if not title:
+            # try parse raw HTML
+            for src in ('sec', 'investor_news', 'newsroom', 'product', 'dev_docs', 'help_docs', 'wikipedia'):
+                raw_html_path = os.path.join('data', 'raw', src, f'{docid}.raw.html')
+                if os.path.exists(raw_html_path):
+                    try:
+                        html = open(raw_html_path, 'r', encoding='utf-8', errors='ignore').read()
+                        title = guess_title_from_html(html) or ''
+                    except Exception:
+                        pass
+                    if title:
+                        break
+        if not title:
+            # fallback to slug
+            try:
+                slug = docid.split('::')[3]
+                title = slug.replace('-', ' ').title()
+            except Exception:
+                title = ''
         doc['title'] = title
-        # Publish date precedence
-        pd = doc.get('publish_date') or backfill_publish_date(doc, raw_meta)
-        doc['publish_date'] = pd or doc.get('publish_date') or ''
-        # URL / source domain
+        # URL / domain fields
         if not doc.get('url') and raw_meta.get('url'):
             doc['url'] = raw_meta['url']
-        if not doc.get('source_domain') and doc.get('url'):
+        if doc.get('url'):
+            try:
+                doc['full_domain'] = urlparse(doc['url']).netloc.lower()
+            except Exception:
+                doc['full_domain'] = ''
             doc['source_domain'] = source_domain(doc['url'])
+
+        # Publish date precedence with provenance
+        pd, prov = backfill_publish_date(doc, raw_meta)
+        if not pd:
+            # Try parsing meta published time from raw HTML
+            for src in ('sec', 'investor_news', 'newsroom', 'product', 'dev_docs', 'help_docs', 'wikipedia'):
+                raw_html_path = os.path.join('data', 'raw', src, f'{docid}.raw.html')
+                if os.path.exists(raw_html_path):
+                    try:
+                        html = open(raw_html_path, 'r', encoding='utf-8', errors='ignore').read()
+                        maybe = parse_meta_published_time(html)
+                        if maybe:
+                            pd = maybe
+                            prov = 'meta_published_time'
+                            break
+                    except Exception:
+                        pass
+        if not pd and doc.get('url'):
+            # Try HTTP HEAD for Last-Modified
+            try:
+                status, _, info = http_fetch(doc['url'], logger, timeout=5.0, method='HEAD')
+                lm = (info.get('headers') or {}).get('last-modified')
+                if lm:
+                    d = parse_iso_date(lm)
+                    if d:
+                        pd = date_to_iso(d)
+                        prov = 'http_last_modified'
+            except Exception:
+                pass
+        # Do not fallback to today; leave missing if not found
+        doc['publish_date'] = pd or ''
+        doc['publish_date_provenance'] = prov if pd else 'missing'
+        conf_map = {
+            'sec_filed': 1.00,
+            'rss_pubdate': 0.95,
+            'meta_published_time': 0.90,
+            'visible_dateline': 0.80,
+            'http_last_modified': 0.60,
+            'fallback_today': 0.10,
+            'missing': 0.0,
+        }
+        doc['publish_date_confidence'] = conf_map.get(doc['publish_date_provenance'], 0.0)
+        doc['was_fallback_today'] = False
+        # Ensure doctype from doc_id if missing/unknown
+        dt = (doc.get('doctype') or '').strip()
+        if not dt or dt == 'unknown':
+            try:
+                doc['doctype'] = docid.split('::')[1]
+            except Exception:
+                pass
         # Topic & personas
-        doc['topic'] = apply_topics(doc.get('text', ''), title, lexicon)
-        doc['persona_tags'] = apply_personas(doc.get('text', ''), prompts)
+        doc['topic'] = apply_topics(doc.get('text', ''), title, lexicon) or 'General'
+        personas = apply_personas(doc.get('text', ''), prompts)
+        doc['persona_tags'] = personas or ['general']
         # Language enforce
         lang = detect_language(doc.get('text', ''))
         doc['language'] = 'en' if lang == 'en' else lang
@@ -112,4 +187,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

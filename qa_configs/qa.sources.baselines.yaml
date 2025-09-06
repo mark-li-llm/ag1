@@ -1,0 +1,31 @@
+version: 1
+allow_domains:
+  - sec.gov
+  - investor.salesforce.com
+  - salesforce.com
+  - developer.salesforce.com
+  - help.salesforce.com
+  - wikipedia.org
+sources:
+  sec:
+    date_methods: [filed_header, edgar_index_meta]
+    title_methods: [html_title, h1]
+  investor_news:
+    date_methods: [rss_pubdate, visible_dateline, meta_article_published_time]
+    title_methods: [html_title, h1]
+  newsroom:
+    date_methods: [rss_pubdate, meta_article_published_time, visible_dateline]
+    title_methods: [html_title, h1]
+  product:
+    date_methods: [http_last_modified, visible_updated]
+    title_methods: [html_title, h1]
+  dev_docs:
+    date_methods: [http_last_modified, visible_updated]
+    title_methods: [html_title, h1]
+  help_docs:
+    date_methods: [http_last_modified, visible_updated]
+    title_methods: [html_title, h1]
+  wiki:
+    date_methods: [http_last_modified, page_banner_last_modified]
+    title_methods: [html_title, h1]
+

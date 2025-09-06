@@ -47,7 +47,10 @@ def main():
                 break
             doc_id = os.path.basename(raw_file).replace('.raw.html', '')
             meta_file = os.path.join(raw_dir, f'{doc_id}.meta.json')
-            meta = read_json(meta_file) if os.path.exists(meta_file) else {}
+            if not os.path.exists(meta_file):
+                # Skip artifacts without meta; prevents stray/partial docs
+                continue
+            meta = read_json(meta_file)
             with open(raw_file, 'rb') as f:
                 raw_bytes = f.read()
             html = raw_bytes.decode('utf-8', errors='ignore')
@@ -97,7 +100,9 @@ def main():
                 continue
             doc_id = os.path.basename(raw_file).replace('.pdf', '')
             meta_file = os.path.join(raw_dir, f'{doc_id}.meta.json')
-            meta = read_json(meta_file) if os.path.exists(meta_file) else {}
+            if not os.path.exists(meta_file):
+                continue
+            meta = read_json(meta_file)
             text = extract_text(raw_file) or ''
             lang = detect_language(text)
             if rules['global']['language'].get('drop_non_english') and lang != 'en':
@@ -136,4 +141,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

@@ -1,0 +1,3 @@
+# Candidate boilerplate signatures (one per line). Lines starting with '#' are comments.
+# These are long text snippets or regex patterns that are safe to strip during normalization.
+

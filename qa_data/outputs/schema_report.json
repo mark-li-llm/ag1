@@ -1,0 +1,193 @@
+{
+  "total_docs": 45,
+  "docs_valid": 10,
+  "valid_pct": 0.2222,
+  "missing_fields_breakdown": {
+    "publish_date": 35
+  },
+  "enum_violations": [],
+  "type_violations": [],
+  "examples": [
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::agentforce-agents-agentforce-developer-guide::5ac08bad",
+      "path": "data/interim/normalized/crm::dev_docs::2024-01-01::agentforce-agents-agentforce-developer-guide::5ac08bad.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::chat-with-agents-using-agent-api-agentforce-agents::6f4b900c",
+      "path": "data/interim/normalized/crm::dev_docs::2024-01-01::chat-with-agents-using-agent-api-agentforce-agents::6f4b900c.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::examples-agentforce-agents-agentforce-developer-gu::62fd6b36",
+      "path": "data/interim/normalized/crm::dev_docs::2024-01-01::examples-agentforce-agents-agentforce-developer-gu::62fd6b36.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::get-started-agentforce-agents-agentforce-developer::202f14da",
+      "path": "data/interim/normalized/crm::dev_docs::2024-01-01::get-started-agentforce-agents-agentforce-developer::202f14da.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::annual-reports::3814b366",
+      "path": "data/interim/normalized/crm::press::2024-01-01::annual-reports::3814b366.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::board-of-directors::7ee63d65",
+      "path": "data/interim/normalized/crm::press::2024-01-01::board-of-directors::7ee63d65.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::events-and-presentations::0371587e",
+      "path": "data/interim/normalized/crm::press::2024-01-01::events-and-presentations::0371587e.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::executive-management::2495a457",
+      "path": "data/interim/normalized/crm::press::2024-01-01::executive-management::2495a457.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-contacts::54999c16",
+      "path": "data/interim/normalized/crm::press::2024-01-01::investor-contacts::54999c16.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-email-alerts::626b16ec",
+      "path": "data/interim/normalized/crm::press::2024-01-01::investor-email-alerts::626b16ec.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-faqs::087af470",
+      "path": "data/interim/normalized/crm::press::2024-01-01::investor-faqs::087af470.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::quarterly-results::11c603d4",
+      "path": "data/interim/normalized/crm::press::2024-01-01::quarterly-results::11c603d4.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::sec-filings::7ec42ed9",
+      "path": "data/interim/normalized/crm::press::2024-01-01::sec-filings::7ec42ed9.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::stock-information::8ebb1472",
+      "path": "data/interim/normalized/crm::press::2024-01-01::stock-information::8ebb1472.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-02-28::salesforce-data-cloud::4ca56502",
+      "path": "data/interim/normalized/crm::press::2024-02-28::salesforce-data-cloud::4ca56502.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-02-28::salesforce-legal::c00cb576",
+      "path": "data/interim/normalized/crm::press::2024-02-28::salesforce-legal::c00cb576.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-03-15::salesforce-integration::f0468619",
+      "path": "data/interim/normalized/crm::press::2024-03-15::salesforce-integration::f0468619.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-04-18::salesforce-privacy::c517fb3f",
+      "path": "data/interim/normalized/crm::press::2024-04-18::salesforce-privacy::c517fb3f.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-04-25::salesforce-analytics::afc4c82e",
+      "path": "data/interim/normalized/crm::press::2024-04-25::salesforce-analytics::afc4c82e.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    },
+    {
+      "doc_id": "crm::press::2024-05-25::salesforce-equality::874ae8c4",
+      "path": "data/interim/normalized/crm::press::2024-05-25::salesforce-equality::874ae8c4.json",
+      "missing_fields": [
+        "publish_date"
+      ],
+      "enum_violations": [],
+      "type_violations": []
+    }
+  ],
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_schema_validate/20250906_142807.log"
+}
