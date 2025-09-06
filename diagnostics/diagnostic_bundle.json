@@ -1,0 +1,524 @@
+{
+  "generated_at_utc": "2025-09-06T20:19:42.041750Z",
+  "root": "/Users/liyunxiao/ag1-1",
+  "artifacts": {
+    "code_md": "code.md",
+    "runs_dir": "diagnostics/runs/",
+    "env_dir": "diagnostics/environment/"
+  },
+  "environment": {
+    "python_version": "3.11.6 (v3.11.6:8b6ee5ba3b, Oct  2 2023, 11:18:21) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "executable": "/usr/local/bin/python3",
+    "platform": "darwin",
+    "cwd": "/Users/liyunxiao/ag1-1",
+    "pip_freeze_excerpt": "beautifulsoup4==4.13.5\ncertifi==2025.8.3\ncffi==1.17.1\nchardet==5.2.0\ncharset-normalizer==3.4.3\ncryptography==45.0.7\ndatasketch==1.6.5\nfeedparser==6.0.11\nidna==3.10\nlangdetect==1.0.9\nlxml==6.0.1\nnumpy==2.3.2\npdfminer.six==20250506\npycparser==2.22\npython-dateutil==2.9.0.post0\nPyYAML==6.0.2\nregex==2025.9.1\nrequests==2.32.5\nscipy==1.16.1\nsgmllib3k==1.0.0\nsix==1.17.0\nsoupsieve==2.8\ntiktoken==0.11.0\ntyping_extensions==4.15.0\nurllib3==2.5.0\n"
+  },
+  "dataset": {
+    "inventory_rows": null,
+    "day1_verification": {},
+    "link_health": {
+      "summary": [
+        {
+          "doc_id": "crm::press::2024-02-28::salesforce-legal::c00cb576",
+          "url": "https://www.salesforce.com/company/legal/?bc=DB",
+          "final_url": "https://www.salesforce.com/company/legal/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::product::2024-01-01::what-is-salesforce::17018047",
+          "url": "https://www.salesforce.com/products/what-is-salesforce/?bc=DB",
+          "final_url": "https://www.salesforce.com/products/what-is-salesforce/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-07-20::salesforce-leadership::5fe0d7a5",
+          "url": "https://www.salesforce.com/company/leadership/?bc=DB",
+          "final_url": "https://www.salesforce.com/company/leadership/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::annual-reports::3814b366",
+          "url": "https://investor.salesforce.com/financials/annual-reports/default.aspx",
+          "final_url": "https://investor.salesforce.com/financials/annual-reports/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::executive-management::2495a457",
+          "url": "https://investor.salesforce.com/governance/executive-management/default.aspx",
+          "final_url": "https://investor.salesforce.com/governance/executive-management/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a",
+          "url": "https://www.salesforce.com/agentforce/?bc=DB",
+          "final_url": "https://www.salesforce.com/agentforce/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-07-15::service-cloud::a246d582",
+          "url": "https://www.salesforce.com/service/cloud/?bc=DB",
+          "final_url": "https://www.salesforce.com/service/cloud/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-06-30::salesforce-sustainability::d42ed8dd",
+          "url": "https://www.salesforce.com/company/sustainability/?bc=DB",
+          "final_url": "https://www.salesforce.com/company/sustainability/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::events-and-presentations::0371587e",
+          "url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
+          "final_url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::press::2024-03-15::salesforce-integration::f0468619",
+          "url": "https://www.salesforce.com/mulesoft/?bc=DB",
+          "final_url": "https://www.salesforce.com/mulesoft/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::sec-filings::7ec42ed9",
+          "url": "https://investor.salesforce.com/financials/sec-filings/default.aspx",
+          "final_url": "https://investor.salesforce.com/financials/sec-filings/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::investor-contacts::54999c16",
+          "url": "https://investor.salesforce.com/resources/investor-contacts/default.aspx",
+          "final_url": "https://investor.salesforce.com/resources/investor-contacts/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::10-K::2015-08-31::fy25-form-10-k::4c26cea2",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+          "final_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-05-30::commerce-cloud::79bc8c33",
+          "url": "https://www.salesforce.com/commerce/?bc=DB",
+          "final_url": "https://www.salesforce.com/commerce/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::investor-faqs::087af470",
+          "url": "https://investor.salesforce.com/resources/investor-faqs/default.aspx",
+          "final_url": "https://investor.salesforce.com/resources/investor-faqs/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::press::2024-09-12::about-salesforce-company::3ae394fc",
+          "url": "https://www.salesforce.com/company/our-story/?bc=DB",
+          "final_url": "https://www.salesforce.com/company/our-story/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::dev_docs::2024-01-01::examples-agentforce-agents-agentforce-developer-gu::62fd6b36",
+          "url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-examples.html",
+          "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-examples.html",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::10-Q::2020-02-12::fy26-q1-10-q::e16f2866",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm",
+          "final_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-09-05::salesforce-platform::a8686c16",
+          "url": "https://www.salesforce.com/platform/?bc=DB",
+          "final_url": "https://www.salesforce.com/platform/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-04-18::salesforce-privacy::c517fb3f",
+          "url": "https://www.salesforce.com/company/legal/privacy/?bc=DB",
+          "final_url": "https://www.salesforce.com/company/legal/privacy/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::quarterly-results::11c603d4",
+          "url": "https://investor.salesforce.com/financials/quarterly-results/default.aspx",
+          "final_url": "https://investor.salesforce.com/financials/quarterly-results/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::press::2025-02-23::environmental-social-and-governance-esg::d4f786ad",
+          "url": "https://investor.salesforce.com/esg/default.aspx",
+          "final_url": "https://investor.salesforce.com/esg/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::wiki::2025-09-06::salesforce::6b727edd",
+          "url": "https://en.wikipedia.org/wiki/Salesforce",
+          "final_url": "https://en.wikipedia.org/wiki/Salesforce",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-06-20::sales-cloud::df3fdedd",
+          "url": "https://www.salesforce.com/sales/cloud/?bc=DB",
+          "final_url": "https://www.salesforce.com/sales/cloud/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-08-26::newsroom::39cb1c1e",
+          "url": "https://www.salesforce.com/news/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::dev_docs::2024-01-01::chat-with-agents-using-agent-api-agentforce-agents::6f4b900c",
+          "url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api.html",
+          "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api.html",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-02-28::salesforce-data-cloud::4ca56502",
+          "url": "https://www.salesforce.com/data/?bc=DB",
+          "final_url": "https://www.salesforce.com/data/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::8-K::2025-04-30::8-k-q1-fy26-results::35792ff4",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000027/crm-20250528.htm",
+          "final_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000027/crm-20250528.htm",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::help_docs::2024-09-06::salesforce-help::b0daabdf",
+          "url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+          "final_url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-02-25::corporate-governance::0ec4193a",
+          "url": "https://investor.salesforce.com/governance/governance-documents/default.aspx",
+          "final_url": "https://investor.salesforce.com/governance/governance-documents/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::stock-information::8ebb1472",
+          "url": "https://investor.salesforce.com/stock-info/default.aspx",
+          "final_url": "https://investor.salesforce.com/stock-info/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::investor-email-alerts::626b16ec",
+          "url": "https://investor.salesforce.com/resources/investor-email-alerts/default.aspx",
+          "final_url": "https://investor.salesforce.com/resources/investor-email-alerts/default.aspx",
+          "status": 403
+        },
+        {
+          "doc_id": "crm::8-K::2025-06-05::proxy-meeting-results-2025-06-05::47c09586",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000033/crm-20250605.htm",
+          "final_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000033/crm-20250605.htm",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::product::2024-01-01::salesforce-data-cloud::04dae357",
+          "url": "https://www.salesforce.com/data/?bc=DB",
+          "final_url": "https://www.salesforce.com/data/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::dev_docs::2024-01-01::agentforce-agents-agentforce-developer-guide::5ac08bad",
+          "url": "https://developer.salesforce.com/docs/einstein/genai/guide/get-started-agents.html",
+          "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/get-started-agents.html",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::None::news::6335e2de",
+          "url": "https://investor.salesforce.com/news/default.aspx",
+          "final_url": "https://investor.salesforce.com/news/default.aspx",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::help_docs::2024-09-05::salesforce-help::b0daabdf",
+          "url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+          "final_url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::dev_docs::2024-01-01::get-started-agentforce-agents-agentforce-developer::202f14da",
+          "url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-get-started.html",
+          "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-get-started.html",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::wiki::2025-09-05::salesforce::6b727edd",
+          "url": "https://en.wikipedia.org/wiki/Salesforce",
+          "final_url": "https://en.wikipedia.org/wiki/Salesforce",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-08-10::marketing-cloud::7ce342b2",
+          "url": "https://www.salesforce.com/marketing/?bc=DB",
+          "final_url": "https://www.salesforce.com/marketing/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-05-25::salesforce-equality::874ae8c4",
+          "url": "https://www.salesforce.com/company/equality/?bc=DB",
+          "final_url": "https://www.salesforce.com/company/equality/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::8-K::2025-01-31::8-k-fy25-results::d14102e8",
+          "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000002/crm-20250226.htm",
+          "final_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000002/crm-20250226.htm",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-08-15::salesforce-careers::4964b777",
+          "url": "https://www.salesforce.com/company/careers/?bc=DB",
+          "final_url": "https://www.salesforce.com/company/careers/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-04-25::salesforce-analytics::afc4c82e",
+          "url": "https://www.salesforce.com/analytics/?bc=DB",
+          "final_url": "https://www.salesforce.com/analytics/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-01-01::board-of-directors::7ee63d65",
+          "url": "https://investor.salesforce.com/governance/board-of-directors/default.aspx",
+          "final_url": "https://investor.salesforce.com/governance/board-of-directors/default.aspx",
+          "status": 403
+        }
+      ]
+    },
+    "dedup_map_present": false,
+    "eval_seed_count": null
+  },
+  "eval_runs": {
+    "session": "20250906_201833",
+    "root": "/Users/liyunxiao/ag1-1",
+    "python": "3.11.6 (v3.11.6:8b6ee5ba3b, Oct  2 2023, 11:18:21) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "results": [
+      {
+        "type": "python",
+        "name": "qa_text_quality",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_text_quality.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 292,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_text_quality/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_text_quality/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_boilerplate_mine",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_boilerplate_mine.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 146,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_boilerplate_mine/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_boilerplate_mine/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_schema_validate",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_schema_validate.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 161,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_schema_validate/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_schema_validate/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_link_health_retest",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_link_health_retest.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 6301,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_link_health_retest/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_link_health_retest/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_coverage_report",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_coverage_report.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 149,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_coverage_report/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_coverage_report/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_regression_pack",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_regression_pack.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 150,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_regression_pack/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_regression_pack/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_chunk_quality",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_chunk_quality.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 145,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_chunk_quality/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_chunk_quality/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_manual_samples",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_manual_samples.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 144,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_manual_samples/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_manual_samples/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_verification_gate",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_verification_gate.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 180,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_verification_gate/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_verification_gate/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_dedupe_audit",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_dedupe_audit.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 158,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_dedupe_audit/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_dedupe_audit/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_persona_tag_precision",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_persona_tag_precision.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 164,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_persona_tag_precision/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_persona_tag_precision/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_sec_section_validate",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_sec_section_validate.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 157,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_sec_section_validate/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_sec_section_validate/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_ground_truth_builder",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_ground_truth_builder.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 236,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_ground_truth_builder/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_ground_truth_builder/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_eval_seed_validate",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_eval_seed_validate.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 141,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_eval_seed_validate/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_eval_seed_validate/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "qa_metadata_validate",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_metadata_validate.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 154,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_metadata_validate/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_metadata_validate/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "_qa_common",
+        "path": "/Users/liyunxiao/ag1-1/qa_scripts/_qa_common.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 142,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py__qa_common/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py__qa_common/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "build_eval_seed",
+        "path": "/Users/liyunxiao/ag1-1/scripts/build_eval_seed.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 147,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_build_eval_seed/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_build_eval_seed/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "verify_day1_milestones",
+        "path": "/Users/liyunxiao/ag1-1/scripts/verify_day1_milestones.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 153,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_verify_day1_milestones/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_verify_day1_milestones/stderr.txt",
+        "missing_dependencies": []
+      },
+      {
+        "type": "python",
+        "name": "link_health_check",
+        "path": "/Users/liyunxiao/ag1-1/scripts/link_health_check.py",
+        "status": "success",
+        "return_code": 0,
+        "duration_ms": 18200,
+        "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_link_health_check/stdout.txt",
+        "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_link_health_check/stderr.txt",
+        "missing_dependencies": []
+      }
+    ],
+    "errors": []
+  },
+  "auto_flags": [
+    {
+      "id": "link_health_below_100",
+      "level": "error",
+      "value": 73.33,
+      "threshold": 100.0
+    }
+  ],
+  "present_key_files": [
+    "data/final/reports/link_health.json"
+  ]
+}

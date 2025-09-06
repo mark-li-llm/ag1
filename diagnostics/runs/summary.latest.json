@@ -1,0 +1,217 @@
+{
+  "session": "20250906_201833",
+  "root": "/Users/liyunxiao/ag1-1",
+  "python": "3.11.6 (v3.11.6:8b6ee5ba3b, Oct  2 2023, 11:18:21) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "results": [
+    {
+      "type": "python",
+      "name": "qa_text_quality",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_text_quality.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 292,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_text_quality/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_text_quality/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_boilerplate_mine",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_boilerplate_mine.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 146,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_boilerplate_mine/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_boilerplate_mine/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_schema_validate",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_schema_validate.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 161,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_schema_validate/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_schema_validate/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_link_health_retest",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_link_health_retest.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 6301,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_link_health_retest/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_link_health_retest/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_coverage_report",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_coverage_report.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 149,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_coverage_report/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_coverage_report/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_regression_pack",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_regression_pack.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 150,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_regression_pack/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_regression_pack/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_chunk_quality",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_chunk_quality.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 145,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_chunk_quality/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_chunk_quality/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_manual_samples",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_manual_samples.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 144,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_manual_samples/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_manual_samples/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_verification_gate",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_verification_gate.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 180,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_verification_gate/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_verification_gate/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_dedupe_audit",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_dedupe_audit.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 158,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_dedupe_audit/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_dedupe_audit/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_persona_tag_precision",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_persona_tag_precision.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 164,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_persona_tag_precision/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_persona_tag_precision/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_sec_section_validate",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_sec_section_validate.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 157,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_sec_section_validate/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_sec_section_validate/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_ground_truth_builder",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_ground_truth_builder.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 236,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_ground_truth_builder/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_ground_truth_builder/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_eval_seed_validate",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_eval_seed_validate.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 141,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_eval_seed_validate/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_eval_seed_validate/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "qa_metadata_validate",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/qa_metadata_validate.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 154,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_metadata_validate/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_qa_metadata_validate/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "_qa_common",
+      "path": "/Users/liyunxiao/ag1-1/qa_scripts/_qa_common.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 142,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py__qa_common/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py__qa_common/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "build_eval_seed",
+      "path": "/Users/liyunxiao/ag1-1/scripts/build_eval_seed.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 147,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_build_eval_seed/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_build_eval_seed/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "verify_day1_milestones",
+      "path": "/Users/liyunxiao/ag1-1/scripts/verify_day1_milestones.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 153,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_verify_day1_milestones/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_verify_day1_milestones/stderr.txt",
+      "missing_dependencies": []
+    },
+    {
+      "type": "python",
+      "name": "link_health_check",
+      "path": "/Users/liyunxiao/ag1-1/scripts/link_health_check.py",
+      "status": "success",
+      "return_code": 0,
+      "duration_ms": 18200,
+      "stdout_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_link_health_check/stdout.txt",
+      "stderr_path": "/Users/liyunxiao/ag1-1/diagnostics/runs/run_20250906_201833/py_link_health_check/stderr.txt",
+      "missing_dependencies": []
+    }
+  ],
+  "errors": []
+}

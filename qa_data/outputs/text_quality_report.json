@@ -1,0 +1,324 @@
+{
+  "total_docs": 45,
+  "docs_quality_ok": 0,
+  "docs_quality_ok_pct": 0.0,
+  "replacement_char_free_docs_pct": 1.0,
+  "examples": [
+    {
+      "doc_id": "crm::10-K::2015-08-31::fy25-form-10-k::4c26cea2",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3648301978988517,
+      "bigram_entropy": 7.285881682041592
+    },
+    {
+      "doc_id": "crm::10-Q::2020-02-12::fy26-q1-10-q::e16f2866",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.365877569850927,
+      "bigram_entropy": 7.257630384259878
+    },
+    {
+      "doc_id": "crm::8-K::2025-01-31::8-k-fy25-results::d14102e8",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3154034229828851,
+      "bigram_entropy": 8.070079654583443
+    },
+    {
+      "doc_id": "crm::8-K::2025-04-30::8-k-q1-fy26-results::35792ff4",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.31527093596059114,
+      "bigram_entropy": 8.073084346058748
+    },
+    {
+      "doc_id": "crm::8-K::2025-06-05::proxy-meeting-results-2025-06-05::47c09586",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3321492007104796,
+      "bigram_entropy": 8.472200518106687
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::agentforce-agents-agentforce-developer-guide::5ac08bad",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2772585669781931,
+      "bigram_entropy": 7.680812667311597
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::chat-with-agents-using-agent-api-agentforce-agents::6f4b900c",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.27205882352941174,
+      "bigram_entropy": 7.328161511467972
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::examples-agentforce-agents-agentforce-developer-gu::62fd6b36",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3903061224489796,
+      "bigram_entropy": 7.79772377844129
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::get-started-agentforce-agents-agentforce-developer::202f14da",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3536711478800414,
+      "bigram_entropy": 8.00629972813044
+    },
+    {
+      "doc_id": "crm::help_docs::2024-09-05::salesforce-help::b0daabdf",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.1111111111111111,
+      "bigram_entropy": 5.73629671354289
+    },
+    {
+      "doc_id": "crm::help_docs::2024-09-06::salesforce-help::b0daabdf",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.1111111111111111,
+      "bigram_entropy": 5.73629671354289
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::annual-reports::3814b366",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2,
+      "bigram_entropy": 6.434031232414737
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::board-of-directors::7ee63d65",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2727272727272727,
+      "bigram_entropy": 6.006594818811716
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::events-and-presentations::0371587e",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.16666666666666666,
+      "bigram_entropy": 6.449414283718291
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::executive-management::2495a457",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.1111111111111111,
+      "bigram_entropy": 5.904362301788533
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-contacts::54999c16",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.03571428571428571,
+      "bigram_entropy": 7.182794636547828
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-email-alerts::626b16ec",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.33519553072625696,
+      "bigram_entropy": 7.40464985138847
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-faqs::087af470",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.1111111111111111,
+      "bigram_entropy": 5.70333762538677
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::quarterly-results::11c603d4",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.058823529411764705,
+      "bigram_entropy": 6.244804654405613
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::sec-filings::7ec42ed9",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.12727272727272726,
+      "bigram_entropy": 7.101670898055753
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::stock-information::8ebb1472",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.058823529411764705,
+      "bigram_entropy": 6.056356502585207
+    },
+    {
+      "doc_id": "crm::press::2024-02-28::salesforce-data-cloud::4ca56502",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.260797342192691,
+      "bigram_entropy": 7.775091714971253
+    },
+    {
+      "doc_id": "crm::press::2024-02-28::salesforce-legal::c00cb576",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.29012345679012347,
+      "bigram_entropy": 7.486515170280501
+    },
+    {
+      "doc_id": "crm::press::2024-03-15::salesforce-integration::f0468619",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3374083129584352,
+      "bigram_entropy": 7.835496528237045
+    },
+    {
+      "doc_id": "crm::press::2024-04-18::salesforce-privacy::c517fb3f",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.40146402836554956,
+      "bigram_entropy": 7.858417907527282
+    },
+    {
+      "doc_id": "crm::press::2024-04-25::salesforce-analytics::afc4c82e",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.32162921348314605,
+      "bigram_entropy": 7.686842583359427
+    },
+    {
+      "doc_id": "crm::press::2024-05-25::salesforce-equality::874ae8c4",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.40054495912806537,
+      "bigram_entropy": 7.859313800097869
+    },
+    {
+      "doc_id": "crm::press::2024-05-30::commerce-cloud::79bc8c33",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2911714770797963,
+      "bigram_entropy": 7.839576942150564
+    },
+    {
+      "doc_id": "crm::press::2024-06-20::sales-cloud::df3fdedd",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2847380410022779,
+      "bigram_entropy": 7.837126646645243
+    },
+    {
+      "doc_id": "crm::press::2024-06-30::salesforce-sustainability::d42ed8dd",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.31145251396648044,
+      "bigram_entropy": 7.642517214405898
+    },
+    {
+      "doc_id": "crm::press::2024-07-15::service-cloud::a246d582",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2870733072188025,
+      "bigram_entropy": 7.885414720595133
+    },
+    {
+      "doc_id": "crm::press::2024-07-20::salesforce-leadership::5fe0d7a5",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.0821917808219178,
+      "bigram_entropy": 6.78004097289249
+    },
+    {
+      "doc_id": "crm::press::2024-08-10::marketing-cloud::7ce342b2",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2716879623402825,
+      "bigram_entropy": 7.847495805564707
+    },
+    {
+      "doc_id": "crm::press::2024-08-15::salesforce-careers::4964b777",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3826173826173826,
+      "bigram_entropy": 7.837462852574515
+    },
+    {
+      "doc_id": "crm::press::2024-09-05::salesforce-platform::a8686c16",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2889908256880734,
+      "bigram_entropy": 7.7220687312683625
+    },
+    {
+      "doc_id": "crm::press::2024-09-12::about-salesforce-company::3ae394fc",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3509272467902996,
+      "bigram_entropy": 7.80850194355284
+    },
+    {
+      "doc_id": "crm::press::2025-02-23::environmental-social-and-governance-esg::d4f786ad",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3717948717948718,
+      "bigram_entropy": 7.961069629673486
+    },
+    {
+      "doc_id": "crm::press::2025-02-25::corporate-governance::0ec4193a",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3055555555555556,
+      "bigram_entropy": 7.64933538030003
+    },
+    {
+      "doc_id": "crm::press::2025-08-26::newsroom::39cb1c1e",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.19607843137254902,
+      "bigram_entropy": 8.059224048142779
+    },
+    {
+      "doc_id": "crm::press::None::news::6335e2de",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.19047619047619047,
+      "bigram_entropy": 6.459962314427412
+    },
+    {
+      "doc_id": "crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2965085982282439,
+      "bigram_entropy": 7.874995433014244
+    },
+    {
+      "doc_id": "crm::product::2024-01-01::salesforce-data-cloud::04dae357",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.260797342192691,
+      "bigram_entropy": 7.775091714971253
+    },
+    {
+      "doc_id": "crm::product::2024-01-01::what-is-salesforce::17018047",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.3175591531755915,
+      "bigram_entropy": 7.675833483631478
+    },
+    {
+      "doc_id": "crm::wiki::2025-09-05::salesforce::6b727edd",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2440733869305298,
+      "bigram_entropy": 8.475104438356178
+    },
+    {
+      "doc_id": "crm::wiki::2025-09-06::salesforce::6b727edd",
+      "printable_ratio": 1.0,
+      "replacement_chars": 0,
+      "stopword_ratio": 0.2440691596300764,
+      "bigram_entropy": 8.475104438356178
+    }
+  ],
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_text_quality/20250906_161834.log"
+}

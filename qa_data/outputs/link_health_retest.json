@@ -1,0 +1,104 @@
+{
+  "tested": 16,
+  "ok": 4,
+  "ok_pct": 0.25,
+  "results": [
+    {
+      "url": "https://investor.salesforce.com/financials/annual-reports/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/financials/annual-reports/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/governance/executive-management/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/governance/executive-management/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/financials/sec-filings/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/financials/sec-filings/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/resources/investor-contacts/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/resources/investor-contacts/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/resources/investor-faqs/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/resources/investor-faqs/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/financials/quarterly-results/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/financials/quarterly-results/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/esg/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/esg/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/governance/governance-documents/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/governance/governance-documents/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/stock-info/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/stock-info/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/resources/investor-email-alerts/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/resources/investor-email-alerts/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://investor.salesforce.com/governance/board-of-directors/default.aspx",
+      "status": 403,
+      "final_url": "https://investor.salesforce.com/governance/board-of-directors/default.aspx",
+      "domain_ok": true
+    },
+    {
+      "url": "https://www.salesforce.com/company/equality/?bc=DB",
+      "status": 200,
+      "final_url": "https://www.salesforce.com/company/equality/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "url": "https://www.salesforce.com/company/sustainability/?bc=DB",
+      "status": 200,
+      "final_url": "https://www.salesforce.com/company/sustainability/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "url": "https://www.salesforce.com/products/what-is-salesforce/?bc=DB",
+      "status": 200,
+      "final_url": "https://www.salesforce.com/products/what-is-salesforce/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm",
+      "status": 200,
+      "final_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm",
+      "domain_ok": true
+    }
+  ],
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_link_health_retest/20250906_161835.log"
+}

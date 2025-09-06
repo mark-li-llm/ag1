@@ -7,11 +7,6 @@
       "blocking": true
     },
     {
-      "id": "metadata_date",
-      "summary": "Date match 0.8333 < 0.97",
-      "blocking": true
-    },
-    {
       "id": "meta_baseline_coverage",
       "summary": "Baseline coverage < overall minimum",
       "blocking": true
@@ -20,7 +15,37 @@
       "id": "meta_fallback_any",
       "summary": "Fallback date rate too high",
       "blocking": true
+    },
+    {
+      "id": "text_quality",
+      "summary": "Text quality violations exceed threshold",
+      "blocking": true
+    },
+    {
+      "id": "chunk_median",
+      "summary": "Median chunk tokens 0 out of range 650-950",
+      "blocking": false
+    },
+    {
+      "id": "chunk_len_spread",
+      "summary": "Too many chunks outside length range",
+      "blocking": true
+    },
+    {
+      "id": "chunk_overlap",
+      "summary": "Mean overlap 0.0 out of range 80-160",
+      "blocking": false
+    },
+    {
+      "id": "link_health",
+      "summary": "Link health retest < 100%",
+      "blocking": true
+    },
+    {
+      "id": "coverage_pr",
+      "summary": "PR docs in last 12 months < 8",
+      "blocking": true
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_verification_gate/20250906_142655.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_verification_gate/20250906_161843.log"
 }

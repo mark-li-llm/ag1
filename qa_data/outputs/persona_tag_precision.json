@@ -1,0 +1,114 @@
+{
+  "precision_by_persona": {
+    "vp_customer_experience": 1.0,
+    "cio": 1.0,
+    "vp_sales_ops": 1.0,
+    "general": 0.0
+  },
+  "counts": {
+    "vp_customer_experience": {
+      "tp": 7,
+      "total": 7
+    },
+    "cio": {
+      "tp": 28,
+      "total": 28
+    },
+    "vp_sales_ops": {
+      "tp": 19,
+      "total": 19
+    },
+    "general": {
+      "tp": 0,
+      "total": 17
+    }
+  },
+  "examples": [
+    {
+      "doc_id": "crm::press::2024-02-28::salesforce-legal::c00cb576",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-07-20::salesforce-leadership::5fe0d7a5",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::annual-reports::3814b366",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::events-and-presentations::0371587e",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::sec-filings::7ec42ed9",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-contacts::54999c16",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-faqs::087af470",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::dev_docs::2024-01-01::examples-agentforce-agents-agentforce-developer-gu::62fd6b36",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::quarterly-results::11c603d4",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::8-K::2025-04-30::8-k-q1-fy26-results::35792ff4",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::help_docs::2024-09-06::salesforce-help::b0daabdf",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::stock-information::8ebb1472",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-01-01::investor-email-alerts::626b16ec",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::None::news::6335e2de",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::help_docs::2024-09-05::salesforce-help::b0daabdf",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::press::2024-05-25::salesforce-equality::874ae8c4",
+      "persona": "general",
+      "missing_keywords": []
+    },
+    {
+      "doc_id": "crm::8-K::2025-01-31::8-k-fy25-results::d14102e8",
+      "persona": "general",
+      "missing_keywords": []
+    }
+  ],
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_persona_tag_precision/20250906_161844.log"
+}

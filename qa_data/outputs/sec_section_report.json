@@ -1,0 +1,16 @@
+{
+  "total_sec_docs": 2,
+  "pass": 0,
+  "pass_pct": 0.0,
+  "examples": [
+    {
+      "doc_id": "crm::10-K::2015-08-31::fy25-form-10-k::4c26cea2",
+      "labels": []
+    },
+    {
+      "doc_id": "crm::10-Q::2020-02-12::fy26-q1-10-q::e16f2866",
+      "labels": []
+    }
+  ],
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_sec_section_validate/20250906_161844.log"
+}

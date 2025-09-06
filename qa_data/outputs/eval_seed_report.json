@@ -1,0 +1,9 @@
+{
+  "total_eval_pairs": 0,
+  "valid_pairs": 0,
+  "valid_pct": 0.0,
+  "failures": [],
+  "persona_dist": {},
+  "source_type_dist": {},
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_eval_seed_validate/20250906_161845.log"
+}

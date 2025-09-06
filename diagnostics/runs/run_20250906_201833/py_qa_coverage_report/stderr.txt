@@ -1,0 +1,1 @@
+2025-09-06 16:18:42,143 INFO Coverage report: docs=45, PR last12=1
