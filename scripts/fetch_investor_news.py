@@ -13,12 +13,17 @@ from _common import (
 
 
 def discover_article_links(html: str, base_url: str) -> list[str]:
-    # Collect anchors with '/news/' in href
+    # Collect anchors with '/news/' in href, excluding hub/navigation endpoints
     hrefs = set()
+    exclude_substrings = [
+        '/default.aspx', '/governance', '/financials', '/events', '/board', '/contacts', '/faq', '/email-alerts', '/stock-quote', '/sec-filings'
+    ]
     for m in re.finditer(r'<a\s+[^>]*href=["\']([^"\']+)["\'][^>]*>', html, re.I):
         href = m.group(1)
         if '/news/' in href:
-            hrefs.add(urljoin(base_url, href))
+            full = urljoin(base_url, href)
+            if not any(s in full.lower() for s in exclude_substrings):
+                hrefs.add(full)
     return list(hrefs)
 
 
@@ -44,7 +49,7 @@ def main():
     start_url = cfg['sources']['investor_news']['start_url']
     since_d = parse_iso_date(args.since) if args.since else None
     until_d = parse_iso_date(args.until) if args.until else None
-    target = min(args.limit, int(cfg['sources']['investor_news'].get('target_count', 20)))
+    target = min(args.limit, int(cfg['sources']['investor_news'].get('target_count', 0)))
     rate = RateLimiter(6.0)
 
     # Fetch listing
@@ -99,4 +104,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

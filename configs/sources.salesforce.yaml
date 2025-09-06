@@ -20,7 +20,8 @@ sources:
       crm-20250605.htm: 8-K
   investor_news:
     start_url: https://investor.salesforce.com/news/default.aspx?languageid=1
-    target_count: 20
+    # Investor hub pages are de-scoped for Day-1 to avoid WAF 403s and low-content hubs
+    target_count: 0
     window:
       since: 2024-01-01
   newsroom_rss:

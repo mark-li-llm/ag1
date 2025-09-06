@@ -1,0 +1,1 @@
+2025-09-06 17:28:32,874 INFO Chunk quality: median=790, within%=0.66, overlap=0.0, crossings=0

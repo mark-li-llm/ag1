@@ -19,7 +19,9 @@ def main():
 
     logger, log_path = setup_logger('eval')
     norm_dir = os.path.join('data', 'interim', 'normalized')
-    docs = [read_json(p) for p in glob.glob(os.path.join(norm_dir, '*.json'))[: args.limit]]
+    docs_all = [read_json(p) for p in glob.glob(os.path.join(norm_dir, '*.json'))[: args.limit]]
+    # Exclude investor hub domain to avoid WAF and low-content hubs
+    docs = [d for d in docs_all if d.get('source_domain') != 'investor.salesforce.com']
 
     # Inventory CSV
     inv_path = os.path.join('data', 'final', 'inventory', 'salesforce_inventory.csv')
@@ -92,4 +94,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

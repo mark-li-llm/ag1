@@ -1,0 +1,1 @@
+2025-09-06 17:28:41,718 INFO Ground-truth rows: 46 written to qa_data/baselines/ground_truth_dates.csv

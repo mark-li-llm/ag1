@@ -6,7 +6,7 @@ from datetime import date
 from _common import (
     setup_logger, RateLimiter, load_yaml, http_fetch, clean_url_params,
     source_domain, slugify, doc_id, write_json, ensure_parent,
-    guess_title_from_html
+    guess_title_from_html, parse_iso_date, date_to_iso
 )
 
 
@@ -33,7 +33,9 @@ def main():
     html = b.decode('utf-8', errors='ignore')
     title = guess_title_from_html(html) or 'Salesforce - Wikipedia'
     slug = slugify('wikipedia-salesforce')
-    date_iso = date.today().isoformat()
+    lm = (inf.get('headers') or {}).get('last-modified')
+    d = parse_iso_date(lm) if lm else None
+    date_iso = date_to_iso(d) if d else date.today().isoformat()
     did = doc_id('wiki', date_iso, slug, b)
     raw_dir = os.path.join('data', 'raw', 'wikipedia')
     ensure_parent(raw_dir + '/.keep')
@@ -56,4 +58,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
