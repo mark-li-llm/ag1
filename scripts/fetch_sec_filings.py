@@ -12,20 +12,20 @@ from _common import (
 
 
 def parse_filed_date(html: str) -> str | None:
-    # Try common SEC patterns
-    # e.g., "Filed: March 05, 2025" or "Filed 2025-03-05"
-    m = re.search(r'Filed\s*[:]?\s*([A-Za-z]{3,9}\s+\d{1,2},\s+\d{4})', html, re.I)
-    if m:
-        d = parse_iso_date(m.group(1))
-        if d:
-            return date_to_iso(d)
-    m = re.search(r'Filed\s*[:]?\s*(\d{4}-\d{2}-\d{2})', html)
-    if m:
-        return m.group(1)
-    # Sometimes inline XBRL viewer places date in meta
-    m = re.search(r'"filingDate"\s*:\s*"(\d{4}-\d{2}-\d{2})"', html)
-    if m:
-        return m.group(1)
+    # Anchor to EDGAR header "Filed" date only.
+    # Examples: "Filed: March 05, 2025" or "Filed 2025-03-05" or JSON meta "filingDate":"2025-03-05"
+    for pat in [
+        r'Filed\s*[:]?\s*([A-Za-z]{3,9}\s+\d{1,2},\s+\d{4})',
+        r'Filed\s*[:]?\s*(\d{4}-\d{2}-\d{2})',
+        r'\bfilingDate\b\s*:\s*"(\d{4}-\d{2}-\d{2})"',
+        r'\bFiling Date\b\s*[:]?\s*(\d{4}-\d{2}-\d{2})',
+    ]:
+        m = re.search(pat, html, re.I)
+        if m:
+            iso = m.group(1)
+            d = parse_iso_date(iso)
+            if d:
+                return date_to_iso(d)
     return None
 
 
@@ -80,8 +80,15 @@ def main():
         dt = infer_doctype(final_url, html, hints)
         title = guess_title_from_html(html) if not is_pdf else 'Annual Report to Security Holders'
         slug = slugify(title or os.path.basename(url).split('.')[0])
-        # For doc_id, require a date; if missing, use today as placeholder; normalization will correct later
-        date_iso = filed_date or date.today().isoformat()
+        # For doc_id, prefer filed_date; fallback: parse from URL token crm-YYYYMMDD; else today
+        date_iso = filed_date
+        if not date_iso:
+            m = re.search(r'crm-(\d{8})', final_url)
+            if m:
+                y, mo, da = m.group(1)[:4], m.group(1)[4:6], m.group(1)[6:]
+                date_iso = f"{y}-{mo}-{da}"
+        if not date_iso:
+            date_iso = date.today().isoformat()
         did = doc_id(dt, date_iso, slug, body)
         raw_dir = os.path.join('data', 'raw', 'sec')
         ensure_parent(raw_dir + '/.keep')
@@ -109,4 +116,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-

@@ -1,0 +1,1 @@
+2025-09-06 17:21:53,525 INFO Verification gate: FAIL -> qa_data/outputs/verification_gate.json

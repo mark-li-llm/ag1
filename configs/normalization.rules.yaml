@@ -3,14 +3,25 @@ global:
   drop_selectors:
     - nav
     - footer
+    - header nav
+    - aside
+    - aside[aria-label*="related"]
     - '[aria-label*="cookie"]'
     - .share
+    - .article-share
     - .social
     - .newsletter
     - .breadcrumb
     - .sidebar
+    - .related
+    - .related-articles
+    - .promo
+    - .cta
+    - .author-box
     - script
     - style
+    - iframe
+    - noscript
   preserve_containers:
     - article
     - main

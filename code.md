@@ -1,5 +1,5 @@
 # Repository Code Context
-_Generated: 2025-09-06T21:17:43.553468Z_
+_Generated: 2025-09-06T21:22:22.110425Z_
 
 ## Directory Tree (depth ≤ 3)
 
@@ -267,6 +267,27 @@ diagnostics/
       ├─ py_qa_verification_gate/
       ├─ py_verify_day1_milestones/
       ├─ summary.json
+    ├─ run_20250906_212146/
+      ├─ py__qa_common/
+      ├─ py_build_eval_seed/
+      ├─ py_link_health_check/
+      ├─ py_qa_boilerplate_mine/
+      ├─ py_qa_chunk_quality/
+      ├─ py_qa_coverage_report/
+      ├─ py_qa_dedupe_audit/
+      ├─ py_qa_eval_seed_validate/
+      ├─ py_qa_ground_truth_builder/
+      ├─ py_qa_link_health_retest/
+      ├─ py_qa_manual_samples/
+      ├─ py_qa_metadata_validate/
+      ├─ py_qa_persona_tag_precision/
+      ├─ py_qa_regression_pack/
+      ├─ py_qa_schema_validate/
+      ├─ py_qa_sec_section_validate/
+      ├─ py_qa_text_quality/
+      ├─ py_qa_verification_gate/
+      ├─ py_verify_day1_milestones/
+      ├─ summary.json
     ├─ summary.latest.json
   ├─ diagnostic_bundle.json
 gpt/
@@ -274,12 +295,16 @@ gpt/
 logs/
   ├─ chunk/
     ├─ 20250906_171703.log
+    ├─ 20250906_172143.log
   ├─ dedupe/
     ├─ 20250906_171703.log
+    ├─ 20250906_172144.log
   ├─ eval/
     ├─ 20250906_161845.log
     ├─ 20250906_171705.log
     ├─ 20250906_171725.log
+    ├─ 20250906_172146.log
+    ├─ 20250906_172202.log
   ├─ normalize/
     ├─ 20250906_135744.log
     ├─ 20250906_135752.log
@@ -296,22 +321,29 @@ logs/
     ├─ 20250906_142755.log
     ├─ 20250906_161845.log
     ├─ 20250906_171725.log
+    ├─ 20250906_172132.log
+    ├─ 20250906_172202.log
   ├─ qa/
     ├─ qa_boilerplate_mine/
       ├─ 20250906_161835.log
       ├─ 20250906_171707.log
+      ├─ 20250906_172147.log
     ├─ qa_chunk_quality/
       ├─ 20250906_161842.log
       ├─ 20250906_171714.log
+      ├─ 20250906_172152.log
     ├─ qa_coverage_report/
       ├─ 20250906_161842.log
       ├─ 20250906_171714.log
+      ├─ 20250906_172152.log
     ├─ qa_dedupe_audit/
       ├─ 20250906_161843.log
       ├─ 20250906_171715.log
+      ├─ 20250906_172153.log
     ├─ qa_eval_seed_validate/
       ├─ 20250906_161845.log
       ├─ 20250906_171724.log
+      ├─ 20250906_172202.log
     ├─ qa_ground_truth_builder/
       ├─ 20250906_131020.log
       ├─ 20250906_131155.log
@@ -322,12 +354,15 @@ logs/
       ├─ 20250906_142654.log
       ├─ 20250906_161844.log
       ├─ 20250906_171724.log
+      ├─ 20250906_172201.log
     ├─ qa_link_health_retest/
       ├─ 20250906_161835.log
       ├─ 20250906_171708.log
+      ├─ 20250906_172148.log
     ├─ qa_manual_samples/
       ├─ 20250906_161843.log
       ├─ 20250906_171715.log
+      ├─ 20250906_172153.log
     ├─ qa_metadata_validate/
       ├─ 20250906_131156.log
       ├─ 20250906_131325.log
@@ -342,12 +377,15 @@ logs/
       ├─ 20250906_142807.log
       ├─ 20250906_161845.log
       ├─ 20250906_171724.log
+      ├─ 20250906_172202.log
     ├─ qa_persona_tag_precision/
       ├─ 20250906_161844.log
       ├─ 20250906_171723.log
+      ├─ 20250906_172201.log
     ├─ qa_regression_pack/
       ├─ 20250906_161842.log
       ├─ 20250906_171714.log
+      ├─ 20250906_172152.log
     ├─ qa_schema_validate/
       ├─ 20250906_131156.log
       ├─ 20250906_131325.log
@@ -360,16 +398,20 @@ logs/
       ├─ 20250906_142807.log
       ├─ 20250906_161835.log
       ├─ 20250906_171707.log
+      ├─ 20250906_172147.log
     ├─ qa_sec_section_validate/
       ├─ 20250906_161844.log
       ├─ 20250906_171723.log
+      ├─ 20250906_172201.log
     ├─ qa_text_quality/
       ├─ 20250906_161834.log
       ├─ 20250906_171706.log
+      ├─ 20250906_172146.log
     ├─ qa_verification_gate/
       ├─ 20250906_142655.log
       ├─ 20250906_161843.log
       ├─ 20250906_171715.log
+      ├─ 20250906_172153.log
 qa_configs/
   ├─ qa.boilerplate.allowlist.txt
   ├─ qa.sec.sections.yaml
@@ -695,7 +737,7 @@ requirements.txt
 ## Config Files Summary
 
 - `/Users/liyunxiao/ag1-1/configs/metadata.dictionary.yaml` (size: 1854 bytes) sample keys: allowed, byline, company, default, description, doc_id, doctype, fields, fill_rule_precedence, final_url, full_domain, hash_sha256, html_title, ingestion_ts, language, last_modified_http, meta_published_time, optional_fields, owner, owner_script
-- `/Users/liyunxiao/ag1-1/configs/normalization.rules.yaml` (size: 1145 bytes) sample keys: convert_infobox_to_text, drop_non_english, drop_repeated_nav_lists, drop_selectors, expected, global, investor_news, item_headers, keep_lead_and_first_three_headings, keep_toc_titles, language, newsroom, normalize, preserve_containers, product_dev_help, publish_date_source_order, sec, version, wikipedia
+- `/Users/liyunxiao/ag1-1/configs/normalization.rules.yaml` (size: 1339 bytes) sample keys: convert_infobox_to_text, drop_non_english, drop_repeated_nav_lists, drop_selectors, expected, global, investor_news, item_headers, keep_lead_and_first_three_headings, keep_toc_titles, language, newsroom, normalize, preserve_containers, product_dev_help, publish_date_source_order, sec, version, wikipedia
 - `/Users/liyunxiao/ag1-1/configs/eval.prompts.yaml` (size: 729 bytes) sample keys: Agentforce, Earnings, Partnership, Product, cio, keywords, personas, topic_lexicon, version, vp_customer_experience, vp_sales_ops
 - `/Users/liyunxiao/ag1-1/configs/chunking.config.json` (size: 190 bytes) sample keys: 
 - `/Users/liyunxiao/ag1-1/configs/sources.salesforce.yaml` (size: 2137 bytes) sample keys: cap_pages, company, description, dev_docs, doctype_hints, feeds, help_docs, investor_news, newsroom_rss, product, sec, since, sources, start_url, target_count, target_count_total, url, urls, version, wikipedia

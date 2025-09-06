@@ -50,12 +50,7 @@
       "id": "sec_sections",
       "summary": "Not all SEC docs passed section validation",
       "blocking": true
-    },
-    {
-      "id": "eval_integrity",
-      "summary": "Eval seed pairs invalid or missing keyphrases",
-      "blocking": true
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_verification_gate/20250906_171715.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_verification_gate/20250906_172153.log"
 }

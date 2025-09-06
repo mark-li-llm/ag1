@@ -1,0 +1,1 @@
+2025-09-06 17:21:47,105 INFO Text quality OK 0/45 -> qa_data/outputs/text_quality_report.json

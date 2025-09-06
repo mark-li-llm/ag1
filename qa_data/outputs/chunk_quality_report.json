@@ -1,9 +1,9 @@
 {
-  "total_chunks": 216,
+  "total_chunks": 221,
   "median_token_length": 790,
-  "len_within_range_pct": 0.662,
+  "len_within_range_pct": 0.6561,
   "mean_overlap_tokens": 0.01,
   "sec_boundary_crossings": 0,
   "chunks_with_local_heads_pct": 0.0,
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_chunk_quality/20250906_171714.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_chunk_quality/20250906_172152.log"
 }
