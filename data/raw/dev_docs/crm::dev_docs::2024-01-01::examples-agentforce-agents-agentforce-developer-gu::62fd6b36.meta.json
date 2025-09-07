@@ -1,0 +1,20 @@
+{
+  "url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-examples.html",
+  "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-examples.html",
+  "source_domain": "developer.salesforce.com",
+  "doctype": "dev_docs",
+  "topic": "Agent API",
+  "download_timestamp": "2025-09-06T14:09:12.184377+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "content_length": 73093,
+  "title": "Examples | Agentforce Agents | Agentforce Developer Guide",
+  "description": "This section provides examples using the Agent API endpoints. To onboard, see",
+  "publish_date": "2024-01-01",
+  "api_endpoints": [
+    "get started",
+    "Get Started",
+    "get an"
+  ],
+  "has_auth_info": true,
+  "language": "en"
+}

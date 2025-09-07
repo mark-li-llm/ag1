@@ -1,0 +1,14 @@
+{
+  "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000019/salesforce_fy25annualreport.pdf",
+  "final_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000019/salesforce_fy25annualreport.pdf",
+  "source_domain": "www.sec.gov",
+  "doctype": "ars_pdf",
+  "description": "FY25 Annual Report PDF",
+  "expected_date": "2025-03-05",
+  "content_type": "application/pdf",
+  "content_length": 4448958,
+  "download_timestamp": "2025-09-06T14:08:45.432905+00:00",
+  "is_pdf": true,
+  "file_type": "pdf",
+  "filing_date": "2025-03-05"
+}

@@ -1,0 +1,20 @@
+{
+  "url": "https://www.salesforce.com/analytics/?bc=DB",
+  "final_url": "https://www.salesforce.com/analytics/?bc=DB",
+  "source_domain": "www.salesforce.com",
+  "doctype": "press",
+  "source_type": "newsroom",
+  "feed_type": "product",
+  "download_timestamp": "2025-09-06T14:09:02.899053+00:00",
+  "rss_title": "Salesforce Analytics",
+  "rss_description": "",
+  "rss_pub_date": "2024-04-25",
+  "rss_categories": [
+    "Analytics",
+    "Product"
+  ],
+  "html_title": "Tableau: Visual Analytics from Salesforce | Salesforce US",
+  "og_title": "Tableau: Visual Analytics from Salesforce",
+  "publish_date": "2024-04-25",
+  "topic": "Analytics|Product"
+}

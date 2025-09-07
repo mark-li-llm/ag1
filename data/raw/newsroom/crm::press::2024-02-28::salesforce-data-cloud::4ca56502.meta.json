@@ -1,0 +1,20 @@
+{
+  "url": "https://www.salesforce.com/data/?bc=DB",
+  "final_url": "https://www.salesforce.com/data/?bc=DB",
+  "source_domain": "www.salesforce.com",
+  "doctype": "press",
+  "source_type": "newsroom",
+  "feed_type": "product",
+  "download_timestamp": "2025-09-06T14:09:08.382551+00:00",
+  "rss_title": "Salesforce Data Cloud",
+  "rss_description": "",
+  "rss_pub_date": "2024-02-28",
+  "rss_categories": [
+    "Data Cloud",
+    "Product"
+  ],
+  "html_title": "Salesforce Data Cloud | Salesforce US",
+  "og_title": "Salesforce Data Cloud",
+  "publish_date": "2024-02-28",
+  "topic": "Data Cloud|Product"
+}

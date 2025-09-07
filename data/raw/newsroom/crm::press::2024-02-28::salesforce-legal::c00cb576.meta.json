@@ -1,0 +1,20 @@
+{
+  "url": "https://www.salesforce.com/company/legal/?bc=DB",
+  "final_url": "https://www.salesforce.com/company/legal/?bc=DB",
+  "source_domain": "www.salesforce.com",
+  "doctype": "press",
+  "source_type": "newsroom",
+  "feed_type": "corporate",
+  "download_timestamp": "2025-09-06T14:09:07.106553+00:00",
+  "rss_title": "Salesforce Legal",
+  "rss_description": "",
+  "rss_pub_date": "2024-02-28",
+  "rss_categories": [
+    "Legal",
+    "Compliance"
+  ],
+  "html_title": "Legal | Salesforce US",
+  "og_title": "Legal",
+  "publish_date": "2024-02-28",
+  "topic": "Legal|Compliance|Corporate"
+}

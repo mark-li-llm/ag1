@@ -1,0 +1,70 @@
+{
+  "execution_timestamp": "2025-09-06T10:09:23.373022",
+  "overall_success": true,
+  "total_steps": 10,
+  "successful_steps": 10,
+  "failed_steps": 0,
+  "success_rate": 100.0,
+  "step_results": [
+    {
+      "step_name": "SEC文档获取",
+      "script": "fetch_sec_filings.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:08:45.549394"
+    },
+    {
+      "step_name": "投资者新闻获取",
+      "script": "fetch_investor_news.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:08:50.706493"
+    },
+    {
+      "step_name": "新闻室RSS获取",
+      "script": "fetch_newsroom_rss.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:09:08.467109"
+    },
+    {
+      "step_name": "产品页面获取",
+      "script": "fetch_product_docs.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:09:11.022534"
+    },
+    {
+      "step_name": "开发文档获取",
+      "script": "fetch_dev_docs.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:09:12.736313"
+    },
+    {
+      "step_name": "帮助文档获取",
+      "script": "fetch_help_docs.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:09:13.398843"
+    },
+    {
+      "step_name": "Wikipedia获取",
+      "script": "fetch_wikipedia.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:09:13.898380"
+    },
+    {
+      "step_name": "HTML规范化",
+      "script": "normalize_html.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:09:23.112793"
+    },
+    {
+      "step_name": "SEC结构解析",
+      "script": "parse_sec_structures.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:09:23.221400"
+    },
+    {
+      "step_name": "元数据提取",
+      "script": "extract_metadata.py",
+      "success": true,
+      "timestamp": "2025-09-06T10:09:23.372586"
+    }
+  ]
+}

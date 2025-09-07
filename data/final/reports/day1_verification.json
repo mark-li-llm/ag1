@@ -1,0 +1,23 @@
+{
+  "total_docs": 88,
+  "docs_with_dates": 57,
+  "chunks_total": 271,
+  "duplicates_removed": 84,
+  "link_ok_pct": 0.8636,
+  "by_doctype_counts": {
+    "press": 74,
+    "product": 3,
+    "10-K": 1,
+    "dev_docs": 4,
+    "10-Q": 1,
+    "wiki": 1,
+    "8-K": 3,
+    "help_docs": 1
+  },
+  "by_source_domain_counts": {
+    "salesforce.com": 82,
+    "sec.gov": 5,
+    "wikipedia.org": 1
+  },
+  "pr_docs_last_12mo": 47
+}

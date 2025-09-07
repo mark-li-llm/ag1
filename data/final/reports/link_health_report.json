@@ -1,0 +1,647 @@
+{
+  "check_metadata": {
+    "check_time": "2025-09-06T10:15:49.759680",
+    "check_duration": 0.0,
+    "total_documents": 46,
+    "unique_urls": 43
+  },
+  "summary": {
+    "total_links": 43,
+    "healthy_links": 42,
+    "unhealthy_links": 1,
+    "timeout_links": 0,
+    "error_links": 1,
+    "health_rate_percent": 97.7,
+    "day1_requirement": 100.0,
+    "meets_requirement": false
+  },
+  "healthy_links": [
+    {
+      "url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-examples.html",
+      "status_code": 200,
+      "response_time": 0.06976199150085449,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::dev_docs::2024-01-01::examples-agentforce-agents-agentforce-developer-gu::62fd6b36",
+          "source": "dev_docs",
+          "doctype": "dev_docs",
+          "title": "Examples | Agentforce Agents | Agentforce Developer Guide"
+        }
+      ]
+    },
+    {
+      "url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api-get-started.html",
+      "status_code": 200,
+      "response_time": 0.018349647521972656,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::dev_docs::2024-01-01::get-started-agentforce-agents-agentforce-developer::202f14da",
+          "source": "dev_docs",
+          "doctype": "dev_docs",
+          "title": "Get Started | Agentforce Agents | Agentforce Developer Guide"
+        }
+      ]
+    },
+    {
+      "url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api.html",
+      "status_code": 200,
+      "response_time": 0.016307353973388672,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::dev_docs::2024-01-01::chat-with-agents-using-agent-api-agentforce-agents::6f4b900c",
+          "source": "dev_docs",
+          "doctype": "dev_docs",
+          "title": "Chat with Agents Using Agent API | Agentforce Agents | Agentforce Developer Guide"
+        }
+      ]
+    },
+    {
+      "url": "https://developer.salesforce.com/docs/einstein/genai/guide/get-started-agents.html",
+      "status_code": 200,
+      "response_time": 0.013216018676757812,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::dev_docs::2024-01-01::agentforce-agents-agentforce-developer-guide::5ac08bad",
+          "source": "dev_docs",
+          "doctype": "dev_docs",
+          "title": "Agentforce Agents | Agentforce Developer Guide"
+        }
+      ]
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Salesforce",
+      "status_code": 200,
+      "response_time": 0.12016987800598145,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::wiki::2025-09-05::salesforce::6b727edd",
+          "source": "wikipedia",
+          "doctype": "wiki",
+          "title": "Salesforce"
+        },
+        {
+          "doc_id": "crm::wiki::2025-09-06::salesforce::6b727edd",
+          "source": "wikipedia",
+          "doctype": "wiki",
+          "title": "Salesforce"
+        }
+      ]
+    },
+    {
+      "url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+      "status_code": 200,
+      "response_time": 0.35626816749572754,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::help_docs::2024-09-06::salesforce-help::b0daabdf",
+          "source": "help_docs",
+          "doctype": "help_docs",
+          "title": "Salesforce Help"
+        },
+        {
+          "doc_id": "crm::help_docs::2024-09-05::salesforce-help::b0daabdf",
+          "source": "help_docs",
+          "doctype": "help_docs",
+          "title": "Salesforce Help"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/esg/default.aspx",
+      "status_code": 200,
+      "response_time": 0.35794830322265625,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2025-02-23::environmental-social-and-governance-esg::d4f786ad",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
+      "status_code": 200,
+      "response_time": 0.108489990234375,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::events-and-presentations::0371587e",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/financials/annual-reports/default.aspx",
+      "status_code": 200,
+      "response_time": 0.1374058723449707,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::annual-reports::3814b366",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/financials/quarterly-results/default.aspx",
+      "status_code": 200,
+      "response_time": 0.4571647644042969,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::quarterly-results::11c603d4",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/financials/sec-filings/default.aspx",
+      "status_code": 200,
+      "response_time": 0.1411430835723877,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::sec-filings::7ec42ed9",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/governance/board-of-directors/default.aspx",
+      "status_code": 200,
+      "response_time": 0.11099100112915039,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::board-of-directors::7ee63d65",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/governance/executive-management/default.aspx",
+      "status_code": 200,
+      "response_time": 0.11054182052612305,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::executive-management::2495a457",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/governance/governance-documents/default.aspx",
+      "status_code": 200,
+      "response_time": 0.085845947265625,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2025-02-25::corporate-governance::0ec4193a",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/news/default.aspx",
+      "status_code": 200,
+      "response_time": 0.09353208541870117,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::None::news::6335e2de",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/resources/investor-contacts/default.aspx",
+      "status_code": 200,
+      "response_time": 0.09342074394226074,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::investor-contacts::54999c16",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/resources/investor-email-alerts/default.aspx",
+      "status_code": 200,
+      "response_time": 0.0918741226196289,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::investor-email-alerts::626b16ec",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/resources/investor-faqs/default.aspx",
+      "status_code": 200,
+      "response_time": 0.10771799087524414,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::investor-faqs::087af470",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://investor.salesforce.com/stock-info/default.aspx",
+      "status_code": 200,
+      "response_time": 0.10142207145690918,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-01-01::stock-information::8ebb1472",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/agentforce/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.09519791603088379,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::product::2024-01-01::agentforce-the-ai-agent-platform::5d10c49a",
+          "source": "product",
+          "doctype": "product",
+          "title": "Agentforce: The AI Agent Platform"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/analytics/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.7248058319091797,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-04-25::salesforce-analytics::afc4c82e",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/commerce/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.6607141494750977,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-05-30::commerce-cloud::79bc8c33",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/company/careers/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.02964615821838379,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-08-15::salesforce-careers::4964b777",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/company/equality/?bc=DB",
+      "status_code": 200,
+      "response_time": 3.3147079944610596,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-05-25::salesforce-equality::874ae8c4",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/company/leadership/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.7077131271362305,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-07-20::salesforce-leadership::5fe0d7a5",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/company/legal/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.5324177742004395,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-02-28::salesforce-legal::c00cb576",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/company/legal/privacy/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.06491398811340332,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-04-18::salesforce-privacy::c517fb3f",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/company/our-story/?bc=DB",
+      "status_code": 200,
+      "response_time": 1.1547191143035889,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-09-12::about-salesforce-company::3ae394fc",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/company/sustainability/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.631627082824707,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-06-30::salesforce-sustainability::d42ed8dd",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/data/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.030073165893554688,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-02-28::salesforce-data-cloud::4ca56502",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        },
+        {
+          "doc_id": "crm::product::2024-01-01::salesforce-data-cloud::04dae357",
+          "source": "product",
+          "doctype": "product",
+          "title": "Salesforce Data Cloud"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/marketing/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.03183794021606445,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-08-10::marketing-cloud::7ce342b2",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/mulesoft/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.07848215103149414,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-03-15::salesforce-integration::f0468619",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/platform/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.039955854415893555,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-09-05::salesforce-platform::a8686c16",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/products/what-is-salesforce/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.0862579345703125,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::product::2024-01-01::what-is-salesforce::17018047",
+          "source": "product",
+          "doctype": "product",
+          "title": "What is Salesforce?"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/sales/cloud/?bc=DB",
+      "status_code": 200,
+      "response_time": 1.119062900543213,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-06-20::sales-cloud::df3fdedd",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.salesforce.com/service/cloud/?bc=DB",
+      "status_code": 200,
+      "response_time": 0.6790139675140381,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::press::2024-07-15::service-cloud::a246d582",
+          "source": "newsroom",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000002/crm-20250226.htm",
+      "status_code": 200,
+      "response_time": 0.13559293746948242,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::8-K::2025-01-31::8-k-fy25-results::d14102e8",
+          "source": "sec",
+          "doctype": "8-K",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000006/crm-20250131.htm",
+      "status_code": 200,
+      "response_time": 0.045614004135131836,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::10-K::2015-08-31::fy25-form-10-k::4c26cea2",
+          "source": "sec",
+          "doctype": "10-K",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000019/salesforce_fy25annualreport.pdf",
+      "status_code": 200,
+      "response_time": 0.08612489700317383,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::ars_pdf::2025-03-05::fy25-annual-report-pdf::1b31e86f",
+          "source": "sec",
+          "doctype": "ars_pdf",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000027/crm-20250528.htm",
+      "status_code": 200,
+      "response_time": 0.03239607810974121,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::8-K::2025-04-30::8-k-q1-fy26-results::35792ff4",
+          "source": "sec",
+          "doctype": "8-K",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000030/crm-20250430.htm",
+      "status_code": 200,
+      "response_time": 0.0337371826171875,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::10-Q::2020-02-12::fy26-q1-10-q::e16f2866",
+          "source": "sec",
+          "doctype": "10-Q",
+          "title": "No title"
+        }
+      ]
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000033/crm-20250605.htm",
+      "status_code": 200,
+      "response_time": 0.09909224510192871,
+      "error": null,
+      "documents": [
+        {
+          "doc_id": "crm::8-K::2025-06-05::proxy-meeting-results-2025-06-05::47c09586",
+          "source": "sec",
+          "doctype": "8-K",
+          "title": "No title"
+        }
+      ]
+    }
+  ],
+  "unhealthy_links": [
+    {
+      "url": "https://www.salesforce.com/news/?bc=DB",
+      "status_code": null,
+      "response_time": 6.269706964492798,
+      "error": "HTTPSConnectionPool(host='www.salesforce.com', port=443): Max retries exceeded with url: /news/?bc=DB (Caused by ResponseError('too many 500 error responses'))",
+      "documents": [
+        {
+          "doc_id": "crm::press::2025-08-26::newsroom::39cb1c1e",
+          "source": "investor_news",
+          "doctype": "press",
+          "title": "No title"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    "存在不健康链接，需要修复或替换失效的URL",
+    "部分链接返回错误，需要检查URL有效性",
+    "当前链接健康率为 97.7%，未达到Day-1要求的100%"
+  ]
+}

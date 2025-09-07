@@ -1,0 +1,27 @@
+{
+  "url": "https://www.salesforce.com/agentforce/?bc=DB",
+  "final_url": "https://www.salesforce.com/agentforce/?bc=DB",
+  "source_domain": "www.salesforce.com",
+  "doctype": "product",
+  "topic": "Agentforce",
+  "download_timestamp": "2025-09-06T14:09:08.848938+00:00",
+  "content_type": "text/html; charset=utf-8",
+  "content_length": 635522,
+  "title": "Agentforce: The AI Agent Platform",
+  "description": "Build and customize autonomous AI agents to support your employees and customers 24/7, including full integration with the Salesforce ecosystem.",
+  "publish_date": "2024-01-01",
+  "keywords": [
+    "Agentforce",
+    "Salesforce",
+    "sales",
+    "platform",
+    "AI"
+  ],
+  "product_features": [
+    "Service Agent replaces traditional chatbots with AI that can handle a wide range of service issues without preprogrammed scenarios, improving customer service efficiency.",
+    "Sales Coach provides personalized role-play sessions for your sales team, using Salesforce data and generative AI to help sellers practice pitches and objections tailored to specific deals.",
+    "Merchandiser assists your ecommerce merchandisers with site setup, goal setting, personalized promotions, product descriptions, and data-driven insights, simplifying daily tasks.",
+    "Campaign Optimizer automates the full campaign lifecycle, using AI to analyze, generate, personalize, and optimize marketing campaigns based on business goals."
+  ],
+  "language": "en"
+}
