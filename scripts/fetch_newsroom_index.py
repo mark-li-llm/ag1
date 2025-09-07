@@ -20,6 +20,9 @@ def discover_links(html: str, base: str) -> list[str]:
     for m in re.finditer(r'<a\s+[^>]*href=["\']([^"\']+)["\']', html, re.I):
         href = m.group(1)
         if '/news/' in href and '/press-releases/' in href:
+            # Exclude archive/category pages which are not single articles
+            if 'press-releases-archive' in href:
+                continue
             hrefs.add(urljoin(base, href))
     return list(hrefs)
 

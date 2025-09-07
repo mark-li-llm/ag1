@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-09-07T04:14:11.963077Z",
+  "generated_at_utc": "2025-09-07T04:17:13.177709Z",
   "root": "/Users/liyunxiao/ag1-1",
   "artifacts": {
     "code_md": "code.md",
@@ -19,7 +19,7 @@
       "total_docs": 0,
       "docs_with_dates": 0,
       "chunks_total": 322,
-      "duplicates_removed": 130,
+      "duplicates_removed": 100,
       "link_ok_pct": 0.0,
       "by_doctype_counts": {},
       "by_source_domain_counts": {},
@@ -925,7 +925,7 @@
     {
       "id": "duplicate_rate_above_15pct",
       "level": "warn",
-      "value": 40.37,
+      "value": 31.06,
       "threshold": 15.0
     },
     {

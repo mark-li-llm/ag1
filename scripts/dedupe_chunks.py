@@ -107,6 +107,9 @@ def main():
             eid = ids[j]
             if eid in visited:
                 continue
+            # Skip comparing chunks from the same document to avoid penalizing designed overlaps
+            if chunk_texts[cid].get('doc_id') == chunk_texts[eid].get('doc_id'):
+                continue
             sim = jaccard(sigs[cid], sigs[eid])
             if sim >= threshold:
                 visited.add(eid)
