@@ -53,15 +53,26 @@ def strip_boilerplate(text: str, doctype: str, allowlist: list[str]) -> str:
     drop_phrases = [
         'subscribe', 'sign up', 'get the latest', 'share this', 'follow us',
         'related articles', 'you might also like', 'contact us', 'press contacts',
-        'investor relations', 'email alerts', 'forward-looking statements', 'safe harbor'
+        'investor relations', 'email alerts', 'forward-looking statements', 'safe harbor',
+        'non-gaap', 'gaap measures', 'trademark'
     ]
-    lines = []
-    for line in text.splitlines():
-        low = line.lower()
-        if any(p in low for p in drop_phrases):
+    # Remove full paragraphs that look like disclaimers (very long + key phrases)
+    import re as _re
+    paras = text.split('\n\n')
+    kept = []
+    for p in paras:
+        low = p.lower().strip()
+        if any(kw in low for kw in drop_phrases) and len(p) > 300:
             continue
-        lines.append(line)
-    text = '\n'.join(lines)
+        # Remove lines with pure sharing/subscribe boilerplate
+        lines = []
+        for line in p.splitlines():
+            lw = line.lower()
+            if any(kw in lw for kw in drop_phrases) and len(line) < 200:
+                continue
+            lines.append(line)
+        kept.append('\n'.join(lines))
+    text = '\n\n'.join(s for s in kept if s.strip())
     # Collapse whitespace after removals
     return '\n'.join([line.strip() for line in text.splitlines() if line.strip()])
 
