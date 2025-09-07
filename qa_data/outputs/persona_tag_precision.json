@@ -7,16 +7,16 @@
   },
   "counts": {
     "vp_customer_experience": {
-      "tp": 12,
-      "total": 12
+      "tp": 18,
+      "total": 18
     },
     "cio": {
-      "tp": 49,
-      "total": 49
+      "tp": 72,
+      "total": 72
     },
     "vp_sales_ops": {
-      "tp": 34,
-      "total": 34
+      "tp": 51,
+      "total": 51
     },
     "general": {
       "tp": 0,
@@ -105,5 +105,5 @@
       "missing_keywords": []
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_persona_tag_precision/20250906_173625.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_persona_tag_precision/20250906_174026.log"
 }

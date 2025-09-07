@@ -1,7 +1,7 @@
 {
-  "tested": 15,
-  "ok": 3,
-  "ok_pct": 0.2,
+  "tested": 19,
+  "ok": 7,
+  "ok_pct": 0.3684,
   "results": [
     {
       "url": "https://investor.salesforce.com/financials/annual-reports/default.aspx",
@@ -76,23 +76,47 @@
       "domain_ok": true
     },
     {
+      "url": "https://www.salesforce.com/company/equality/?bc=DB",
+      "status": 200,
+      "final_url": "https://www.salesforce.com/company/equality/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "url": "https://www.salesforce.com/news/press-releases/2025/02/10/saudi-arabia-investment/?bc=DB",
+      "status": 200,
+      "final_url": "https://www.salesforce.com/news/press-releases/2025/02/10/saudi-arabia-investment/?bc=DB",
+      "domain_ok": true
+    },
+    {
       "url": "https://www.salesforce.com/news/press-releases/2025/01/10/agentforce-retail-cloud-pos-announcement/?bc=DB",
       "status": 200,
       "final_url": "https://www.salesforce.com/news/press-releases/2025/01/10/agentforce-retail-cloud-pos-announcement/?bc=DB",
       "domain_ok": true
     },
     {
-      "url": "https://www.salesforce.com/news/press-releases/2025/06/23/agentforce-3-announcement/?bc=DB",
+      "url": "https://www.salesforce.com/news/press-releases/2025/01/06/2024-holiday-shopping-data/?bc=DB",
       "status": 200,
-      "final_url": "https://www.salesforce.com/news/press-releases/2025/06/23/agentforce-3-announcement/?bc=DB",
+      "final_url": "https://www.salesforce.com/news/press-releases/2025/01/06/2024-holiday-shopping-data/?bc=DB",
       "domain_ok": true
     },
     {
-      "url": "https://www.salesforce.com/news/press-releases/2025/05/28/ferrari-agentforce-crm-elevates-client-experience/?bc=DB",
+      "url": "https://www.salesforce.com/news/press-releases/2025/06/03/liv-golf-agentforce-experiences/?bc=DB",
       "status": 200,
-      "final_url": "https://www.salesforce.com/news/press-releases/2025/05/28/ferrari-agentforce-crm-elevates-client-experience/?bc=DB",
+      "final_url": "https://www.salesforce.com/news/press-releases/2025/06/03/liv-golf-agentforce-experiences/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "url": "https://www.salesforce.com/news/press-releases/2025/07/09/salesforce-appoints-amy-chang-and-david-b-kirk-to-its-board-of-directors/?bc=DB",
+      "status": 200,
+      "final_url": "https://www.salesforce.com/news/press-releases/2025/07/09/salesforce-appoints-amy-chang-and-david-b-kirk-to-its-board-of-directors/?bc=DB",
+      "domain_ok": true
+    },
+    {
+      "url": "https://www.salesforce.com/company/sustainability/?bc=DB",
+      "status": 200,
+      "final_url": "https://www.salesforce.com/company/sustainability/?bc=DB",
       "domain_ok": true
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_link_health_retest/20250906_173608.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_link_health_retest/20250906_174009.log"
 }

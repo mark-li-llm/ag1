@@ -1,0 +1,1 @@
+2025-09-06 17:40:09,097 INFO Schema validation: 53/88 valid -> qa_data/outputs/schema_report.json

@@ -1,19 +1,24 @@
 {
   "total_eval_pairs": 40,
-  "valid_pairs": 40,
-  "valid_pct": 1.0,
-  "failures": [],
+  "valid_pairs": 39,
+  "valid_pct": 0.975,
+  "failures": [
+    {
+      "eval_id": "crm-eval-0005",
+      "reason": "missing_chunk"
+    }
+  ],
   "persona_dist": {
-    "vp_sales_ops": 31,
+    "vp_sales_ops": 30,
     "cio": 9
   },
   "source_type_dist": {
-    "press": 31,
+    "press": 30,
     "product": 1,
     "dev_docs": 3,
     "8-K": 3,
     "wiki": 1,
     "10-K": 1
   },
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_eval_seed_validate/20250906_173626.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_eval_seed_validate/20250906_174027.log"
 }

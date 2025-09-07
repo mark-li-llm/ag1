@@ -36,11 +36,11 @@ def main():
             doc['link_status'] = 200
             # Do not include in summary to avoid skewing ok% due to WAF blocks
             continue
-        # Try GET, fallback to HEAD
+        # Try GET, fallback to HEAD; accept 2xx and 3xx as OK
         status, _, info = http_fetch(url, logger, timeout=5.0, method='GET')
-        if status != 200:
+        if status < 200 or status >= 400:
             status, _, info = http_fetch(url, logger, timeout=5.0, method='HEAD')
-        ok_flag = status == 200
+        ok_flag = (200 <= status < 400)
         doc['final_url'] = info.get('final_url', url)
         doc['link_ok'] = ok_flag
         doc['link_status'] = status

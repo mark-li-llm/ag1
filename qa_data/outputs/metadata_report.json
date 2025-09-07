@@ -1,23 +1,23 @@
 {
-  "total_docs": 65,
-  "date_total": 28,
+  "total_docs": 88,
+  "date_total": 51,
   "date_match_rate": 1.0,
-  "title_total": 65,
+  "title_total": 88,
   "title_match_rate": 1.0,
-  "domain_total": 65,
+  "domain_total": 88,
   "final_url_domain_ok_rate": 1.0,
-  "baseline_coverage_rate_overall": 0.4308,
+  "baseline_coverage_rate_overall": 0.5795,
   "publish_date_provenance_distribution": {
     "sec_filed": 5,
     "missing": 35,
     "http_last_modified": 2,
-    "rss_pubdate": 20,
-    "visible_dateline": 2,
+    "visible_dateline": 5,
+    "rss_pubdate": 40,
     "meta_published_time": 1
   },
   "fallback_today_rate_overall": 0.0,
-  "fallback_any_rate_overall": 0.0308,
-  "top_publish_date_share": 0.0308,
+  "fallback_any_rate_overall": 0.0227,
+  "top_publish_date_share": 0.0455,
   "examples": [
     {
       "doc_id": "crm::dev_docs::2024-01-01::agentforce-agents-agentforce-developer-guide::5ac08bad",
@@ -353,5 +353,5 @@
       "domain_ok": true
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_metadata_validate/20250906_173626.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_metadata_validate/20250906_174027.log"
 }

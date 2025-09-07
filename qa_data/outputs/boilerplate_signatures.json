@@ -1,48 +1,66 @@
 {
   "signatures": [
     {
-      "signature": "and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
+      "signature": "africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english",
       "variants": [
-        "and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
         "africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english",
-        "africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
+        "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia",
         "españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia",
-        "españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english",
-        "east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other"
+        "and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
+        "east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other",
+        "africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
+        "españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english"
       ],
-      "doc_freq": 23
+      "doc_freq": 46
     },
     {
       "signature": "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
       "variants": [
         "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
-        "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific",
+        "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india",
+        "deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific",
         "deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia",
         "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
-        "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia",
-        "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india",
-        "deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific"
+        "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific",
+        "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia"
       ],
-      "doc_freq": 23
-    },
-    {
-      "signature": "italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english 日本",
-      "variants": [
-        "italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english 日本",
-        "français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english"
-      ],
-      "doc_freq": 23
+      "doc_freq": 46
     },
     {
       "signature": "canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands",
       "variants": [
         "canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands",
-        "states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united",
-        "english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland",
+        "united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska",
         "français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige",
-        "united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska"
+        "english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland",
+        "states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united"
       ],
-      "doc_freq": 23
+      "doc_freq": 46
+    },
+    {
+      "signature": "english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom",
+      "variants": [
+        "english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom",
+        "middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all",
+        "europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english"
+      ],
+      "doc_freq": 46
+    },
+    {
+      "signature": "français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english",
+      "variants": [
+        "français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english",
+        "italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english 日本"
+      ],
+      "doc_freq": 46
+    },
+    {
+      "signature": "countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce tower",
+      "variants": [
+        "countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce tower",
+        "other countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce"
+      ],
+      "doc_freq": 46
     },
     {
       "signature": "brasil português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français",
@@ -50,68 +68,51 @@
         "brasil português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français",
         "português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia"
       ],
-      "doc_freq": 23
+      "doc_freq": 46
     },
     {
-      "signature": "english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom",
+      "signature": "news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east",
       "variants": [
-        "english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom",
-        "europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english",
-        "middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all"
-      ],
-      "doc_freq": 23
-    },
-    {
-      "signature": "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia",
-      "variants": [
-        "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia"
-      ],
-      "doc_freq": 23
-    },
-    {
-      "signature": "other countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce",
-      "variants": [
-        "other countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce",
-        "countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce tower"
-      ],
-      "doc_freq": 23
-    },
-    {
-      "signature": "subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east and",
-      "variants": [
+        "news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east",
         "subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east and",
-        "news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east"
+        "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle"
       ],
-      "doc_freq": 21
+      "doc_freq": 43
+    },
+    {
+      "signature": "the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english",
+      "variants": [
+        "the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english",
+        "latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe",
+        "latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english",
+        "get the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states"
+      ],
+      "doc_freq": 43
     },
     {
       "signature": "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe",
       "variants": [
-        "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe",
-        "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle",
-        "latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe",
-        "latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english"
+        "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe"
       ],
-      "doc_freq": 21
+      "doc_freq": 43
     },
     {
-      "signature": "get the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states",
+      "signature": "reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications data",
       "variants": [
-        "get the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states",
-        "the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english"
+        "reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications data",
+        "size reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications"
       ],
-      "doc_freq": 21
+      "doc_freq": 41
     },
     {
-      "signature": "size reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications",
+      "signature": "to support your employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation",
       "variants": [
-        "size reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications",
-        "reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications data"
+        "to support your employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation"
       ],
-      "doc_freq": 20
+      "doc_freq": 10
     }
   ],
-  "total_candidates": 38,
-  "clusters": 12,
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_boilerplate_mine/20250906_173607.log"
+  "total_candidates": 57,
+  "clusters": 21,
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_boilerplate_mine/20250906_175711.log"
 }

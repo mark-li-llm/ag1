@@ -3,7 +3,7 @@
   "failed_checks": [
     {
       "id": "schema",
-      "summary": "Schema valid 0.4615 < 0.98",
+      "summary": "Schema valid 0.6023 < 0.98",
       "blocking": true
     },
     {
@@ -47,5 +47,5 @@
       "blocking": true
     }
   ],
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_verification_gate/20250906_173613.log"
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_verification_gate/20250906_174015.log"
 }

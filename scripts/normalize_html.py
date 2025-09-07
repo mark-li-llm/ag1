@@ -25,6 +25,47 @@ def normalized_path(doc_id: str) -> str:
     return os.path.join('data', 'interim', 'normalized', f'{doc_id}.json')
 
 
+def load_boilerplate_allowlist(path: str = os.path.join('qa_configs','qa.boilerplate.allowlist.txt')) -> list[str]:
+    sigs = []
+    try:
+        with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+            for line in f:
+                s = line.strip()
+                if not s or s.startswith('#'):
+                    continue
+                if len(s) >= 80:  # keep only sufficiently long spans
+                    sigs.append(s)
+    except Exception:
+        pass
+    # Deduplicate and sort by length desc to remove larger spans first
+    sigs = sorted(set(sigs), key=lambda x: -len(x))
+    return sigs
+
+
+def strip_boilerplate(text: str, doctype: str, allowlist: list[str]) -> str:
+    if doctype not in ('press','product'):
+        return text
+    # Simple text replacement for known boilerplate spans
+    for sig in allowlist:
+        if sig and sig in text:
+            text = text.replace(sig, ' ')
+    # Drop common CTA/subscribe/share/related lines heuristically
+    drop_phrases = [
+        'subscribe', 'sign up', 'get the latest', 'share this', 'follow us',
+        'related articles', 'you might also like', 'contact us', 'press contacts',
+        'investor relations', 'email alerts', 'forward-looking statements', 'safe harbor'
+    ]
+    lines = []
+    for line in text.splitlines():
+        low = line.lower()
+        if any(p in low for p in drop_phrases):
+            continue
+        lines.append(line)
+    text = '\n'.join(lines)
+    # Collapse whitespace after removals
+    return '\n'.join([line.strip() for line in text.splitlines() if line.strip()])
+
+
 def main():
     ap = argparse.ArgumentParser(description='Normalize raw HTML/PDF into clean text JSON records.')
     ap.add_argument('--dry-run', action='store_true')
@@ -36,6 +77,7 @@ def main():
 
     logger, log_path = setup_logger('normalize')
     rules = load_yaml(os.path.join('configs', 'normalization.rules.yaml'))
+    bp_sigs = load_boilerplate_allowlist()
 
     count = 0
     for raw_dir in RAW_DIRS:
@@ -55,6 +97,14 @@ def main():
                 raw_bytes = f.read()
             html = raw_bytes.decode('utf-8', errors='ignore')
             text, _ = html_to_text(html, rules)
+            # Attempt boilerplate stripping for press/product after text render
+            # We need doctype hint: derive from doc_id token 1
+            try:
+                did_parts = doc_id.split('::')
+                dt_hint = did_parts[1] if len(did_parts) > 1 else ''
+            except Exception:
+                dt_hint = ''
+            text = strip_boilerplate(text, dt_hint, bp_sigs)
             lang = detect_language(text)
             if rules['global']['language'].get('drop_non_english') and lang != 'en':
                 logger.info(f"Drop non-English: {doc_id} ({lang})")
@@ -104,6 +154,7 @@ def main():
                 continue
             meta = read_json(meta_file)
             text = extract_text(raw_file) or ''
+            # Boilerplate strip is not applied to PDFs here
             lang = detect_language(text)
             if rules['global']['language'].get('drop_non_english') and lang != 'en':
                 logger.info(f"Drop non-English (pdf): {doc_id} ({lang})")

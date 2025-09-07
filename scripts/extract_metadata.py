@@ -132,6 +132,15 @@ def main():
                             pd = maybe
                             prov = 'meta_published_time'
                             break
+                        # Visible dateline like 'January 2, 2025'
+                        import re as _re
+                        m = _re.search(r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}', html)
+                        if m:
+                            d = parse_iso_date(m.group(0))
+                            if d:
+                                pd = date_to_iso(d)
+                                prov = 'visible_dateline'
+                                break
                     except Exception:
                         pass
         if not pd and doc.get('url'):

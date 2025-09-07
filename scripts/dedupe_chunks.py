@@ -7,6 +7,7 @@ import argparse
 from collections import defaultdict
 
 from _common import setup_logger, read_text, write_text, write_json
+import os
 
 
 def normalize_for_shingles(text: str) -> list[str]:
@@ -14,6 +15,30 @@ def normalize_for_shingles(text: str) -> list[str]:
     text = re.sub(r'[^a-z0-9\s]', ' ', text)
     words = [w for w in text.split() if w]
     return words
+
+
+def load_boilerplate_allowlist(path: str = os.path.join('qa_configs','qa.boilerplate.allowlist.txt')) -> list[str]:
+    sigs = []
+    try:
+        with open(path, 'r', encoding='utf-8', errors='ignore') as f:
+            for line in f:
+                s = line.strip()
+                if not s or s.startswith('#'):
+                    continue
+                if len(s) >= 80:
+                    sigs.append(s)
+    except Exception:
+        pass
+    return sorted(set(sigs), key=lambda x: -len(x))
+
+
+def strip_boilerplate(text: str, doctype: str, allowlist: list[str]) -> str:
+    if doctype not in ('press','product'):
+        return text
+    for sig in allowlist:
+        if sig and sig in text:
+            text = text.replace(sig, ' ')
+    return text
 
 
 def shingles(words: list[str], k: int = 5) -> set[str]:
@@ -45,6 +70,7 @@ def main():
     os.makedirs(out_dir, exist_ok=True)
 
     # Load all chunks
+    allowlist = load_boilerplate_allowlist()
     chunk_files = glob.glob(os.path.join(chunks_dir, '*.chunks.jsonl'))[: args.limit]
     chunk_texts = {}
     for f in chunk_files:
@@ -56,6 +82,10 @@ def main():
             except Exception:
                 # skip malformed line
                 continue
+            # Apply boilerplate stripping to press/product chunks before sigs
+            dt = (rec.get('metadata_snapshot') or {}).get('doctype')
+            if allowlist:
+                rec['text'] = strip_boilerplate(rec.get('text',''), dt, allowlist)
             chunk_texts[rec.get('chunk_id')] = rec
 
     ids = list(chunk_texts.keys())
@@ -65,7 +95,7 @@ def main():
         sigs[cid] = shingles(words, 5)
 
     # Naive O(n^2) dedupe with early skip; acceptable for Day-1 scale
-    threshold = 0.90
+    threshold = 0.95
     visited = set()
     groups = []
     for i, cid in enumerate(ids):
