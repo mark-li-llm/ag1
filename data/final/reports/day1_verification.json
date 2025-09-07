@@ -1,8 +1,8 @@
 {
   "total_docs": 99,
   "docs_with_dates": 76,
-  "chunks_total": 299,
-  "duplicates_removed": 111,
+  "chunks_total": 322,
+  "duplicates_removed": 130,
   "link_ok_pct": 1.0,
   "by_doctype_counts": {
     "press": 85,
@@ -10,8 +10,8 @@
     "10-K": 1,
     "dev_docs": 4,
     "10-Q": 1,
-    "wiki": 1,
     "help_docs": 1,
+    "wiki": 1,
     "8-K": 3
   },
   "by_source_domain_counts": {

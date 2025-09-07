@@ -95,7 +95,7 @@ def main():
         sigs[cid] = shingles(words, 5)
 
     # Naive O(n^2) dedupe with early skip; acceptable for Day-1 scale
-    threshold = 0.95
+    threshold = 0.98
     visited = set()
     groups = []
     for i, cid in enumerate(ids):
