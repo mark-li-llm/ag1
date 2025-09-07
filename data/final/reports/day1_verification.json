@@ -1,23 +1,10 @@
 {
-  "total_docs": 99,
-  "docs_with_dates": 76,
+  "total_docs": 0,
+  "docs_with_dates": 0,
   "chunks_total": 322,
   "duplicates_removed": 130,
-  "link_ok_pct": 1.0,
-  "by_doctype_counts": {
-    "press": 85,
-    "product": 3,
-    "10-K": 1,
-    "dev_docs": 4,
-    "10-Q": 1,
-    "help_docs": 1,
-    "wiki": 1,
-    "8-K": 3
-  },
-  "by_source_domain_counts": {
-    "salesforce.com": 93,
-    "sec.gov": 5,
-    "wikipedia.org": 1
-  },
-  "pr_docs_last_12mo": 67
+  "link_ok_pct": 0.0,
+  "by_doctype_counts": {},
+  "by_source_domain_counts": {},
+  "pr_docs_last_12mo": 0
 }

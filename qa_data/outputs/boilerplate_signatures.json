@@ -5,54 +5,13 @@
       "variants": [
         "africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english",
         "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia",
-        "españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia",
-        "and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
-        "east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other",
         "africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
+        "and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries",
+        "españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia",
+        "east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other",
         "españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english"
       ],
-      "doc_freq": 46
-    },
-    {
-      "signature": "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
-      "variants": [
-        "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
-        "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india",
-        "deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific",
-        "deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia",
-        "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
-        "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific",
-        "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia"
-      ],
-      "doc_freq": 46
-    },
-    {
-      "signature": "canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands",
-      "variants": [
-        "canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands",
-        "united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska",
-        "français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige",
-        "english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland",
-        "states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united"
-      ],
-      "doc_freq": 46
-    },
-    {
-      "signature": "english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom",
-      "variants": [
-        "english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom",
-        "middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all",
-        "europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english"
-      ],
-      "doc_freq": 46
-    },
-    {
-      "signature": "français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english",
-      "variants": [
-        "français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english",
-        "italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english 日本"
-      ],
-      "doc_freq": 46
+      "doc_freq": 69
     },
     {
       "signature": "countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce tower",
@@ -60,59 +19,398 @@
         "countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce tower",
         "other countries english copyright 2024 salesforce inc all rights reserved various trademarks held by their respective owners salesforce inc salesforce"
       ],
-      "doc_freq": 46
+      "doc_freq": 69
     },
     {
-      "signature": "brasil português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français",
+      "signature": "europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english",
       "variants": [
-        "brasil português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français",
-        "português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia"
+        "europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english",
+        "united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska",
+        "states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united",
+        "english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom",
+        "middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all",
+        "français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands sverige"
       ],
-      "doc_freq": 46
+      "doc_freq": 69
     },
     {
-      "signature": "news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east",
+      "signature": "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific",
       "variants": [
-        "news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east",
-        "subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle east and",
-        "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe middle"
+        "español deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific",
+        "deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia",
+        "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english",
+        "deutschland deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific",
+        "deutsch france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia"
       ],
-      "doc_freq": 43
+      "doc_freq": 69
     },
     {
-      "signature": "the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english",
+      "signature": "italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english 日本",
       "variants": [
-        "the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english",
-        "latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe",
-        "latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english",
-        "get the latest salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states"
+        "italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english 日本",
+        "français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india english"
       ],
-      "doc_freq": 43
+      "doc_freq": 69
     },
     {
-      "signature": "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe",
+      "signature": "português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia",
       "variants": [
-        "salesforce news subscribe close worldwide americas américa latina español brasil português canada english canada français united states english europe"
+        "português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia",
+        "brasil português canada english canada français united states english europe middle east and africa españa español deutschland deutsch france français"
       ],
-      "doc_freq": 43
+      "doc_freq": 69
     },
     {
-      "signature": "reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications data",
+      "signature": "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india",
       "variants": [
-        "reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications data",
-        "size reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications"
+        "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english india",
+        "france français italia italiano nederland nederlands sverige svenska united kingdom english all other countries english asia pacific australia english"
       ],
-      "doc_freq": 41
+      "doc_freq": 69
+    },
+    {
+      "signature": "english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland",
+      "variants": [
+        "english canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland",
+        "canada français united states english europe middle east and africa españa español deutschland deutsch france français italia italiano nederland nederlands"
+      ],
+      "doc_freq": 69
+    },
+    {
+      "signature": "size reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications",
+      "variants": [
+        "size reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications",
+        "reimagine their business with ai agentforce the first digital labor solution for enterprises seamlessly integrates with customer 360 applications data"
+      ],
+      "doc_freq": 62
     },
     {
       "signature": "to support your employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation",
       "variants": [
-        "to support your employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation"
+        "to support your employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation",
+        "support your employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise",
+        "your employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise"
       ],
-      "doc_freq": 10
+      "doc_freq": 15
+    },
+    {
+      "signature": "transformation about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the first digital labor solution",
+      "variants": [
+        "transformation about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the first digital labor solution",
+        "digital transformation about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the first digital labor",
+        "transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the first digital",
+        "digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the first",
+        "automation digital transformation about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the first digital"
+      ],
+      "doc_freq": 14
+    },
+    {
+      "signature": "modal for additional information regarding non gaap financial measures see the reconciliation of results and related explanations below management will",
+      "variants": [
+        "modal for additional information regarding non gaap financial measures see the reconciliation of results and related explanations below management will",
+        "image modal for additional information regarding non gaap financial measures see the reconciliation of results and related explanations below management",
+        "for additional information regarding non gaap financial measures see the reconciliation of results and related explanations below management will provide"
+      ],
+      "doc_freq": 12
+    },
+    {
+      "signature": "regarding non gaap financial measures see the reconciliation of results and related explanations below management will provide further commentary around",
+      "variants": [
+        "regarding non gaap financial measures see the reconciliation of results and related explanations below management will provide further commentary around",
+        "information regarding non gaap financial measures see the reconciliation of results and related explanations below management will provide further commentary"
+      ],
+      "doc_freq": 12
+    },
+    {
+      "signature": "gaap financial measures see the reconciliation of results and related explanations below management will provide further commentary around these guidance",
+      "variants": [
+        "gaap financial measures see the reconciliation of results and related explanations below management will provide further commentary around these guidance",
+        "financial measures see the reconciliation of results and related explanations below management will provide further commentary around these guidance assumptions",
+        "measures see the reconciliation of results and related explanations below management will provide further commentary around these guidance assumptions"
+      ],
+      "doc_freq": 12
+    },
+    {
+      "signature": "explanations below management will provide further commentary around these guidance assumptions on its earnings call product releases and enhancements",
+      "variants": [
+        "explanations below management will provide further commentary around these guidance assumptions on its earnings call product releases and enhancements",
+        "related explanations below management will provide further commentary around these guidance assumptions on its earnings call product releases and enhancements",
+        "results and related explanations below management will provide further commentary around these guidance assumptions on its earnings call product releases",
+        "explanations below management will provide further commentary around these guidance assumptions on its earnings call product releases and enhancements salesforce",
+        "below management will provide further commentary around these guidance assumptions on its earnings call product releases and enhancements salesforce releases",
+        "management will provide further commentary around these guidance assumptions on its earnings call product releases and enhancements salesforce releases"
+      ],
+      "doc_freq": 12
+    },
+    {
+      "signature": "additional information regarding non gaap financial measures see the reconciliation of results and related explanations below management will provide further",
+      "variants": [
+        "additional information regarding non gaap financial measures see the reconciliation of results and related explanations below management will provide further"
+      ],
+      "doc_freq": 12
+    },
+    {
+      "signature": "reconciliation of results and related explanations below management will provide further commentary around these guidance assumptions on its earnings call",
+      "variants": [
+        "reconciliation of results and related explanations below management will provide further commentary around these guidance assumptions on its earnings call",
+        "the reconciliation of results and related explanations below management will provide further commentary around these guidance assumptions on its earnings"
+      ],
+      "doc_freq": 12
+    },
+    {
+      "signature": "measures see the reconciliation of results and related explanations below management will provide further commentary around these guidance assumptions on",
+      "variants": [
+        "measures see the reconciliation of results and related explanations below management will provide further commentary around these guidance assumptions on"
+      ],
+      "doc_freq": 12
+    },
+    {
+      "signature": "your employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai",
+      "variants": [
+        "your employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai",
+        "employees and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about"
+      ],
+      "doc_freq": 9
+    },
+    {
+      "signature": "management will provide further commentary around these guidance assumptions on its earnings call product releases and enhancements salesforce releases major",
+      "variants": [
+        "management will provide further commentary around these guidance assumptions on its earnings call product releases and enhancements salesforce releases major",
+        "will provide further commentary around these guidance assumptions on its earnings call product releases and enhancements salesforce releases major updates"
+      ],
+      "doc_freq": 9
+    },
+    {
+      "signature": "provide further commentary around these guidance assumptions on its earnings call product releases and enhancements salesforce releases major updates for",
+      "variants": [
+        "provide further commentary around these guidance assumptions on its earnings call product releases and enhancements salesforce releases major updates for"
+      ],
+      "doc_freq": 9
+    },
+    {
+      "signature": "salesforce holiday insights and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated",
+      "variants": [
+        "salesforce holiday insights and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated",
+        "salesforce holiday insights and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated data",
+        "holiday insights and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated data to",
+        "2024 salesforce holiday insights and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed",
+        "2024 salesforce holiday insights and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated",
+        "holiday insights and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated data"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "insights and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated data to produce",
+      "variants": [
+        "insights and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated data to produce",
+        "predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated data to produce holiday insights",
+        "and predictions methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated data to produce holiday"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated data to produce holiday insights from",
+      "variants": [
+        "methodology powered by agentforce commerce cloud marketing cloud and service cloud salesforce analyzed aggregated data to produce holiday insights from"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with",
+      "variants": [
+        "topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with",
+        "by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their",
+        "agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with",
+        "artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with",
+        "artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with ai",
+        "agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with ai",
+        "agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business",
+        "by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business",
+        "artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce",
+        "topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the",
+      "variants": [
+        "intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the",
+        "intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce",
+        "intelligence automation digital transformation about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the",
+        "intelligence automation digital transformation about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the first",
+        "artificial intelligence automation digital transformation about salesforce salesforce helps organizations of any size reimagine their business with ai agentforce the"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size",
+      "variants": [
+        "related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size",
+        "agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any",
+        "related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine",
+        "explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any",
+        "content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine their",
+        "explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size",
+        "content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of any size reimagine"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce",
+      "variants": [
+        "customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce",
+        "and customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce",
+        "customers 24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce",
+        "7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce",
+        "7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps",
+        "24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce",
+        "24 7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of",
+      "variants": [
+        "explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of",
+        "agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of",
+        "agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations",
+        "discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations of"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations",
+      "variants": [
+        "discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations",
+        "7 discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps organizations",
+        "discover agentforce explore related content by topic agents artificial intelligence digital transformation enterprise ai about salesforce salesforce helps"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "trusted agent interoperability 7 min read new mulesoft innovations from salesforce enable secure scalable ai agent orchestration for agentic transformation",
+      "variants": [
+        "trusted agent interoperability 7 min read new mulesoft innovations from salesforce enable secure scalable ai agent orchestration for agentic transformation",
+        "read new mulesoft innovations from salesforce enable secure scalable ai agent orchestration for agentic transformation 7 min read salesforce collaborates"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "new mulesoft innovations from salesforce enable secure scalable ai agent orchestration for agentic transformation 7 min read salesforce collaborates with",
+      "variants": [
+        "new mulesoft innovations from salesforce enable secure scalable ai agent orchestration for agentic transformation 7 min read salesforce collaborates with",
+        "mulesoft innovations from salesforce enable secure scalable ai agent orchestration for agentic transformation 7 min read salesforce collaborates with uchicago"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "secure scalable ai agent orchestration for agentic transformation 7 min read salesforce collaborates with uchicago medicine to enhance patient support",
+      "variants": [
+        "secure scalable ai agent orchestration for agentic transformation 7 min read salesforce collaborates with uchicago medicine to enhance patient support",
+        "salesforce enable secure scalable ai agent orchestration for agentic transformation 7 min read salesforce collaborates with uchicago medicine to enhance"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "innovations from salesforce enable secure scalable ai agent orchestration for agentic transformation 7 min read salesforce collaborates with uchicago medicine",
+      "variants": [
+        "innovations from salesforce enable secure scalable ai agent orchestration for agentic transformation 7 min read salesforce collaborates with uchicago medicine"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "exceeded all our financial targets while achieving our tenth consecutive quarter of operating margin expansion delivering strong returns and maximizing",
+      "variants": [
+        "exceeded all our financial targets while achieving our tenth consecutive quarter of operating margin expansion delivering strong returns and maximizing"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "our tenth consecutive quarter of operating margin expansion delivering strong returns and maximizing value for our customers and shareholders business",
+      "variants": [
+        "our tenth consecutive quarter of operating margin expansion delivering strong returns and maximizing value for our customers and shareholders business",
+        "consecutive quarter of operating margin expansion delivering strong returns and maximizing value for our customers and shareholders business highlights",
+        "consecutive quarter of operating margin expansion delivering strong returns and maximizing value for our customers and shareholders business highlights data",
+        "tenth consecutive quarter of operating margin expansion delivering strong returns and maximizing value for our customers and shareholders business highlights",
+        "achieving our tenth consecutive quarter of operating margin expansion delivering strong returns and maximizing value for our customers and shareholders"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "customers and ourselves become agentic enterprises said robin washington president and chief operating and financial officer salesforce we exceeded all",
+      "variants": [
+        "customers and ourselves become agentic enterprises said robin washington president and chief operating and financial officer salesforce we exceeded all",
+        "ourselves become agentic enterprises said robin washington president and chief operating and financial officer salesforce we exceeded all our financial",
+        "our customers and ourselves become agentic enterprises said robin washington president and chief operating and financial officer salesforce we exceeded"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "reimagine workflows accelerate productivity and deliver customer success our second quarter results highlight our ability to drive profitable growth while",
+      "variants": [
+        "reimagine workflows accelerate productivity and deliver customer success our second quarter results highlight our ability to drive profitable growth while",
+        "workflows accelerate productivity and deliver customer success our second quarter results highlight our ability to drive profitable growth while helping",
+        "to reimagine workflows accelerate productivity and deliver customer success our second quarter results highlight our ability to drive profitable growth"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "profitable growth while helping our customers and ourselves become agentic enterprises said robin washington president and chief operating and financial",
+      "variants": [
+        "profitable growth while helping our customers and ourselves become agentic enterprises said robin washington president and chief operating and financial"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "salesforce we exceeded all our financial targets while achieving our tenth consecutive quarter of operating margin expansion delivering strong returns",
+      "variants": [
+        "salesforce we exceeded all our financial targets while achieving our tenth consecutive quarter of operating margin expansion delivering strong returns",
+        "financial officer salesforce we exceeded all our financial targets while achieving our tenth consecutive quarter of operating margin expansion delivering",
+        "officer salesforce we exceeded all our financial targets while achieving our tenth consecutive quarter of operating margin expansion delivering strong"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "priorities review our stakeholder impact report at https salesforce com stakeholder impact report quarterly conference call www salesforce com investor",
+      "variants": [
+        "priorities review our stakeholder impact report at https salesforce com stakeholder impact report quarterly conference call www salesforce com investor"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "our latest initiatives and priorities review our stakeholder impact report at https salesforce com stakeholder impact report quarterly conference call",
+      "variants": [
+        "our latest initiatives and priorities review our stakeholder impact report at https salesforce com stakeholder impact report quarterly conference call",
+        "initiatives and priorities review our stakeholder impact report at https salesforce com stakeholder impact report quarterly conference call www salesforce",
+        "about our latest initiatives and priorities review our stakeholder impact report at https salesforce com stakeholder impact report quarterly conference",
+        "latest initiatives and priorities review our stakeholder impact report at https salesforce com stakeholder impact report quarterly conference call www"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "enterprises said robin washington president and chief operating and financial officer salesforce we exceeded all our financial targets while achieving",
+      "variants": [
+        "enterprises said robin washington president and chief operating and financial officer salesforce we exceeded all our financial targets while achieving"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "helping our customers and ourselves become agentic enterprises said robin washington president and chief operating and financial officer salesforce we",
+      "variants": [
+        "helping our customers and ourselves become agentic enterprises said robin washington president and chief operating and financial officer salesforce we",
+        "while helping our customers and ourselves become agentic enterprises said robin washington president and chief operating and financial officer salesforce"
+      ],
+      "doc_freq": 6
+    },
+    {
+      "signature": "quarter of operating margin expansion delivering strong returns and maximizing value for our customers and shareholders business highlights data cloud",
+      "variants": [
+        "quarter of operating margin expansion delivering strong returns and maximizing value for our customers and shareholders business highlights data cloud"
+      ],
+      "doc_freq": 6
     }
   ],
-  "total_candidates": 57,
-  "clusters": 21,
-  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_boilerplate_mine/20250906_175711.log"
+  "total_candidates": 241,
+  "clusters": 68,
+  "log_path": "/Users/liyunxiao/ag1-1/logs/qa/qa_boilerplate_mine/20250907_000837.log"
 }

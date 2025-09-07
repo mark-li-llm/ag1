@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-09-07T04:05:36.495435Z",
+  "generated_at_utc": "2025-09-07T04:09:07.115358Z",
   "root": "/Users/liyunxiao/ag1-1",
   "artifacts": {
     "code_md": "code.md",
@@ -14,29 +14,16 @@
     "pip_freeze_excerpt": "beautifulsoup4==4.13.5\ncertifi==2025.8.3\ncffi==1.17.1\nchardet==5.2.0\ncharset-normalizer==3.4.3\ncryptography==45.0.7\ndatasketch==1.6.5\nfeedparser==6.0.11\nidna==3.10\nlangdetect==1.0.9\nlxml==6.0.1\nnumpy==2.3.2\npdfminer.six==20250506\npycparser==2.22\npython-dateutil==2.9.0.post0\nPyYAML==6.0.2\nregex==2025.9.1\nrequests==2.32.5\nscipy==1.16.1\nsgmllib3k==1.0.0\nsix==1.17.0\nsoupsieve==2.8\ntiktoken==0.11.0\ntyping_extensions==4.15.0\nurllib3==2.5.0\n"
   },
   "dataset": {
-    "inventory_rows": 99,
+    "inventory_rows": 0,
     "day1_verification": {
-      "total_docs": 99,
-      "docs_with_dates": 76,
+      "total_docs": 0,
+      "docs_with_dates": 0,
       "chunks_total": 322,
       "duplicates_removed": 130,
-      "link_ok_pct": 1.0,
-      "by_doctype_counts": {
-        "press": 85,
-        "product": 3,
-        "10-K": 1,
-        "dev_docs": 4,
-        "10-Q": 1,
-        "help_docs": 1,
-        "wiki": 1,
-        "8-K": 3
-      },
-      "by_source_domain_counts": {
-        "salesforce.com": 93,
-        "sec.gov": 5,
-        "wikipedia.org": 1
-      },
-      "pr_docs_last_12mo": 67
+      "link_ok_pct": 0.0,
+      "by_doctype_counts": {},
+      "by_source_domain_counts": {},
+      "pr_docs_last_12mo": 0
     },
     "link_health": {
       "summary": [
@@ -929,6 +916,12 @@
     "errors": []
   },
   "auto_flags": [
+    {
+      "id": "low_inventory_rows",
+      "level": "error",
+      "value": 0,
+      "threshold": 80
+    },
     {
       "id": "duplicate_rate_above_15pct",
       "level": "warn",
