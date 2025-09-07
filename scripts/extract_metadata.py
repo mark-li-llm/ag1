@@ -134,9 +134,13 @@ def main():
                             break
                         # Visible dateline like 'January 2, 2025'
                         import re as _re
-                        m = _re.search(r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}', html)
+                        # Common dateline forms
+                        m = _re.search(r'(?:Published on|Updated on|Updated|Published)?\s*' \
+                                       r'(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}', html, _re.I)
                         if m:
-                            d = parse_iso_date(m.group(0))
+                            # Extract the date portion (last 3 tokens)
+                            date_str = ' '.join(m.group(0).split()[-3:])
+                            d = parse_iso_date(date_str)
                             if d:
                                 pd = date_to_iso(d)
                                 prov = 'visible_dateline'

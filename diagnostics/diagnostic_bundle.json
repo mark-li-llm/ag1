@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2025-09-06T22:01:07.002530Z",
+  "generated_at_utc": "2025-09-07T02:45:07.795435Z",
   "root": "/Users/liyunxiao/ag1-1",
   "artifacts": {
     "code_md": "code.md",
@@ -14,29 +14,29 @@
     "pip_freeze_excerpt": "beautifulsoup4==4.13.5\ncertifi==2025.8.3\ncffi==1.17.1\nchardet==5.2.0\ncharset-normalizer==3.4.3\ncryptography==45.0.7\ndatasketch==1.6.5\nfeedparser==6.0.11\nidna==3.10\nlangdetect==1.0.9\nlxml==6.0.1\nnumpy==2.3.2\npdfminer.six==20250506\npycparser==2.22\npython-dateutil==2.9.0.post0\nPyYAML==6.0.2\nregex==2025.9.1\nrequests==2.32.5\nscipy==1.16.1\nsgmllib3k==1.0.0\nsix==1.17.0\nsoupsieve==2.8\ntiktoken==0.11.0\ntyping_extensions==4.15.0\nurllib3==2.5.0\n"
   },
   "dataset": {
-    "inventory_rows": 88,
+    "inventory_rows": 99,
     "day1_verification": {
-      "total_docs": 88,
-      "docs_with_dates": 57,
-      "chunks_total": 271,
-      "duplicates_removed": 84,
-      "link_ok_pct": 0.8636,
+      "total_docs": 99,
+      "docs_with_dates": 76,
+      "chunks_total": 299,
+      "duplicates_removed": 111,
+      "link_ok_pct": 1.0,
       "by_doctype_counts": {
-        "press": 74,
+        "press": 85,
         "product": 3,
         "10-K": 1,
         "dev_docs": 4,
         "10-Q": 1,
         "wiki": 1,
-        "8-K": 3,
-        "help_docs": 1
+        "help_docs": 1,
+        "8-K": 3
       },
       "by_source_domain_counts": {
-        "salesforce.com": 82,
+        "salesforce.com": 93,
         "sec.gov": 5,
         "wikipedia.org": 1
       },
-      "pr_docs_last_12mo": 47
+      "pr_docs_last_12mo": 67
     },
     "link_health": {
       "summary": [
@@ -101,6 +101,12 @@
           "status": 200
         },
         {
+          "doc_id": "crm::press::2025-06-03::salesforce-and-liv-golf-announce-strategic-partnership-to-po::3efc9cf4",
+          "url": "https://www.salesforce.com/news/press-releases/2025/06/03/liv-golf-agentforce-experiences/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/06/03/liv-golf-agentforce-experiences/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2024-12-17::introducing-agentforce-2-0-the-digital-labor-platform-for-bu::960eb6c8",
           "url": "https://www.salesforce.com/news/press-releases/2024/12/17/agentforce-2-0-announcement/?bc=DB",
           "final_url": "https://www.salesforce.com/news/press-releases/2024/12/17/agentforce-2-0-announcement/?bc=DB",
@@ -110,6 +116,12 @@
           "doc_id": "crm::press::2024-07-15::service-cloud::a246d582",
           "url": "https://www.salesforce.com/service/cloud/?bc=DB",
           "final_url": "https://www.salesforce.com/service/cloud/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::ef77b971",
+          "url": "https://www.salesforce.com/news/press-releases/2025/09/03/fy26-q2-earnings/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/09/03/fy26-q2-earnings/?bc=DB",
           "status": 200
         },
         {
@@ -131,6 +143,12 @@
           "status": 200
         },
         {
+          "doc_id": "crm::press::2023-09-07::new-ai-usage-data-shows-who-s-using-ai-and-uncovers-a-popula::88da16ce",
+          "url": "https://www.salesforce.com/news/press-releases/2023/09/07/ai-usage-research/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2023/09/07/ai-usage-research/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::fa951792",
           "url": "https://www.salesforce.com/news/press-releases/2025/09/03/fy26-q2-earnings/?bc=DB",
           "final_url": "https://www.salesforce.com/news/press-releases/2025/09/03/fy26-q2-earnings/?bc=DB",
@@ -147,6 +165,12 @@
           "url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
           "final_url": "https://investor.salesforce.com/events-and-presentations/default.aspx",
           "status": 403
+        },
+        {
+          "doc_id": "crm::press::2025-05-27::salesforce-signs-definitive-agreement-to-acquire-informatica::57964710",
+          "url": "https://www.salesforce.com/news/press-releases/2025/05/27/salesforce-signs-definitive-agreement-to-acquire-informatica/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/05/27/salesforce-signs-definitive-agreement-to-acquire-informatica/?bc=DB",
+          "status": 200
         },
         {
           "doc_id": "crm::press::2024-03-15::salesforce-integration::f0468619",
@@ -209,6 +233,18 @@
           "status": 200
         },
         {
+          "doc_id": "crm::press::2025-05-29::salesforce-partners-with-ferrari-to-elevate-the-client-8217-::6029cc32",
+          "url": "https://www.salesforce.com/news/press-releases/2025/05/28/ferrari-agentforce-crm-elevates-client-experience/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/05/28/ferrari-agentforce-crm-elevates-client-experience/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-02-10::salesforce-announces-500m-investment-in-saudi-arabia-to-driv::54322663",
+          "url": "https://www.salesforce.com/news/press-releases/2025/02/10/saudi-arabia-investment/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/02/10/saudi-arabia-investment/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2025-05-15::salesforce-introduces-new-flexible-agentforce-pricing-to-acc::3d0f8a61",
           "url": "https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/?bc=DB",
           "final_url": "https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/?bc=DB",
@@ -243,6 +279,12 @@
           "url": "https://investor.salesforce.com/resources/investor-faqs/default.aspx",
           "final_url": "https://investor.salesforce.com/resources/investor-faqs/default.aspx",
           "status": 403
+        },
+        {
+          "doc_id": "crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::005f6412",
+          "url": "https://www.salesforce.com/news/press-releases/2025/09/03/fy26-q2-earnings/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/09/03/fy26-q2-earnings/?bc=DB",
+          "status": 200
         },
         {
           "doc_id": "crm::press::2024-09-12::about-salesforce-company::3ae394fc",
@@ -293,6 +335,12 @@
           "status": 200
         },
         {
+          "doc_id": "crm::press::2025-02-26::salesforce-announces-fourth-quarter-and-fiscal-year-2025-res::cc5a491a",
+          "url": "https://www.salesforce.com/news/press-releases/2025/02/26/fy25-q4-earnings/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/02/26/fy25-q4-earnings/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2024-01-01::quarterly-results::11c603d4",
           "url": "https://investor.salesforce.com/financials/quarterly-results/default.aspx",
           "final_url": "https://investor.salesforce.com/financials/quarterly-results/default.aspx",
@@ -323,9 +371,27 @@
           "status": 200
         },
         {
+          "doc_id": "crm::press::2025-06-23::salesforce-launches-agentforce-3-to-solve-the-biggest-blocke::1b1b9420",
+          "url": "https://www.salesforce.com/news/press-releases/2025/06/23/agentforce-3-announcement/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/06/23/agentforce-3-announcement/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::help_docs::2024-09-07::salesforce-help::b0daabdf",
+          "url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+          "final_url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2025-02-10::salesforce-announces-500m-investment-in-saudi-arabia-to-driv::6917743a",
           "url": "https://www.salesforce.com/news/press-releases/2025/02/10/saudi-arabia-investment/?bc=DB",
           "final_url": "https://www.salesforce.com/news/press-releases/2025/02/10/saudi-arabia-investment/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-06-03::press-releases-archive::636f5978",
+          "url": "https://www.salesforce.com/news/press-releases/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/?bc=DB",
           "status": 200
         },
         {
@@ -335,15 +401,39 @@
           "status": 200
         },
         {
+          "doc_id": "crm::press::2024-12-04::salesforce-data-reveals-new-cyber-week-all-time-high-314-9b-::fe44d919",
+          "url": "https://www.salesforce.com/news/press-releases/2024/12/04/cyber-week-ai-sales/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2024/12/04/cyber-week-ai-sales/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2025-02-05::salesforce-appoints-robin-washington-as-president-and-chief-::27845ea6",
           "url": "https://www.salesforce.com/news/press-releases/2025/02/05/salesforce-appoints-robin-washington-as-president-and-chief-operating-and-financial-officer/?bc=DB",
           "final_url": "https://www.salesforce.com/news/press-releases/2025/02/05/salesforce-appoints-robin-washington-as-president-and-chief-operating-and-financial-officer/?bc=DB",
           "status": 200
         },
         {
+          "doc_id": "crm::press::2025-03-04::salesforce-launches-agentexchange-the-trusted-marketplace-fo::d2d576d0",
+          "url": "https://www.salesforce.com/news/press-releases/2025/03/04/agentexchange-announcement/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/03/04/agentexchange-announcement/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2024-12-17::introducing-agentforce-2-0-the-digital-labor-platform-for-bu::b279bba4",
+          "url": "https://www.salesforce.com/news/press-releases/2024/12/17/agentforce-2-0-announcement/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2024/12/17/agentforce-2-0-announcement/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2023-09-07::new-ai-usage-data-shows-who-s-using-ai-and-uncovers-a-popula::bfcb75e5",
           "url": "https://www.salesforce.com/news/press-releases/2023/09/07/ai-usage-research/?bc=DB",
           "final_url": "https://www.salesforce.com/news/press-releases/2023/09/07/ai-usage-research/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-02-24::salesforce-and-google-bring-gemini-to-agentforce-enable-more::0e9489b3",
+          "url": "https://www.salesforce.com/news/press-releases/2025/02/24/google-partnership-expansion-gemini-agentforce/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/02/24/google-partnership-expansion-gemini-agentforce/?bc=DB",
           "status": 200
         },
         {
@@ -362,6 +452,12 @@
           "doc_id": "crm::press::2025-08-26::newsroom::39cb1c1e",
           "url": "https://www.salesforce.com/news/?bc=DB",
           "final_url": "https://www.salesforce.com/news/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-02-05::salesforce-appoints-robin-washington-as-president-and-chief-::7290f155",
+          "url": "https://www.salesforce.com/news/press-releases/2025/02/05/salesforce-appoints-robin-washington-as-president-and-chief-operating-and-financial-officer/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/02/05/salesforce-appoints-robin-washington-as-president-and-chief-operating-and-financial-officer/?bc=DB",
           "status": 200
         },
         {
@@ -386,6 +482,18 @@
           "doc_id": "crm::dev_docs::2024-01-01::chat-with-agents-using-agent-api-agentforce-agents::6f4b900c",
           "url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api.html",
           "final_url": "https://developer.salesforce.com/docs/einstein/genai/guide/agent-api.html",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-07-09::salesforce-appoints-amy-chang-and-david-b-kirk-to-its-board-::3a4e3d81",
+          "url": "https://www.salesforce.com/news/press-releases/2025/07/09/salesforce-appoints-amy-chang-and-david-b-kirk-to-its-board-of-directors/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/07/09/salesforce-appoints-amy-chang-and-david-b-kirk-to-its-board-of-directors/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-05-08::salesforce-unveils-life-sciences-partner-network-to-accelera::cc927792",
+          "url": "https://www.salesforce.com/news/press-releases/2025/05/08/partner-network-for-life-sciences-announcement/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/05/08/partner-network-for-life-sciences-announcement/?bc=DB",
           "status": 200
         },
         {
@@ -419,6 +527,12 @@
           "status": 200
         },
         {
+          "doc_id": "crm::press::2025-05-15::salesforce-introduces-new-flexible-agentforce-pricing-to-acc::00b24504",
+          "url": "https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2025-09-03::salesforce-reports-record-second-quarter-fiscal-2026-results::dad718de",
           "url": "https://www.salesforce.com/news/press-releases/2025/09/03/fy26-q2-earnings/?bc=DB",
           "final_url": "https://www.salesforce.com/news/press-releases/2025/09/03/fy26-q2-earnings/?bc=DB",
@@ -428,12 +542,6 @@
           "doc_id": "crm::press::2025-02-26::salesforce-announces-fourth-quarter-and-fiscal-year-2025-res::67bb6187",
           "url": "https://www.salesforce.com/news/press-releases/2025/02/26/fy25-q4-earnings/?bc=DB",
           "final_url": "https://www.salesforce.com/news/press-releases/2025/02/26/fy25-q4-earnings/?bc=DB",
-          "status": 200
-        },
-        {
-          "doc_id": "crm::help_docs::2024-09-06::salesforce-help::b0daabdf",
-          "url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
-          "final_url": "https://help.salesforce.com/s/articleView?id=sf.copilot_intro.htm&language=en_US&type=5",
           "status": 200
         },
         {
@@ -467,6 +575,12 @@
           "status": 403
         },
         {
+          "doc_id": "crm::press::2025-03-05::salesforce-launches-agentforce-2dx-new-capabilities-embed-pr::f1ea912b",
+          "url": "https://www.salesforce.com/news/press-releases/2025/03/05/agentforce-2dx-news/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/03/05/agentforce-2dx-news/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::8-K::2025-06-05::proxy-meeting-results-2025-06-05::47c09586",
           "url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000033/crm-20250605.htm",
           "final_url": "https://www.sec.gov/Archives/edgar/data/1108524/000110852425000033/crm-20250605.htm",
@@ -476,6 +590,12 @@
           "doc_id": "crm::product::2024-01-01::salesforce-data-cloud::04dae357",
           "url": "https://www.salesforce.com/data/?bc=DB",
           "final_url": "https://www.salesforce.com/data/?bc=DB",
+          "status": 200
+        },
+        {
+          "doc_id": "crm::press::2025-01-10::salesforce-unveils-agentforce-for-retail-to-boost-productivi::c42dce02",
+          "url": "https://www.salesforce.com/news/press-releases/2025/01/10/agentforce-retail-cloud-pos-announcement/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/01/10/agentforce-retail-cloud-pos-announcement/?bc=DB",
           "status": 200
         },
         {
@@ -515,6 +635,12 @@
           "status": 200
         },
         {
+          "doc_id": "crm::press::2025-03-12::salesforce-to-invest-usd-1b-in-singapore-over-5-years::39a267af",
+          "url": "https://www.salesforce.com/news/press-releases/2025/03/11/singapore-investment/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/03/11/singapore-investment/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2024-08-10::marketing-cloud::7ce342b2",
           "url": "https://www.salesforce.com/marketing/?bc=DB",
           "final_url": "https://www.salesforce.com/marketing/?bc=DB",
@@ -551,6 +677,12 @@
           "status": 200
         },
         {
+          "doc_id": "crm::press::2025-01-06::holiday-shoppers-spend-a-record-1-2t-online-salesforce-data-::796a8bdf",
+          "url": "https://www.salesforce.com/news/press-releases/2025/01/06/2024-holiday-shopping-data/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/01/06/2024-holiday-shopping-data/?bc=DB",
+          "status": 200
+        },
+        {
           "doc_id": "crm::press::2024-04-25::salesforce-analytics::afc4c82e",
           "url": "https://www.salesforce.com/analytics/?bc=DB",
           "final_url": "https://www.salesforce.com/analytics/?bc=DB",
@@ -561,6 +693,12 @@
           "url": "https://investor.salesforce.com/governance/board-of-directors/default.aspx",
           "final_url": "https://investor.salesforce.com/governance/board-of-directors/default.aspx",
           "status": 403
+        },
+        {
+          "doc_id": "crm::press::2025-05-28::salesforce-reports-record-first-quarter-fiscal-2026-results-::f4935117",
+          "url": "https://www.salesforce.com/news/press-releases/2025/05/28/fy26-q1-earnings/?bc=DB",
+          "final_url": "https://www.salesforce.com/news/press-releases/2025/05/28/fy26-q1-earnings/?bc=DB",
+          "status": 200
         },
         {
           "doc_id": "crm::press::2025-05-29::salesforce-partners-with-ferrari-to-elevate-the-client-8217-::a722a5a3",
@@ -794,13 +932,13 @@
     {
       "id": "duplicate_rate_above_15pct",
       "level": "warn",
-      "value": 31.0,
+      "value": 37.12,
       "threshold": 15.0
     },
     {
       "id": "link_health_below_100",
       "level": "error",
-      "value": 86.36,
+      "value": 89.19,
       "threshold": 100.0
     }
   ],

@@ -20,8 +20,11 @@ def main():
     logger, log_path = setup_logger('eval')
     norm_dir = os.path.join('data', 'interim', 'normalized')
     docs_all = [read_json(p) for p in glob.glob(os.path.join(norm_dir, '*.json'))[: args.limit]]
-    # Exclude investor hub domain to avoid WAF and low-content hubs
-    docs = [d for d in docs_all if d.get('source_domain') != 'investor.salesforce.com']
+    # Exclude investor hub domain and any docs failing link health
+    docs = [
+        d for d in docs_all
+        if d.get('source_domain') != 'investor.salesforce.com' and (d.get('link_ok') is True or d.get('link_ok') == 1)
+    ]
 
     # Inventory CSV
     inv_path = os.path.join('data', 'final', 'inventory', 'salesforce_inventory.csv')

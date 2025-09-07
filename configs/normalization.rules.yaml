@@ -9,14 +9,28 @@ global:
     - '[aria-label*="cookie"]'
     - .share
     - .article-share
+    - .share-menu
+    - .social-share
+    - .social-links
     - .social
     - .newsletter
+    - .newsletter-signup
+    - .newsroom-subscribe
+    - .subscribe
     - .breadcrumb
     - .sidebar
     - .related
     - .related-articles
+    - .related-content
+    - '#related'
+    - section[class*="related"]
     - .promo
     - .cta
+    - .content-footer
+    - .article-footer
+    - .page-footer
+    - .press-contacts
+    - .contact-us
     - .author-box
     - script
     - style
